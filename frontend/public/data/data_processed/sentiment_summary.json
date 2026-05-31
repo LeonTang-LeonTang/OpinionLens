@@ -1,0 +1,10 @@
+{
+  "total_analyzed": 50000,
+  "positive_count": 8431,
+  "neutral_count": 39006,
+  "negative_count": 2563,
+  "positive_rate": 0.16862,
+  "neutral_rate": 0.78012,
+  "negative_rate": 0.05126,
+  "avg_sentiment_score": 0.535208
+}

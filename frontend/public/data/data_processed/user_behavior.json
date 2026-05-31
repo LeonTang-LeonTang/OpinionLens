@@ -1,0 +1,18 @@
+{
+  "total_users": 50466,
+  "active_users": 3929,
+  "power_users": 360,
+  "behavior_rates": {
+    "reply_rate": 0.5306968497564851,
+    "retweet_rate": 0.8944057796153789,
+    "quote_rate": 0.36513249856539587,
+    "original_rate": 0.41459691302620544
+  },
+  "user_level_distribution": {
+    "level1": 10094,
+    "level2": 10093,
+    "level3": 10093,
+    "level4": 10093,
+    "level5": 10093
+  }
+}

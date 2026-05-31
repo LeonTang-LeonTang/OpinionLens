@@ -1,0 +1,2125 @@
+{
+  "burst_events": [],
+  "suspicious_accounts": {
+    "total_suspicious": 1162,
+    "high_risk": 4,
+    "medium_risk": 1158,
+    "top_suspicious": [
+      {
+        "screen_name": "ZvJlFR5kPA3748",
+        "tweet_count": 182,
+        "followers_count": 98,
+        "risk_score": 0.75,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)",
+          "粉丝/发帖比异常"
+        ],
+        "risk_level": "high"
+      },
+      {
+        "screen_name": "hama11451418967",
+        "tweet_count": 165,
+        "followers_count": 105,
+        "risk_score": 0.75,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)",
+          "粉丝/发帖比异常"
+        ],
+        "risk_level": "high"
+      },
+      {
+        "screen_name": "snowflake_pooh3",
+        "tweet_count": 235,
+        "followers_count": 206,
+        "risk_score": 0.75,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)",
+          "粉丝/发帖比异常"
+        ],
+        "risk_level": "high"
+      },
+      {
+        "screen_name": "souyuuwakede",
+        "tweet_count": 314,
+        "followers_count": 217,
+        "risk_score": 0.75,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)",
+          "粉丝/发帖比异常"
+        ],
+        "risk_level": "high"
+      },
+      {
+        "screen_name": "10gatsu1",
+        "tweet_count": 46,
+        "followers_count": 37,
+        "risk_score": 0.55,
+        "risk_factors": [
+          "回复比例过高(被动传播)",
+          "粉丝/发帖比异常"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "nori_0201",
+        "tweet_count": 13,
+        "followers_count": 6,
+        "risk_score": 0.55,
+        "risk_factors": [
+          "回复比例过高(被动传播)",
+          "粉丝/发帖比异常"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "0cWLfq01jKHa3ZN",
+        "tweet_count": 257,
+        "followers_count": 3009,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "3paH6RJGE3Qi99S",
+        "tweet_count": 138,
+        "followers_count": 376,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "60z",
+        "tweet_count": 122,
+        "followers_count": 759,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "8BSYKk1u9jvlVbP",
+        "tweet_count": 163,
+        "followers_count": 598,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "9492jc",
+        "tweet_count": 106,
+        "followers_count": 1492,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "9EY70T8igVhTYN3",
+        "tweet_count": 124,
+        "followers_count": 2645,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Anm6Rz",
+        "tweet_count": 241,
+        "followers_count": 1551,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Aomori1956",
+        "tweet_count": 139,
+        "followers_count": 899,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "AqyEsViiNAkl58x",
+        "tweet_count": 101,
+        "followers_count": 710,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Astroco2023",
+        "tweet_count": 151,
+        "followers_count": 485,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "BFp6blq",
+        "tweet_count": 116,
+        "followers_count": 521,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Bfvx5Ba",
+        "tweet_count": 158,
+        "followers_count": 1700,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "CsLo5XzRatek6yg",
+        "tweet_count": 269,
+        "followers_count": 513,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "ETERNALHART2",
+        "tweet_count": 160,
+        "followers_count": 992,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "HXK1od0mFuiMVob",
+        "tweet_count": 176,
+        "followers_count": 1386,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "InfinitiMq",
+        "tweet_count": 131,
+        "followers_count": 6077,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "J4mj8uMM4buOr2J",
+        "tweet_count": 159,
+        "followers_count": 549,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "KT05aTPYC6KZ5su",
+        "tweet_count": 158,
+        "followers_count": 918,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "K_t_T_2000",
+        "tweet_count": 152,
+        "followers_count": 1027,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Karatake3",
+        "tweet_count": 111,
+        "followers_count": 1123,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Leonardo145215",
+        "tweet_count": 153,
+        "followers_count": 1192,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "MeganP34060",
+        "tweet_count": 129,
+        "followers_count": 1972,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Melo178n",
+        "tweet_count": 181,
+        "followers_count": 1715,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      },
+      {
+        "screen_name": "Nyanyamaru_cat",
+        "tweet_count": 119,
+        "followers_count": 624,
+        "risk_score": 0.5,
+        "risk_factors": [
+          "高发帖量",
+          "回复比例过高(被动传播)"
+        ],
+        "risk_level": "medium"
+      }
+    ]
+  },
+  "coordinated_behavior": {
+    "total_events": 78,
+    "events": [
+      {
+        "time_window": "2025-10-04 05:00:00+00:00",
+        "text_preview": "高市早苗氏が自民党総裁に決定 日本初の女性総理誕生の見通し 15日招集で調整中の臨時国会で（ABEM",
+        "account_count": 26,
+        "sample_accounts": [
+          "onizariryoushi",
+          "takaya_nanayou",
+          "TeamHallons",
+          "Jk8R0WzMVVr1bzU",
+          "bazyry2hashiru"
+        ],
+        "total_posts": 26,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-10-21 04:00:00+00:00",
+        "text_preview": "【速報】高市早苗氏が第104代総理に選出　衆院本会議　女性として初めて 「高市内閣」発足へ（TBS ",
+        "account_count": 10,
+        "sample_accounts": [
+          "ougonkishi_777",
+          "slateiridium",
+          "moominsnif0331",
+          "358sacchee358",
+          "uimontyo"
+        ],
+        "total_posts": 10,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 08:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+        "account_count": 9,
+        "sample_accounts": [
+          "sino_non08",
+          "munano67",
+          "bonbontrico",
+          "Matsumushi0412",
+          "46971"
+        ],
+        "total_posts": 9,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 10:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません\n#WeDontSupportSanaeTakaichi",
+        "account_count": 9,
+        "sample_accounts": [
+          "ninmari",
+          "mihot_n_k_",
+          "naco4051",
+          "gst_vklmt",
+          "SOC_ane"
+        ],
+        "total_posts": 9,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 10:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+        "account_count": 9,
+        "sample_accounts": [
+          "tukiyo_221B",
+          "ad_day_b_d",
+          "ohits_gohan",
+          "saori_otsuka",
+          "erikariex"
+        ],
+        "total_posts": 9,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-10-04 10:00:00+00:00",
+        "text_preview": "#高市早苗女子枠潰せ",
+        "account_count": 8,
+        "sample_accounts": [
+          "discord_tool",
+          "Os4cO",
+          "saso_ganbaritai",
+          "gomoku_es",
+          "Rouninkaihou"
+        ],
+        "total_posts": 8,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-10-08 03:00:00+00:00",
+        "text_preview": "「支持率下げてやる」報道陣の一部の声が生配信で拡散か、自民・高市早苗総裁の取材待機中 https:/",
+        "account_count": 8,
+        "sample_accounts": [
+          "Takotiha",
+          "Normad9901",
+          "gomasabatokyo",
+          "ichiisennshin",
+          "nadeshiko_yamat"
+        ],
+        "total_posts": 8,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-12-30 11:00:00+00:00",
+        "text_preview": "#高市早苗って統一教会だったんだな",
+        "account_count": 8,
+        "sample_accounts": [
+          "La_Rumba_Buena",
+          "Awel8hnqCL5knd7",
+          "kuro31581591",
+          "peacetojustice",
+          "sunny6772671"
+        ],
+        "total_posts": 12,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-05 13:00:00+00:00",
+        "text_preview": "#高市早苗のWBC始球式参加に反対します",
+        "account_count": 8,
+        "sample_accounts": [
+          "uesanagif2n",
+          "Yy10Qf2n",
+          "ayataw1",
+          "mitsuiro_",
+          "CICO01071824"
+        ],
+        "total_posts": 8,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-01-31 11:00:00+00:00",
+        "text_preview": "#高市早苗の逮捕まだですか",
+        "account_count": 7,
+        "sample_accounts": [
+          "o914832",
+          "shinorev",
+          "bonheur333",
+          "nisemono_tk",
+          "kuro31581591"
+        ],
+        "total_posts": 10,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 06:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません\n#WeDontSupportSanaeTakaichi",
+        "account_count": 7,
+        "sample_accounts": [
+          "coto_ringo",
+          "nabecompeito",
+          "MeDilettante",
+          "murano_msh",
+          "machi_kayu"
+        ],
+        "total_posts": 7,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 08:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません\n#WeDontSupportSanaeTakaichi",
+        "account_count": 7,
+        "sample_accounts": [
+          "mountaintel",
+          "liaison_livre",
+          "kurochi_dis",
+          "tapirhv",
+          "aishiro_monaka"
+        ],
+        "total_posts": 7,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 15:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません\n#WeDontSupportSanaeTakaichi",
+        "account_count": 7,
+        "sample_accounts": [
+          "mmm____koko",
+          "chimachima1010",
+          "ogakeroncho",
+          "BaliBaliIndone1",
+          "Sajinagel"
+        ],
+        "total_posts": 7,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-12-01 05:00:00+00:00",
+        "text_preview": "『2025 新語・流行語大賞』「年間大賞」は高市早苗内閣総理大臣「働いて働いて働いて働いて働いてまい",
+        "account_count": 6,
+        "sample_accounts": [
+          "miko06097887",
+          "TetsuNitta",
+          "Scarlet_Coral",
+          "NON_0634",
+          "hayamiy"
+        ],
+        "total_posts": 6,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-01-22 23:00:00+00:00",
+        "text_preview": "「高市首相の敗北・辞任が現実的に」…中国メディアが「中道改革連合」に“強い期待”を示す　「早苗は“毒",
+        "account_count": 6,
+        "sample_accounts": [
+          "namagusa_bouz",
+          "syousei_1",
+          "99Temperature",
+          "finkx",
+          "BLACK_6_6"
+        ],
+        "total_posts": 6,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-02-18 04:00:00+00:00",
+        "text_preview": "「流石に笑う」 高市早苗首相、公式サイトから『ブログ全削除』か…過去には消費増税に理解の投稿 「隠滅",
+        "account_count": 6,
+        "sample_accounts": [
+          "t_toripy",
+          "kawazoemakoto",
+          "requioblue",
+          "qBkgWWkxcpbDBAA",
+          "NEWS_0"
+        ],
+        "total_posts": 6,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-02-24 10:00:00+00:00",
+        "text_preview": "高市早苗首相が「当選祝い」カタログギフトを衆院議員に配っていた！「週刊文春」取材に複数の事務所が受領",
+        "account_count": 6,
+        "sample_accounts": [
+          "TRiCKPuSH",
+          "HachikoGumo",
+          "shukan_bunshun",
+          "bunshun_online",
+          "baronpiyo"
+        ],
+        "total_posts": 7,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 06:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+        "account_count": 6,
+        "sample_accounts": [
+          "moth0127",
+          "hoopoewanko",
+          "Gerberga375",
+          "sabon_b_l",
+          "cat_erimaki"
+        ],
+        "total_posts": 6,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 11:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+        "account_count": 6,
+        "sample_accounts": [
+          "GumiKamala",
+          "kakari01",
+          "kabos99percent",
+          "pplgovote",
+          "manaka_kotohogi"
+        ],
+        "total_posts": 6,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-10-04 10:00:00+00:00",
+        "text_preview": "#ちんぽを見せろ高市早苗",
+        "account_count": 5,
+        "sample_accounts": [
+          "rye_aneki",
+          "Rakushuki",
+          "oES9j7Ejna69707",
+          "narukunsan",
+          "uKnOR1HpcoZV9xy"
+        ],
+        "total_posts": 5,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-02-04 03:00:00+00:00",
+        "text_preview": "【スクープ第2弾】高市早苗首相は統一教会側に挨拶状を送っていた！ 内部資料入手「ご挨拶状リスト」の宛",
+        "account_count": 5,
+        "sample_accounts": [
+          "xOvKgNxyWHF9Gan",
+          "requioblue",
+          "butako07063954",
+          "shukan_bunshun",
+          "bunshun_online"
+        ],
+        "total_posts": 5,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 05:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+        "account_count": 5,
+        "sample_accounts": [
+          "k_m_d_r",
+          "kanamoken",
+          "SoraAndEda",
+          "raraco1357",
+          "Albizia_jewelry"
+        ],
+        "total_posts": 5,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-03-20 14:00:00+00:00",
+        "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+        "account_count": 5,
+        "sample_accounts": [
+          "ramunechoco",
+          "harumerci",
+          "GeraCrossStitch",
+          "necomachi",
+          "hirunekobooks"
+        ],
+        "total_posts": 5,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-04-30 11:00:00+00:00",
+        "text_preview": "《衝撃》高市早苗陣営が野党中傷動画を投稿していた　今年の衆院選期間中に中道大物候補を「一度国を壊した",
+        "account_count": 5,
+        "sample_accounts": [
+          "A_tatsuyaakaike",
+          "makimakiia",
+          "Hayashi21yoko",
+          "gooner_boozer",
+          "xo749100naniha"
+        ],
+        "total_posts": 5,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-12-30 12:00:00+00:00",
+        "text_preview": "#高市早苗って統一教会だったんだな",
+        "account_count": 4,
+        "sample_accounts": [
+          "UiwqqVlnU554736",
+          "takowakatendon",
+          "Golden11Jasmine",
+          "SonokoM2"
+        ],
+        "total_posts": 5,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-12-30 13:00:00+00:00",
+        "text_preview": "#高市早苗って統一教会だったんだな",
+        "account_count": 4,
+        "sample_accounts": [
+          "take4liger",
+          "7kaVS0tvN987700",
+          "UaUmYbgSbY62192",
+          "cfX2XkrkdzgQYzb"
+        ],
+        "total_posts": 6,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2025-12-31 03:00:00+00:00",
+        "text_preview": "#高市早苗って統一教会だったんだな",
+        "account_count": 4,
+        "sample_accounts": [
+          "tsuiteru717",
+          "Awel8hnqCL5knd7",
+          "sunny6772671",
+          "RebornHachi"
+        ],
+        "total_posts": 7,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-01-25 11:00:00+00:00",
+        "text_preview": "《「高市早苗」の名前が32回も…》統一教会“3200ページ極秘文書”の内容にヤフコメ民の怒り爆発「も",
+        "account_count": 4,
+        "sample_accounts": [
+          "iITdIIcutIVGKg1",
+          "niraikanai24",
+          "butako07063954",
+          "TvVWP38qrB6QRes"
+        ],
+        "total_posts": 4,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-01-31 12:00:00+00:00",
+        "text_preview": "#高市早苗の逮捕まだですか",
+        "account_count": 4,
+        "sample_accounts": [
+          "keemmakiii",
+          "17momo11",
+          "twttwee",
+          "F0b8vXRXDYkrEtV"
+        ],
+        "total_posts": 5,
+        "type": "content_similarity"
+      },
+      {
+        "time_window": "2026-02-24 11:00:00+00:00",
+        "text_preview": "高市早苗首相が「当選祝い」カタログギフトを衆院議員に配っていた！「週刊文春」取材に複数の事務所が受領",
+        "account_count": 4,
+        "sample_accounts": [
+          "sandwichsyear",
+          "bazyry2hashiru",
+          "poponpgunyan",
+          "bunshunho2386"
+        ],
+        "total_posts": 4,
+        "type": "content_similarity"
+      }
+    ]
+  },
+  "sentiment_evolution": {
+    "daily_stats": [
+      {
+        "date": "2025-10-01",
+        "count": 350,
+        "change_rate": NaN
+      },
+      {
+        "date": "2025-10-02",
+        "count": 435,
+        "change_rate": 0.24285714285714288
+      },
+      {
+        "date": "2025-10-03",
+        "count": 225,
+        "change_rate": -0.48275862068965514
+      },
+      {
+        "date": "2025-10-04",
+        "count": 6832,
+        "change_rate": 29.364444444444445
+      },
+      {
+        "date": "2025-10-05",
+        "count": 2723,
+        "change_rate": -0.6014344262295082
+      },
+      {
+        "date": "2025-10-06",
+        "count": 1806,
+        "change_rate": -0.33676092544987146
+      },
+      {
+        "date": "2025-10-07",
+        "count": 1165,
+        "change_rate": -0.3549280177187154
+      },
+      {
+        "date": "2025-10-08",
+        "count": 823,
+        "change_rate": -0.2935622317596567
+      },
+      {
+        "date": "2025-10-09",
+        "count": 856,
+        "change_rate": 0.04009720534629402
+      },
+      {
+        "date": "2025-10-10",
+        "count": 1274,
+        "change_rate": 0.48831775700934577
+      },
+      {
+        "date": "2025-10-11",
+        "count": 1280,
+        "change_rate": 0.0047095761381474865
+      },
+      {
+        "date": "2025-10-12",
+        "count": 1254,
+        "change_rate": -0.020312499999999956
+      },
+      {
+        "date": "2025-10-13",
+        "count": 1418,
+        "change_rate": 0.13078149920255178
+      },
+      {
+        "date": "2025-10-14",
+        "count": 475,
+        "change_rate": -0.6650211565585331
+      },
+      {
+        "date": "2025-10-15",
+        "count": 1488,
+        "change_rate": 2.132631578947368
+      },
+      {
+        "date": "2025-10-16",
+        "count": 643,
+        "change_rate": -0.5678763440860215
+      },
+      {
+        "date": "2025-10-17",
+        "count": 825,
+        "change_rate": 0.28304821150855375
+      },
+      {
+        "date": "2025-10-18",
+        "count": 497,
+        "change_rate": -0.3975757575757576
+      },
+      {
+        "date": "2025-10-19",
+        "count": 596,
+        "change_rate": 0.19919517102615703
+      },
+      {
+        "date": "2025-10-20",
+        "count": 989,
+        "change_rate": 0.6593959731543624
+      },
+      {
+        "date": "2025-10-21",
+        "count": 3249,
+        "change_rate": 2.2851365015166833
+      },
+      {
+        "date": "2025-10-22",
+        "count": 582,
+        "change_rate": -0.8208679593721144
+      },
+      {
+        "date": "2025-10-27",
+        "count": 549,
+        "change_rate": -0.05670103092783507
+      },
+      {
+        "date": "2025-10-28",
+        "count": 1123,
+        "change_rate": 1.0455373406193078
+      },
+      {
+        "date": "2025-10-29",
+        "count": 1261,
+        "change_rate": 0.12288512911843275
+      },
+      {
+        "date": "2025-10-30",
+        "count": 279,
+        "change_rate": -0.7787470261697066
+      },
+      {
+        "date": "2025-10-31",
+        "count": 1209,
+        "change_rate": 3.333333333333333
+      },
+      {
+        "date": "2025-11-01",
+        "count": 464,
+        "change_rate": -0.6162117452440032
+      },
+      {
+        "date": "2025-11-02",
+        "count": 709,
+        "change_rate": 0.5280172413793103
+      },
+      {
+        "date": "2025-11-03",
+        "count": 627,
+        "change_rate": -0.11565585331452755
+      },
+      {
+        "date": "2025-11-04",
+        "count": 412,
+        "change_rate": -0.34290271132376393
+      },
+      {
+        "date": "2025-11-05",
+        "count": 386,
+        "change_rate": -0.06310679611650483
+      },
+      {
+        "date": "2025-11-06",
+        "count": 515,
+        "change_rate": 0.3341968911917099
+      },
+      {
+        "date": "2025-11-07",
+        "count": 935,
+        "change_rate": 0.8155339805825244
+      },
+      {
+        "date": "2025-11-08",
+        "count": 958,
+        "change_rate": 0.024598930481283476
+      },
+      {
+        "date": "2025-11-09",
+        "count": 877,
+        "change_rate": -0.08455114822546972
+      },
+      {
+        "date": "2025-11-10",
+        "count": 1264,
+        "change_rate": 0.4412770809578108
+      },
+      {
+        "date": "2025-11-11",
+        "count": 1230,
+        "change_rate": -0.026898734177215222
+      },
+      {
+        "date": "2025-11-12",
+        "count": 1039,
+        "change_rate": -0.15528455284552845
+      },
+      {
+        "date": "2025-11-13",
+        "count": 1176,
+        "change_rate": 0.13185755534167476
+      },
+      {
+        "date": "2025-11-14",
+        "count": 1443,
+        "change_rate": 0.2270408163265305
+      },
+      {
+        "date": "2025-11-15",
+        "count": 1491,
+        "change_rate": 0.033264033264033266
+      },
+      {
+        "date": "2025-11-16",
+        "count": 1352,
+        "change_rate": -0.09322602280348757
+      },
+      {
+        "date": "2025-11-17",
+        "count": 1563,
+        "change_rate": 0.15606508875739644
+      },
+      {
+        "date": "2025-11-18",
+        "count": 1342,
+        "change_rate": -0.14139475367882282
+      },
+      {
+        "date": "2025-11-19",
+        "count": 1487,
+        "change_rate": 0.10804769001490322
+      },
+      {
+        "date": "2025-11-20",
+        "count": 1134,
+        "change_rate": -0.23739071956960323
+      },
+      {
+        "date": "2025-11-21",
+        "count": 1265,
+        "change_rate": 0.11552028218694876
+      },
+      {
+        "date": "2025-11-22",
+        "count": 296,
+        "change_rate": -0.7660079051383399
+      },
+      {
+        "date": "2025-11-23",
+        "count": 1153,
+        "change_rate": 2.89527027027027
+      },
+      {
+        "date": "2025-11-24",
+        "count": 1079,
+        "change_rate": -0.06418039895923677
+      },
+      {
+        "date": "2025-11-25",
+        "count": 1118,
+        "change_rate": 0.03614457831325302
+      },
+      {
+        "date": "2025-11-26",
+        "count": 1162,
+        "change_rate": 0.03935599284436497
+      },
+      {
+        "date": "2025-11-27",
+        "count": 1063,
+        "change_rate": -0.08519793459552494
+      },
+      {
+        "date": "2025-11-28",
+        "count": 962,
+        "change_rate": -0.09501411100658519
+      },
+      {
+        "date": "2025-11-29",
+        "count": 982,
+        "change_rate": 0.02079002079002068
+      },
+      {
+        "date": "2025-11-30",
+        "count": 814,
+        "change_rate": -0.17107942973523427
+      },
+      {
+        "date": "2025-12-01",
+        "count": 1199,
+        "change_rate": 0.472972972972973
+      },
+      {
+        "date": "2025-12-02",
+        "count": 862,
+        "change_rate": -0.28106755629691405
+      },
+      {
+        "date": "2025-12-03",
+        "count": 815,
+        "change_rate": -0.054524361948955935
+      },
+      {
+        "date": "2025-12-04",
+        "count": 764,
+        "change_rate": -0.06257668711656439
+      },
+      {
+        "date": "2025-12-05",
+        "count": 731,
+        "change_rate": -0.04319371727748689
+      },
+      {
+        "date": "2025-12-06",
+        "count": 588,
+        "change_rate": -0.1956224350205198
+      },
+      {
+        "date": "2025-12-07",
+        "count": 860,
+        "change_rate": 0.4625850340136055
+      },
+      {
+        "date": "2025-12-08",
+        "count": 799,
+        "change_rate": -0.07093023255813957
+      },
+      {
+        "date": "2025-12-09",
+        "count": 732,
+        "change_rate": -0.0838548185231539
+      },
+      {
+        "date": "2025-12-10",
+        "count": 888,
+        "change_rate": 0.21311475409836067
+      },
+      {
+        "date": "2025-12-11",
+        "count": 852,
+        "change_rate": -0.04054054054054057
+      },
+      {
+        "date": "2025-12-12",
+        "count": 859,
+        "change_rate": 0.008215962441314506
+      },
+      {
+        "date": "2025-12-13",
+        "count": 654,
+        "change_rate": -0.23864959254947615
+      },
+      {
+        "date": "2025-12-14",
+        "count": 562,
+        "change_rate": -0.1406727828746177
+      },
+      {
+        "date": "2025-12-15",
+        "count": 606,
+        "change_rate": 0.07829181494661919
+      },
+      {
+        "date": "2025-12-16",
+        "count": 740,
+        "change_rate": 0.22112211221122102
+      },
+      {
+        "date": "2025-12-17",
+        "count": 657,
+        "change_rate": -0.11216216216216213
+      },
+      {
+        "date": "2025-12-18",
+        "count": 615,
+        "change_rate": -0.0639269406392694
+      },
+      {
+        "date": "2025-12-19",
+        "count": 578,
+        "change_rate": -0.06016260162601628
+      },
+      {
+        "date": "2025-12-20",
+        "count": 500,
+        "change_rate": -0.1349480968858131
+      },
+      {
+        "date": "2025-12-21",
+        "count": 499,
+        "change_rate": -0.0020000000000000018
+      },
+      {
+        "date": "2025-12-22",
+        "count": 601,
+        "change_rate": 0.20440881763527052
+      },
+      {
+        "date": "2025-12-23",
+        "count": 625,
+        "change_rate": 0.03993344425956735
+      },
+      {
+        "date": "2025-12-24",
+        "count": 640,
+        "change_rate": 0.02400000000000002
+      },
+      {
+        "date": "2025-12-25",
+        "count": 591,
+        "change_rate": -0.07656249999999998
+      },
+      {
+        "date": "2025-12-26",
+        "count": 617,
+        "change_rate": 0.04399323181049075
+      },
+      {
+        "date": "2025-12-27",
+        "count": 635,
+        "change_rate": 0.029173419773095732
+      },
+      {
+        "date": "2025-12-28",
+        "count": 538,
+        "change_rate": -0.15275590551181106
+      },
+      {
+        "date": "2025-12-29",
+        "count": 670,
+        "change_rate": 0.24535315985130102
+      },
+      {
+        "date": "2025-12-30",
+        "count": 1304,
+        "change_rate": 0.9462686567164178
+      },
+      {
+        "date": "2025-12-31",
+        "count": 1532,
+        "change_rate": 0.17484662576687127
+      },
+      {
+        "date": "2026-01-01",
+        "count": 1040,
+        "change_rate": -0.3211488250652742
+      },
+      {
+        "date": "2026-01-02",
+        "count": 716,
+        "change_rate": -0.31153846153846154
+      },
+      {
+        "date": "2026-01-03",
+        "count": 742,
+        "change_rate": 0.036312849162011274
+      },
+      {
+        "date": "2026-01-04",
+        "count": 415,
+        "change_rate": -0.4407008086253369
+      },
+      {
+        "date": "2026-01-05",
+        "count": 709,
+        "change_rate": 0.7084337349397591
+      },
+      {
+        "date": "2026-01-06",
+        "count": 731,
+        "change_rate": 0.031029619181946355
+      },
+      {
+        "date": "2026-01-07",
+        "count": 727,
+        "change_rate": -0.005471956224350261
+      },
+      {
+        "date": "2026-01-08",
+        "count": 667,
+        "change_rate": -0.08253094910591474
+      },
+      {
+        "date": "2026-01-09",
+        "count": 661,
+        "change_rate": -0.008995502248875575
+      },
+      {
+        "date": "2026-01-10",
+        "count": 807,
+        "change_rate": 0.22087745839636908
+      },
+      {
+        "date": "2026-01-11",
+        "count": 767,
+        "change_rate": -0.049566294919454745
+      },
+      {
+        "date": "2026-01-12",
+        "count": 860,
+        "change_rate": 0.12125162972620607
+      },
+      {
+        "date": "2026-01-13",
+        "count": 1018,
+        "change_rate": 0.1837209302325582
+      },
+      {
+        "date": "2026-01-14",
+        "count": 1087,
+        "change_rate": 0.0677799607072691
+      },
+      {
+        "date": "2026-01-15",
+        "count": 912,
+        "change_rate": -0.1609935602575897
+      },
+      {
+        "date": "2026-01-16",
+        "count": 814,
+        "change_rate": -0.10745614035087714
+      },
+      {
+        "date": "2026-01-17",
+        "count": 823,
+        "change_rate": 0.011056511056511065
+      },
+      {
+        "date": "2026-01-18",
+        "count": 855,
+        "change_rate": 0.03888213851761857
+      },
+      {
+        "date": "2026-01-19",
+        "count": 2265,
+        "change_rate": 1.6491228070175437
+      },
+      {
+        "date": "2026-01-20",
+        "count": 1638,
+        "change_rate": -0.27682119205298017
+      },
+      {
+        "date": "2026-01-21",
+        "count": 1310,
+        "change_rate": -0.2002442002442002
+      },
+      {
+        "date": "2026-01-22",
+        "count": 1290,
+        "change_rate": -0.01526717557251911
+      },
+      {
+        "date": "2026-01-23",
+        "count": 1608,
+        "change_rate": 0.24651162790697678
+      },
+      {
+        "date": "2026-01-24",
+        "count": 1443,
+        "change_rate": -0.10261194029850751
+      },
+      {
+        "date": "2026-01-25",
+        "count": 1533,
+        "change_rate": 0.06237006237006226
+      },
+      {
+        "date": "2026-01-26",
+        "count": 370,
+        "change_rate": -0.7586431833007176
+      },
+      {
+        "date": "2026-01-27",
+        "count": 2721,
+        "change_rate": 6.354054054054054
+      },
+      {
+        "date": "2026-01-28",
+        "count": 2447,
+        "change_rate": -0.10069827269386256
+      },
+      {
+        "date": "2026-01-29",
+        "count": 1903,
+        "change_rate": -0.22231303637106659
+      },
+      {
+        "date": "2026-01-30",
+        "count": 2026,
+        "change_rate": 0.06463478717813986
+      },
+      {
+        "date": "2026-01-31",
+        "count": 2859,
+        "change_rate": 0.4111549851924976
+      },
+      {
+        "date": "2026-02-01",
+        "count": 4615,
+        "change_rate": 0.614200769499825
+      },
+      {
+        "date": "2026-02-02",
+        "count": 2952,
+        "change_rate": -0.36034669555796317
+      },
+      {
+        "date": "2026-02-03",
+        "count": 3059,
+        "change_rate": 0.036246612466124706
+      },
+      {
+        "date": "2026-02-04",
+        "count": 3290,
+        "change_rate": 0.07551487414187652
+      },
+      {
+        "date": "2026-02-05",
+        "count": 3006,
+        "change_rate": -0.08632218844984807
+      },
+      {
+        "date": "2026-02-06",
+        "count": 3052,
+        "change_rate": 0.015302727877578137
+      },
+      {
+        "date": "2026-02-07",
+        "count": 3589,
+        "change_rate": 0.1759501965923984
+      },
+      {
+        "date": "2026-02-08",
+        "count": 3534,
+        "change_rate": -0.015324602953468935
+      },
+      {
+        "date": "2026-02-09",
+        "count": 2859,
+        "change_rate": -0.19100169779286924
+      },
+      {
+        "date": "2026-02-10",
+        "count": 2077,
+        "change_rate": -0.27352221056313397
+      },
+      {
+        "date": "2026-02-11",
+        "count": 589,
+        "change_rate": -0.7164179104477613
+      },
+      {
+        "date": "2026-02-12",
+        "count": 1491,
+        "change_rate": 1.531409168081494
+      },
+      {
+        "date": "2026-02-13",
+        "count": 1617,
+        "change_rate": 0.08450704225352124
+      },
+      {
+        "date": "2026-02-14",
+        "count": 1435,
+        "change_rate": -0.11255411255411252
+      },
+      {
+        "date": "2026-02-15",
+        "count": 1476,
+        "change_rate": 0.02857142857142847
+      },
+      {
+        "date": "2026-02-16",
+        "count": 1369,
+        "change_rate": -0.0724932249322493
+      },
+      {
+        "date": "2026-02-17",
+        "count": 1379,
+        "change_rate": 0.007304601899196461
+      },
+      {
+        "date": "2026-02-18",
+        "count": 2388,
+        "change_rate": 0.7316896301667875
+      },
+      {
+        "date": "2026-02-19",
+        "count": 1698,
+        "change_rate": -0.2889447236180904
+      },
+      {
+        "date": "2026-02-20",
+        "count": 1689,
+        "change_rate": -0.005300353356890497
+      },
+      {
+        "date": "2026-02-21",
+        "count": 1520,
+        "change_rate": -0.10005920663114265
+      },
+      {
+        "date": "2026-02-22",
+        "count": 1559,
+        "change_rate": 0.025657894736842213
+      },
+      {
+        "date": "2026-02-23",
+        "count": 1487,
+        "change_rate": -0.04618345093008336
+      },
+      {
+        "date": "2026-02-24",
+        "count": 1983,
+        "change_rate": 0.3335574983187626
+      },
+      {
+        "date": "2026-02-25",
+        "count": 1978,
+        "change_rate": -0.002521432173474558
+      },
+      {
+        "date": "2026-02-26",
+        "count": 2018,
+        "change_rate": 0.020222446916076775
+      },
+      {
+        "date": "2026-02-27",
+        "count": 2390,
+        "change_rate": 0.18434093161546095
+      },
+      {
+        "date": "2026-02-28",
+        "count": 1686,
+        "change_rate": -0.29456066945606696
+      },
+      {
+        "date": "2026-03-01",
+        "count": 1255,
+        "change_rate": -0.2556346381969158
+      },
+      {
+        "date": "2026-03-02",
+        "count": 1398,
+        "change_rate": 0.1139442231075698
+      },
+      {
+        "date": "2026-03-03",
+        "count": 1928,
+        "change_rate": 0.3791130185979972
+      },
+      {
+        "date": "2026-03-04",
+        "count": 1610,
+        "change_rate": -0.16493775933609955
+      },
+      {
+        "date": "2026-03-05",
+        "count": 1572,
+        "change_rate": -0.023602484472049712
+      },
+      {
+        "date": "2026-03-06",
+        "count": 1636,
+        "change_rate": 0.040712468193384144
+      },
+      {
+        "date": "2026-03-07",
+        "count": 1434,
+        "change_rate": -0.12347188264058684
+      },
+      {
+        "date": "2026-03-08",
+        "count": 1400,
+        "change_rate": -0.023709902370990243
+      },
+      {
+        "date": "2026-03-09",
+        "count": 1342,
+        "change_rate": -0.04142857142857148
+      },
+      {
+        "date": "2026-03-10",
+        "count": 1133,
+        "change_rate": -0.15573770491803274
+      },
+      {
+        "date": "2026-03-11",
+        "count": 1311,
+        "change_rate": 0.15710503089143857
+      },
+      {
+        "date": "2026-03-12",
+        "count": 1590,
+        "change_rate": 0.21281464530892458
+      },
+      {
+        "date": "2026-03-13",
+        "count": 1567,
+        "change_rate": -0.014465408805031443
+      },
+      {
+        "date": "2026-03-14",
+        "count": 1608,
+        "change_rate": 0.02616464582003819
+      },
+      {
+        "date": "2026-03-15",
+        "count": 1429,
+        "change_rate": -0.11131840796019898
+      },
+      {
+        "date": "2026-03-16",
+        "count": 2028,
+        "change_rate": 0.41917424772568235
+      },
+      {
+        "date": "2026-03-17",
+        "count": 1892,
+        "change_rate": -0.06706114398422092
+      },
+      {
+        "date": "2026-03-18",
+        "count": 1335,
+        "change_rate": -0.2943974630021141
+      },
+      {
+        "date": "2026-03-19",
+        "count": 2254,
+        "change_rate": 0.6883895131086142
+      },
+      {
+        "date": "2026-03-20",
+        "count": 2933,
+        "change_rate": 0.3012422360248448
+      },
+      {
+        "date": "2026-03-21",
+        "count": 2041,
+        "change_rate": -0.30412546880327307
+      },
+      {
+        "date": "2026-03-22",
+        "count": 1452,
+        "change_rate": -0.28858402743753064
+      },
+      {
+        "date": "2026-03-23",
+        "count": 1402,
+        "change_rate": -0.03443526170798894
+      },
+      {
+        "date": "2026-03-24",
+        "count": 1196,
+        "change_rate": -0.14693295292439368
+      },
+      {
+        "date": "2026-03-25",
+        "count": 1420,
+        "change_rate": 0.18729096989966565
+      },
+      {
+        "date": "2026-03-26",
+        "count": 1103,
+        "change_rate": -0.22323943661971835
+      },
+      {
+        "date": "2026-03-27",
+        "count": 1525,
+        "change_rate": 0.3825929283771532
+      },
+      {
+        "date": "2026-03-28",
+        "count": 1291,
+        "change_rate": -0.15344262295081967
+      },
+      {
+        "date": "2026-03-29",
+        "count": 1427,
+        "change_rate": 0.10534469403563129
+      },
+      {
+        "date": "2026-03-30",
+        "count": 1106,
+        "change_rate": -0.22494744218640506
+      },
+      {
+        "date": "2026-03-31",
+        "count": 1594,
+        "change_rate": 0.44122965641952994
+      },
+      {
+        "date": "2026-04-01",
+        "count": 1565,
+        "change_rate": -0.018193224592220836
+      },
+      {
+        "date": "2026-04-02",
+        "count": 1214,
+        "change_rate": -0.22428115015974437
+      },
+      {
+        "date": "2026-04-03",
+        "count": 1217,
+        "change_rate": 0.0024711696869852418
+      },
+      {
+        "date": "2026-04-04",
+        "count": 1186,
+        "change_rate": -0.025472473294987696
+      },
+      {
+        "date": "2026-04-05",
+        "count": 1291,
+        "change_rate": 0.08853288364249567
+      },
+      {
+        "date": "2026-04-06",
+        "count": 1284,
+        "change_rate": -0.005422153369481042
+      },
+      {
+        "date": "2026-04-07",
+        "count": 1254,
+        "change_rate": -0.02336448598130836
+      },
+      {
+        "date": "2026-04-08",
+        "count": 1195,
+        "change_rate": -0.047049441786283897
+      },
+      {
+        "date": "2026-04-09",
+        "count": 1055,
+        "change_rate": -0.11715481171548114
+      },
+      {
+        "date": "2026-04-10",
+        "count": 1120,
+        "change_rate": 0.06161137440758302
+      },
+      {
+        "date": "2026-04-11",
+        "count": 1093,
+        "change_rate": -0.024107142857142883
+      },
+      {
+        "date": "2026-04-12",
+        "count": 1451,
+        "change_rate": 0.32753888380603846
+      },
+      {
+        "date": "2026-04-13",
+        "count": 1213,
+        "change_rate": -0.16402481047553408
+      },
+      {
+        "date": "2026-04-14",
+        "count": 1236,
+        "change_rate": 0.018961253091508645
+      },
+      {
+        "date": "2026-04-15",
+        "count": 799,
+        "change_rate": -0.3535598705501618
+      },
+      {
+        "date": "2026-04-16",
+        "count": 989,
+        "change_rate": 0.23779724655819767
+      },
+      {
+        "date": "2026-04-17",
+        "count": 1071,
+        "change_rate": 0.08291203235591516
+      },
+      {
+        "date": "2026-04-18",
+        "count": 792,
+        "change_rate": -0.26050420168067223
+      },
+      {
+        "date": "2026-04-19",
+        "count": 1077,
+        "change_rate": 0.35984848484848486
+      },
+      {
+        "date": "2026-04-20",
+        "count": 1098,
+        "change_rate": 0.01949860724233976
+      },
+      {
+        "date": "2026-04-21",
+        "count": 1521,
+        "change_rate": 0.38524590163934436
+      },
+      {
+        "date": "2026-04-22",
+        "count": 731,
+        "change_rate": -0.5193951347797502
+      },
+      {
+        "date": "2026-04-23",
+        "count": 701,
+        "change_rate": -0.041039671682626566
+      },
+      {
+        "date": "2026-04-24",
+        "count": 827,
+        "change_rate": 0.17974322396576325
+      },
+      {
+        "date": "2026-04-25",
+        "count": 651,
+        "change_rate": -0.2128174123337364
+      },
+      {
+        "date": "2026-04-26",
+        "count": 747,
+        "change_rate": 0.14746543778801846
+      },
+      {
+        "date": "2026-04-27",
+        "count": 792,
+        "change_rate": 0.06024096385542177
+      },
+      {
+        "date": "2026-04-28",
+        "count": 719,
+        "change_rate": -0.09217171717171713
+      },
+      {
+        "date": "2026-04-29",
+        "count": 1069,
+        "change_rate": 0.48678720445062584
+      },
+      {
+        "date": "2026-04-30",
+        "count": 1139,
+        "change_rate": 0.06548175865294659
+      },
+      {
+        "date": "2026-05-01",
+        "count": 992,
+        "change_rate": -0.12906057945566285
+      },
+      {
+        "date": "2026-05-02",
+        "count": 900,
+        "change_rate": -0.092741935483871
+      },
+      {
+        "date": "2026-05-03",
+        "count": 932,
+        "change_rate": 0.03555555555555556
+      },
+      {
+        "date": "2026-05-04",
+        "count": 749,
+        "change_rate": -0.19635193133047213
+      },
+      {
+        "date": "2026-05-05",
+        "count": 804,
+        "change_rate": 0.07343124165554071
+      }
+    ],
+    "anomalies": [
+      {
+        "date": "2025-10-04",
+        "count": 6832,
+        "change_rate": 2936.4,
+        "type": "surge"
+      },
+      {
+        "date": "2025-10-15",
+        "count": 1488,
+        "change_rate": 213.3,
+        "type": "surge"
+      },
+      {
+        "date": "2025-10-21",
+        "count": 3249,
+        "change_rate": 228.5,
+        "type": "surge"
+      },
+      {
+        "date": "2025-10-31",
+        "count": 1209,
+        "change_rate": 333.3,
+        "type": "surge"
+      },
+      {
+        "date": "2025-11-23",
+        "count": 1153,
+        "change_rate": 289.5,
+        "type": "surge"
+      },
+      {
+        "date": "2026-01-27",
+        "count": 2721,
+        "change_rate": 635.4,
+        "type": "surge"
+      }
+    ]
+  },
+  "propagation_chains": {
+    "total_chains": 100350,
+    "representative_chains": [
+      {
+        "source": "hanakomari1",
+        "target": "hodanren",
+        "date": "2026-04-10",
+        "text_preview": "@hodanren 島根県の丸山知事は\n『国家が国民に対して そういう治療を余儀なくされている人に対して 治療を諦めざるを得ない状況を制度的に作るということは国家的殺人だと思う』と強く批判しました。\n",
+        "engagement": 41338,
+        "type": "reply"
+      },
+      {
+        "source": "mushedhydrogen",
+        "target": "takaichi_sanae",
+        "date": "2025-10-12",
+        "text_preview": "@takaichi_sanae こんなに注目されている中で、ここまで細かい情報を出し、経緯を丁寧にわかりやすく説明された方がかつていたでしょうか？\n\n政治家はごまかすものという概念をひっくり返す高市氏",
+        "engagement": 31085,
+        "type": "reply"
+      },
+      {
+        "source": "BooS2918838377",
+        "target": "takaichi_sanae",
+        "date": "2026-03-06",
+        "text_preview": "@takaichi_sanae 高市早苗さん　あなたはご存知ですか？\n東日本大震災の時、イラン🇮🇷の方々からのご支援を…あなたは恩を仇で返すのですね！本当に悲しいし虚しいよ！あなたは… https:/",
+        "engagement": 29155,
+        "type": "reply"
+      },
+      {
+        "source": "Denertia",
+        "target": "izumi_akashi",
+        "date": "2025-10-04",
+        "text_preview": "@izumi_akashi 違い、\n分かります？\n\n高市早苗氏\n→議員に火をつける\n\n房穂\n→建物に火をつける\n\n火をつける対象が異なります。 https://t.co/rzwO3gtY09",
+        "engagement": 27378,
+        "type": "reply"
+      },
+      {
+        "source": "RoseVivienelove",
+        "target": "takaichi_sanae",
+        "date": "2026-03-24",
+        "text_preview": "高市早苗さん、嘘つかないでくださいよ。イランの外相のアラグーチ氏は、\n日本のためにホルムズ海峡を通しますって言ってくれたのに、それを拒否したのが、茂木さんと高市さんですよね？\n\nイランは日本は通すって",
+        "engagement": 24452,
+        "type": "reply"
+      },
+      {
+        "source": "mas__yamazaki",
+        "target": "mas__yamazaki",
+        "date": "2026-02-01",
+        "text_preview": "なんと、首相官邸からそう遠くないNHKのスタジオでただ椅子に座って討論するくらいの軽い作業もできないほどの「負傷」だったはずの高市早苗が、新幹線で名古屋までわざわざ出かけて応援演説したのも、統一教会ズ",
+        "engagement": 23477,
+        "type": "reply"
+      },
+      {
+        "source": "UADsBvYRkdmLpbs",
+        "target": "takaichi_sanae",
+        "date": "2025-10-12",
+        "text_preview": "@takaichi_sanae 日本人の9割は高市さんを応援しております。\nオールドメディア始め既得権益団体のネガキャンには一切惑わされません。\n1日も早い高市首相誕生を望んでおります。",
+        "engagement": 20548,
+        "type": "reply"
+      },
+      {
+        "source": "mediaterrace",
+        "target": "mediaterrace",
+        "date": "2026-04-29",
+        "text_preview": "昭和100年記念式典。高市早苗からの招待状には「謹啓」から始まる招待の文言が続き、最後を「敬具」で締めくくっている。拝啓－敬具、謹啓-謹白の組み合わせで使用する用語を裏方の官僚たちがわかっていない。こ",
+        "engagement": 18881,
+        "type": "reply"
+      },
+      {
+        "source": "hanataretyuunen",
+        "target": "takaichi_sanae",
+        "date": "2026-04-29",
+        "text_preview": "@takaichi_sanae 報道やイラン当局が既に発表してるよ。\n高市政権は全く関わっておらず、\nなんの役にもたってない事が証明された。\n何も関わってないのだから\n邦人保護もなにもないだろうに。\n",
+        "engagement": 18227,
+        "type": "reply"
+      },
+      {
+        "source": "CHATGPT_KUN",
+        "target": "takaichi_sanae",
+        "date": "2025-10-12",
+        "text_preview": "@takaichi_sanae 高市政権の税調人事は“地味”に見えて革命的。\n\n税制調査会を「総裁直属＝財務省主導」から\n「政調会長主導＝議員主導」へ戻した。\n\n国民代表が議論し、官僚が設計する──\n",
+        "engagement": 15805,
+        "type": "reply"
+      },
+      {
+        "source": "cobta",
+        "target": "cobta",
+        "date": "2026-03-20",
+        "text_preview": "トランプの息子がふたりとも高市早苗をめちゃくちゃバカにした投稿をしており、トランプは別に高市首相のことなんかほぼ投稿していない。",
+        "engagement": 14930,
+        "type": "reply"
+      },
+      {
+        "source": "mamichan_jpn",
+        "target": "takaichi_sanae",
+        "date": "2025-11-07",
+        "text_preview": "泣けた…。\n夫婦ってこういう支え合いの形が一番美しいと思う。\nどんな立場になっても、ちゃんと“妻であり、夫を想う人”なんだよね。\n坂道で車椅子を押せないって言葉が優しすぎて刺さった🥺\n高市さん、本当に",
+        "engagement": 13930,
+        "type": "reply"
+      },
+      {
+        "source": "Koyama2011",
+        "target": "takaichi_sanae",
+        "date": "2025-10-12",
+        "text_preview": "@takaichi_sanae 📊 夕刊フジ公式Xアンケートより  \n\n次期首相にふさわしい人物は？（投票数83,513票・途中経過）\n\n・高市早苗（自民党総裁）：95%  \n・野田佳彦（立憲民主党代",
+        "engagement": 12631,
+        "type": "reply"
+      },
+      {
+        "source": "TomoMachi",
+        "target": "TomoMachi",
+        "date": "2026-04-26",
+        "text_preview": "高市早苗、パラリンピック選手との懇談会をドタキャンした理由を「公務のため」と言ったが、公務の記録はない。 https://t.co/WKGgdxOeW5",
+        "engagement": 12364,
+        "type": "reply"
+      },
+      {
+        "source": "kanyoshin",
+        "target": "kanyoshin",
+        "date": "2026-02-04",
+        "text_preview": "【緊急恐怖拡散希望】\n冷静に数字を見てみましたが、\n自民党のYouTubeチャンネルで\n起きていることは「異常」という言葉では、\n済まされないレベルの恐怖を感じます。\n\nまず前提として、自民党のチャン",
+        "engagement": 12046,
+        "type": "reply"
+      },
+      {
+        "source": "uniumigame",
+        "target": "takaichi_sanae",
+        "date": "2026-03-27",
+        "text_preview": "@takaichi_sanae 若い子達が猛烈に立ち上がってます😊\n#高市早苗辞任を要求します \n\n#イランを支持します https://t.co/D9p0Yad6LR",
+        "engagement": 11867,
+        "type": "reply"
+      },
+      {
+        "source": "FIFI_Egypt",
+        "target": "FIFI_Egypt",
+        "date": "2025-10-04",
+        "text_preview": "台湾の頼清徳総統は4日、自民党新総裁に選出された高市早苗氏に対し、台湾与党、民主進歩党の主席として祝意を表明しました。",
+        "engagement": 11770,
+        "type": "reply"
+      },
+      {
+        "source": "grok",
+        "target": "uimontyo",
+        "date": "2026-02-24",
+        "text_preview": "高市早苗氏の説明通り、奈良県第二選挙区支部（自民党の支部）としてカタログギフトを寄付した行為です。\n\n政治資金規正法第21条の2第2項では、政党（支部を含む）から公職の候補者（国会議員含む）への政治活",
+        "engagement": 11113,
+        "type": "reply"
+      },
+      {
+        "source": "humitori__dayo",
+        "target": "mipom4412",
+        "date": "2026-02-11",
+        "text_preview": "@mipom4412 2023年、高市早苗さんは、自身に不都合な文書を「捏造」と断言し、本物だったら議員辞職する旨を明言しました。総務省が調査した結果、文書は本物でしたが、高市さんは辞職せず逃亡しまし",
+        "engagement": 10857,
+        "type": "reply"
+      },
+      {
+        "source": "masatossy123",
+        "target": "asahi",
+        "date": "2025-10-04",
+        "text_preview": "@asahi 高市さんの発言からまだ数時間しか経ってないのに、\n\n土曜にも関わらず「全国過労死を考える家族の会」代表世話人の寺西笑子さんや労働法に詳しい脇田滋・龍谷大名誉教授にインタビューし記事にする",
+        "engagement": 10604,
+        "type": "reply"
+      }
+    ],
+    "avg_chain_length": 1.988585696450865
+  },
+  "network_advanced": {
+    "total_reply_chains": 100350,
+    "unique_repliers": 22621,
+    "most_replied_to": [
+      {
+        "user": "takaichi_sanae",
+        "count": 3781
+      },
+      {
+        "user": "47news_official",
+        "count": 1544
+      },
+      {
+        "user": "cobta",
+        "count": 1360
+      },
+      {
+        "user": "YahooNewsTopics",
+        "count": 1031
+      },
+      {
+        "user": "iloveyoulove777",
+        "count": 876
+      },
+      {
+        "user": "kazu10233147",
+        "count": 813
+      },
+      {
+        "user": "asahi",
+        "count": 773
+      },
+      {
+        "user": "Sankei_news",
+        "count": 772
+      },
+      {
+        "user": "nikkei",
+        "count": 756
+      },
+      {
+        "user": "mainichi",
+        "count": 753
+      }
+    ],
+    "most_active_repliers": [
+      {
+        "user": "MarikaJB2023",
+        "count": 531
+      },
+      {
+        "user": "katsuhiro223",
+        "count": 456
+      },
+      {
+        "user": "gLCilNObvDfalzl",
+        "count": 392
+      },
+      {
+        "user": "hedora83",
+        "count": 321
+      },
+      {
+        "user": "souyuuwakede",
+        "count": 314
+      },
+      {
+        "user": "safefield",
+        "count": 308
+      },
+      {
+        "user": "tantosorairo",
+        "count": 303
+      },
+      {
+        "user": "myan62",
+        "count": 283
+      },
+      {
+        "user": "NEO111777",
+        "count": 282
+      },
+      {
+        "user": "chilcochiko0121",
+        "count": 280
+      }
+    ],
+    "reply_ratio": 36.9
+  }
+}

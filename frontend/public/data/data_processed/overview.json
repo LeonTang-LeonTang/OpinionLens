@@ -1,0 +1,27 @@
+{
+  "topic": "高市早苗相关舆论",
+  "total_tweets": 271852,
+  "total_users": 50466,
+  "time_range": {
+    "start": "2025-10-01 10:25:48+00:00",
+    "end": "2026-05-05 23:59:36+00:00"
+  },
+  "network": {
+    "nodes": 40902,
+    "edges": 120030,
+    "density": 7.174825374416048e-05,
+    "largest_component_size": 36427,
+    "num_connected_components": 2023,
+    "avg_clustering": 0.030312207919000907
+  },
+  "sentiment": {
+    "total_analyzed": 50000,
+    "positive_count": 8431,
+    "neutral_count": 39006,
+    "negative_count": 2563,
+    "positive_rate": 0.16862,
+    "neutral_rate": 0.78012,
+    "negative_rate": 0.05126,
+    "avg_sentiment_score": 0.535208
+  }
+}

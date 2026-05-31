@@ -1,36 +1,125 @@
 import axios from 'axios'
 
-const API_BASE = '/api'
+const API_BASE = '' // 使用静态数据
+const DATA_BASE = '/data/data_processed'
 
-const api = axios.create({
-  baseURL: API_BASE,
-  timeout: 30000
-})
+// 加载静态JSON数据
+const loadJSON = async (filename) => {
+  try {
+    const response = await axios.get(`${DATA_BASE}/${filename}`)
+    return response.data
+  } catch (error) {
+    console.warn(`无法加载 ${filename}:`, error.message)
+    return null
+  }
+}
 
-export const fetchOverview = () => api.get('/overview')
-export const fetchSentiment = (params) => api.get('/sentiment', { params })
-export const fetchTopics = (limit = 20) => api.get(`/topics?limit=${limit}`)
-export const fetchTimeline = (granularity = 'day') => api.get(`/timeline?granularity=${granularity}`)
-export const fetchLeaders = (limit = 20, sortBy = 'influence_score') =>
-  api.get(`/leaders?limit=${limit}&sort_by=${sortBy}`)
-export const fetchNetwork = (limit = 200) => api.get(`/network?limit=${limit}`)
-export const fetchCommunities = (limit = 10) => api.get(`/communities?limit=${limit}`)
-export const fetchUserBehavior = () => api.get('/user-behavior')
-export const searchTweets = (keyword, limit = 20) =>
-  api.get(`/search?keyword=${encodeURIComponent(keyword)}&limit=${limit}`)
+// API 函数 - 从静态文件读取
+export const fetchOverview = async () => {
+  const main = await loadJSON('overview.json')
+  const network = await loadJSON('network_stats.json')
+  const sentiment = await loadJSON('sentiment_summary.json')
+  
+  return { data: { ...main, network, sentiment } }
+}
+
+export const fetchSentiment = async () => {
+  const data = await loadJSON('sentiment_summary.json')
+  return { data }
+}
+
+export const fetchTopics = async (limit = 20) => {
+  const data = await loadJSON('topic_analysis.json')
+  if (!data) return { data: { total_hashtags: 0, hot_topics: [] } }
+  const hashtags = data.top_hashtags?.slice(0, limit) || []
+  return {
+    data: {
+      total_hashtags: data.total_unique_hashtags || 0,
+      hot_topics: hashtags.map((tag, i) => ({ rank: i + 1, hashtag: tag[0], count: tag[1] }))
+    }
+  }
+}
+
+export const fetchTimeline = async (granularity = 'day') => {
+  const data = await loadJSON('time_series.json')
+  return { data: data || { timeline: [], peak_days: [] } }
+}
+
+export const fetchLeaders = async (limit = 20, sortBy = 'influence_score') => {
+  const data = await loadJSON('opinion_leaders.json')
+  if (!data || !data.slice) return { data: [] }
+  return { data: data.slice(0, limit) }
+}
+
+export const fetchNetwork = async (limit = 200) => {
+  const data = await loadJSON('network_stats.json')
+  return { data: data || { nodes_count: 0, edges_count: 0 } }
+}
+
+export const fetchCommunities = async (limit = 10) => {
+  const data = await loadJSON('communities.json')
+  return { data: data?.communities?.slice(0, limit) || [] }
+}
+
+export const fetchUserBehavior = async () => {
+  const data = await loadJSON('user_behavior.json')
+  return { data: data || {} }
+}
+
+export const searchTweets = async (keyword, limit = 20) => {
+  // 静态模式下不支持搜索
+  return { data: { results: [], total: 0 } }
+}
 
 // 高级分析API
-export const fetchBurstEvents = () => api.get('/advanced/burst-events')
-export const fetchSuspiciousAccounts = (limit = 30) => api.get(`/advanced/suspicious-accounts?limit=${limit}`)
-export const fetchCoordinatedBehavior = (limit = 20) => api.get(`/advanced/coordinated?limit=${limit}`)
-export const fetchPropagationChains = (limit = 20) => api.get(`/advanced/propagation?limit=${limit}`)
-export const fetchAdvancedNetworkStats = () => api.get('/advanced/network-stats')
-export const fetchAnomalies = () => api.get('/advanced/anomalies')
-export const analyzeTopic = (keyword, days = 30) => api.get(`/topic-analysis?keyword=${encodeURIComponent(keyword)}&days=${days}`)
+export const fetchBurstEvents = async () => {
+  const data = await loadJSON('advanced_analysis.json')
+  return { data: data?.burst_events || [] }
+}
 
-// 抓取API
-export const scrapeTopic = (data) => api.post('/scrape/topic', data)
-export const listScrapedDatasets = () => api.get('/scrape/datasets')
-export const analyzeScrapedDataset = (datasetId) => api.get(`/scrape/analyze/${datasetId}`)
+export const fetchSuspiciousAccounts = async (limit = 30) => {
+  const data = await loadJSON('advanced_analysis.json')
+  return { data: data?.suspicious_accounts?.slice(0, limit) || [] }
+}
 
-export default api
+export const fetchCoordinatedBehavior = async (limit = 20) => {
+  const data = await loadJSON('advanced_analysis.json')
+  return { data: data?.coordinated_behavior?.slice(0, limit) || [] }
+}
+
+export const fetchPropagationChains = async (limit = 20) => {
+  return { data: [] }
+}
+
+export const fetchAdvancedNetworkStats = async () => {
+  const data = await loadJSON('advanced_analysis.json')
+  return { data: data?.network_stats || {} }
+}
+
+export const fetchAnomalies = async () => {
+  return { data: [] }
+}
+
+export const analyzeTopic = async (keyword, days = 30) => {
+  const data = await loadJSON('topic_analysis.json')
+  return { data: data || {} }
+}
+
+// 抓取API - 需要后端支持
+export const scrapeTopic = async (data) => {
+  throw new Error('抓取功能需要后端服务支持')
+}
+
+export const listScrapedDatasets = async () => {
+  return { data: { datasets: [] } }
+}
+
+export const analyzeScrapedDataset = async (datasetId) => {
+  throw new Error('抓取数据分析需要后端服务支持')
+}
+
+export default {
+  fetchOverview, fetchSentiment, fetchTopics, fetchTimeline,
+  fetchLeaders, fetchNetwork, fetchCommunities, fetchUserBehavior,
+  searchTweets, scrapeTopic, listScrapedDatasets, analyzeScrapedDataset
+}
