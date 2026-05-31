@@ -186,10 +186,10 @@ export default function Dashboard() {
           <Card><Statistic title="总用户" value={overview?.total_users || 0} valueStyle={{ color: '#764ba2' }} /></Card>
         </Col>
         <Col xs={12} sm={6}>
-          <Card><Statistic title="正面率" value={(overview?.sentiment?.positive_rate || 0).toFixed(1) + '%'} valueStyle={{ color: '#52c41a' }} /></Card>
+          <Card><Statistic title="正面率" value={Number(overview?.sentiment?.positive_rate || 0).toFixed(1) + '%'} valueStyle={{ color: '#52c41a' }} /></Card>
         </Col>
         <Col xs={12} sm={6}>
-          <Card><Statistic title="负面率" value={(overview?.sentiment?.negative_rate || 0).toFixed(1) + '%'} valueStyle={{ color: '#ff4d4f' }} /></Card>
+          <Card><Statistic title="负面率" value={Number(overview?.sentiment?.negative_rate || 0).toFixed(1) + '%'} valueStyle={{ color: '#ff4d4f' }} /></Card>
         </Col>
       </Row>
 
