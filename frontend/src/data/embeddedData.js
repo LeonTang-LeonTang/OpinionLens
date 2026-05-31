@@ -2785,6 +2785,9 @@ export const EMBEDDED_DATA = Object.freeze({
   "advanced": {
     "burst_events": [],
     "suspicious_accounts": {
+      "total_suspicious": 1162,
+      "high_risk": 4,
+      "medium_risk": 1158,
       "top_suspicious": [
         {
           "screen_name": "ZvJlFR5kPA3748",
@@ -3123,6 +3126,7 @@ export const EMBEDDED_DATA = Object.freeze({
       ]
     },
     "coordinated_behavior": {
+      "total_events": 78,
       "events": [
         {
           "time_window": "2025-10-04 05:00:00+00:00",
@@ -3403,13 +3407,146 @@ export const EMBEDDED_DATA = Object.freeze({
           ],
           "total_posts": 5,
           "type": "content_similarity"
+        },
+        {
+          "time_window": "2026-02-04 03:00:00+00:00",
+          "text_preview": "【スクープ第2弾】高市早苗首相は統一教会側に挨拶状を送っていた！ 内部資料入手「ご挨拶状リスト」の宛",
+          "account_count": 5,
+          "sample_accounts": [
+            "xOvKgNxyWHF9Gan",
+            "requioblue",
+            "butako07063954",
+            "shukan_bunshun",
+            "bunshun_online"
+          ],
+          "total_posts": 5,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2026-03-20 05:00:00+00:00",
+          "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+          "account_count": 5,
+          "sample_accounts": [
+            "k_m_d_r",
+            "kanamoken",
+            "SoraAndEda",
+            "raraco1357",
+            "Albizia_jewelry"
+          ],
+          "total_posts": 5,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2026-03-20 14:00:00+00:00",
+          "text_preview": "#私たちは高市早苗を支持しません #WeDontSupportSanaeTakaichi",
+          "account_count": 5,
+          "sample_accounts": [
+            "ramunechoco",
+            "harumerci",
+            "GeraCrossStitch",
+            "necomachi",
+            "hirunekobooks"
+          ],
+          "total_posts": 5,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2026-04-30 11:00:00+00:00",
+          "text_preview": "《衝撃》高市早苗陣営が野党中傷動画を投稿していた　今年の衆院選期間中に中道大物候補を「一度国を壊した",
+          "account_count": 5,
+          "sample_accounts": [
+            "A_tatsuyaakaike",
+            "makimakiia",
+            "Hayashi21yoko",
+            "gooner_boozer",
+            "xo749100naniha"
+          ],
+          "total_posts": 5,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2025-12-30 12:00:00+00:00",
+          "text_preview": "#高市早苗って統一教会だったんだな",
+          "account_count": 4,
+          "sample_accounts": [
+            "UiwqqVlnU554736",
+            "takowakatendon",
+            "Golden11Jasmine",
+            "SonokoM2"
+          ],
+          "total_posts": 5,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2025-12-30 13:00:00+00:00",
+          "text_preview": "#高市早苗って統一教会だったんだな",
+          "account_count": 4,
+          "sample_accounts": [
+            "take4liger",
+            "7kaVS0tvN987700",
+            "UaUmYbgSbY62192",
+            "cfX2XkrkdzgQYzb"
+          ],
+          "total_posts": 6,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2025-12-31 03:00:00+00:00",
+          "text_preview": "#高市早苗って統一教会だったんだな",
+          "account_count": 4,
+          "sample_accounts": [
+            "tsuiteru717",
+            "Awel8hnqCL5knd7",
+            "sunny6772671",
+            "RebornHachi"
+          ],
+          "total_posts": 7,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2026-01-25 11:00:00+00:00",
+          "text_preview": "《「高市早苗」の名前が32回も…》統一教会“3200ページ極秘文書”の内容にヤフコメ民の怒り爆発「も",
+          "account_count": 4,
+          "sample_accounts": [
+            "iITdIIcutIVGKg1",
+            "niraikanai24",
+            "butako07063954",
+            "TvVWP38qrB6QRes"
+          ],
+          "total_posts": 4,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2026-01-31 12:00:00+00:00",
+          "text_preview": "#高市早苗の逮捕まだですか",
+          "account_count": 4,
+          "sample_accounts": [
+            "keemmakiii",
+            "17momo11",
+            "twttwee",
+            "F0b8vXRXDYkrEtV"
+          ],
+          "total_posts": 5,
+          "type": "content_similarity"
+        },
+        {
+          "time_window": "2026-02-24 11:00:00+00:00",
+          "text_preview": "高市早苗首相が「当選祝い」カタログギフトを衆院議員に配っていた！「週刊文春」取材に複数の事務所が受領",
+          "account_count": 4,
+          "sample_accounts": [
+            "sandwichsyear",
+            "bazyry2hashiru",
+            "poponpgunyan",
+            "bunshunho2386"
+          ],
+          "total_posts": 4,
+          "type": "content_similarity"
         }
       ]
     },
     "propagation_chains": {
       "total_chains": 100350,
-      "avg_chain_length": 1.988585696450865,
-      "chains": [
+      "representative_chains": [
         {
           "source": "hanakomari1",
           "target": "hodanren",
@@ -3570,7 +3707,8 @@ export const EMBEDDED_DATA = Object.freeze({
           "engagement": 10604,
           "type": "reply"
         }
-      ]
+      ],
+      "avg_chain_length": 1.988585696450865
     }
   }
 });

@@ -51,7 +51,9 @@ export const fetchBurstEvents = async () => {
 }
 
 export const fetchSuspiciousAccounts = async (limit = 30) => {
-  return { data: { top_suspicious: EMBEDDED_DATA.advanced.suspicious_accounts.top_suspicious.slice(0, limit) } }
+  // 返回完整的 suspicious_accounts 对象（包含 high_risk, medium_risk 等）
+  const sa = EMBEDDED_DATA.advanced.suspicious_accounts
+  return { data: { ...sa, top_suspicious: sa.top_suspicious.slice(0, limit) } }
 }
 
 export const fetchCoordinatedBehavior = async (limit = 20) => {
