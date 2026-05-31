@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Card, Row, Col, Input, Button, Tag, Statistic, Alert, Space, Typography, Divider, Modal, message, Progress } from 'antd'
 import { DatabaseOutlined, RocketOutlined, CloudUploadOutlined, InfoCircleOutlined, CheckCircleOutlined, RadarChartOutlined, GlobalOutlined } from '@ant-design/icons'
 import { Link, useNavigate } from 'react-router-dom'
@@ -34,7 +34,15 @@ export default function Home() {
   const [currentDataset, setCurrentDataset] = useState('takaichi_chinese')
   const [customAlias, setCustomAlias] = useState('')
   const [showScrapingModal, setShowScrapingModal] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
   const navigate = useNavigate()
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
 
   const dataset = DATASETS[currentDataset]
 
@@ -53,9 +61,9 @@ export default function Home() {
       {/* 英雄区 */}
       <div style={{
         background: 'linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f5576c 100%)',
-        borderRadius: '0 0 48px 48px',
-        padding: '64px 48px',
-        marginBottom: 48,
+        borderRadius: isMobile ? '0 0 24px 24px' : '0 0 48px 48px',
+        padding: isMobile ? '32px 16px' : '64px 48px',
+        marginBottom: isMobile ? 24 : 48,
         textAlign: 'center',
         color: 'white',
         position: 'relative',
@@ -64,28 +72,38 @@ export default function Home() {
         {/* 背景装饰 */}
         <div style={{
           position: 'absolute',
-          top: -100,
-          right: -100,
-          width: 300,
-          height: 300,
+          top: isMobile ? -60 : -100,
+          right: isMobile ? -60 : -100,
+          width: isMobile ? 180 : 300,
+          height: isMobile ? 180 : 300,
           borderRadius: '50%',
           background: 'rgba(255,255,255,0.1)',
         }} />
         <div style={{
           position: 'absolute',
-          bottom: -50,
-          left: -50,
-          width: 200,
-          height: 200,
+          bottom: isMobile ? -30 : -50,
+          left: isMobile ? -30 : -50,
+          width: isMobile ? 120 : 200,
+          height: isMobile ? 120 : 200,
           borderRadius: '50%',
           background: 'rgba(255,255,255,0.05)',
         }} />
-        
+
         <div style={{ position: 'relative', zIndex: 1 }}>
-          <Title level={1} style={{ color: 'white', fontSize: 48, marginBottom: 8, fontWeight: 700 }}>
+          <Title level={1} style={{
+            color: 'white',
+            fontSize: isMobile ? 28 : 48,
+            marginBottom: isMobile ? 4 : 8,
+            fontWeight: 700
+          }}>
             舆论透镜
           </Title>
-          <Text style={{ color: 'rgba(255,255,255,0.9)', fontSize: 20, display: 'block', marginBottom: 32 }}>
+          <Text style={{
+            color: 'rgba(255,255,255,0.9)',
+            fontSize: isMobile ? 14 : 20,
+            display: 'block',
+            marginBottom: isMobile ? 16 : 32
+          }}>
             透视舆论本质 · 多平台话题分析专家
           </Text>
         </div>

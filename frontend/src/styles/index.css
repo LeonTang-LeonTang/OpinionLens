@@ -398,16 +398,138 @@ body {
    ======================================== */
 
 @media (max-width: 768px) {
+  /* 头部 */
   .ant-layout-header {
     padding: 0 16px !important;
+    height: 50px !important;
+    line-height: 50px !important;
   }
-  
-  .stat-card .value {
-    font-size: 24px !important;
-  }
-  
-  .ant-card-body {
+
+  /* 统计卡片 */
+  .stat-card {
     padding: 16px !important;
+  }
+  .stat-card .value {
+    font-size: 22px !important;
+  }
+  .stat-card .label {
+    font-size: 12px !important;
+  }
+
+  /* 卡片 */
+  .ant-card-body {
+    padding: 12px !important;
+  }
+
+  /* 页面内边距 */
+  .ant-layout-content {
+    padding: 12px !important;
+  }
+
+  /* 表格移动端适配 */
+  .ant-table {
+    font-size: 12px !important;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 8px 4px !important;
+    font-size: 12px !important;
+  }
+
+  /* Tab标签 */
+  .ant-tabs-nav {
+    font-size: 13px !important;
+  }
+
+  /* 进度条 */
+  .ant-progress-text {
+    font-size: 11px !important;
+  }
+
+  /* 列表 */
+  .ant-list-item {
+    padding: 8px 0 !important;
+  }
+
+  /* 标题缩小 */
+  h1 { font-size: 24px !important; }
+  h2 { font-size: 20px !important; }
+  h3 { font-size: 16px !important; }
+  h4 { font-size: 14px !important; }
+
+  /* 图表容器 */
+  .echarts-for-react {
+    width: 100% !important;
+  }
+
+  /* 按钮 */
+  .ant-btn {
+    font-size: 13px !important;
+    padding: 4px 12px !important;
+  }
+
+  /* Tag 标签 */
+  .ant-tag {
+    font-size: 11px !important;
+    padding: 0 6px !important;
+  }
+
+  /* 折叠面板 */
+  .ant-collapse-header {
+    font-size: 13px !important;
+    padding: 12px !important;
+  }
+
+  /* 空状态 */
+  .ant-empty-description {
+    font-size: 12px !important;
+  }
+
+  /* Alert 提示 */
+  .ant-alert {
+    font-size: 12px !important;
+    padding: 8px 12px !important;
+  }
+
+  /* 抽屉 */
+  .ant-drawer-content {
+    font-size: 14px !important;
+  }
+
+  /* Modal */
+  .ant-modal-body {
+    padding: 16px !important;
+  }
+
+  /* 分页 */
+  .ant-pagination-item,
+  .ant-pagination-prev,
+  .ant-pagination-next {
+    min-width: 28px !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    font-size: 12px !important;
+  }
+
+  /* 菜单项 */
+  .ant-menu-item {
+    font-size: 14px !important;
+    padding: 0 16px !important;
+  }
+
+  /* 进度条 */
+  .ant-progress-inner {
+    font-size: 10px !important;
+  }
+}
+
+/* 移动端横屏额外适配 */
+@media (max-width: 768px) and (orientation: landscape) {
+  .app-hero {
+    padding: 24px 16px !important;
+  }
+  .stat-card .value {
+    font-size: 20px !important;
   }
 }
 
