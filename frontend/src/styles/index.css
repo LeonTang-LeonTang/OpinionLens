@@ -91,6 +91,15 @@ body {
   z-index: 1000;
 }
 
+/* 移动端 Header 恢复被 !important 覆盖的内联样式 */
+@media (max-width: 768px) {
+  .ant-layout-header {
+    height: 50px !important;
+    line-height: 50px !important;
+    padding: 0 16px !important;
+  }
+}
+
 .ant-menu-dark {
   background: transparent !important;
 }
@@ -397,7 +406,7 @@ body {
    响应式调整
    ======================================== */
 
-/* 超小屏（< 576px）手机适配 */
+/* 移动端栅格强制单列 - 覆盖 Ant Design 默认 */
 @media (max-width: 576px) {
 
   /* 全局字体基础缩小 */
@@ -411,15 +420,7 @@ body {
     padding: 8px !important;
   }
 
-  /* ===== Ant Design Row 强制单列 ===== */
-  /* 所有 Col 在手机上都占满宽 */
-  .ant-row > .ant-col,
-  .ant-row > [class*="ant-col-"] {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* 强制 Row 间距减小 */
+  /* ===== Ant Design Row/Col 强制单列 ===== */
   .ant-row {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -427,6 +428,8 @@ body {
   .ant-row [class*="ant-col-"] {
     padding-left: 4px !important;
     padding-right: 4px !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 
   /* ===== 统计卡片 stat-card ===== */

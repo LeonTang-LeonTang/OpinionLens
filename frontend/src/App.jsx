@@ -70,11 +70,13 @@ function MobileTabBar() {
       bottom: 0,
       left: 0,
       right: 0,
-      zIndex: 1000,
+      zIndex: 1050,
       background: '#fff',
-      boxShadow: '0 -2px 8px rgba(0,0,0,0.1)',
+      boxShadow: '0 -2px 8px rgba(0,0,0,0.15)',
       display: 'flex',
       paddingBottom: 'env(safe-area-inset-bottom)',
+      height: 56,
+      alignItems: 'center',
     }}>
       {bottomTabs.map(tab => {
         const active = location.pathname === tab.key
@@ -86,7 +88,7 @@ function MobileTabBar() {
               flex: 1,
               background: 'none',
               border: 'none',
-              padding: '10px 0',
+              padding: '6px 0',
               cursor: 'pointer',
               display: 'flex',
               flexDirection: 'column',
@@ -95,10 +97,12 @@ function MobileTabBar() {
               color: active ? '#667eea' : '#999',
               fontSize: 10,
               fontWeight: active ? 600 : 400,
+              height: '100%',
+              justifyContent: 'center',
             }}
           >
-            <span style={{ fontSize: 20 }}>{tab.icon}</span>
-            {tab.label}
+            <span style={{ fontSize: 22, lineHeight: 1 }}>{tab.icon}</span>
+            <span style={{ lineHeight: 1, marginTop: 2 }}>{tab.label}</span>
           </button>
         )
       })}
@@ -216,12 +220,13 @@ function AppContent() {
   }, [])
 
   return (
-    <Layout className="app-container" style={{ paddingBottom: isMobile ? 60 : 0 }}>
+    <Layout className="app-container">
       <AppHeader />
       <Content style={{
         padding: isMobile ? '12px' : '24px',
         minHeight: `calc(100vh - ${isMobile ? 50 : 56}px)`,
-        background: '#f0f2f5'
+        background: '#f0f2f5',
+        paddingBottom: isMobile ? '72px' : '24px'
       }}>
         <Routes>
           <Route path="/" element={<Home />} />

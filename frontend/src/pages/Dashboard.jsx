@@ -96,16 +96,16 @@ export default function Dashboard() {
 
         {/* 统计卡片 */}
         <Row gutter={[16, 16]}>
-          <Col xs={12} sm={6}>
+          <Col xs={24} sm={12} md={6}>
             <Card><Statistic title="总条目" value={scrapedData.total_matches || 0} prefix={<FileTextOutlined />} /></Card>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col xs={24} sm={12} md={6}>
             <Card><Statistic title="平台数" value={scrapedData.platform_distribution?.length || 0} prefix={<GlobalOutlined />} /></Card>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col xs={24} sm={12} md={6}>
             <Card><Statistic title="正面" value={scrapedData.sentiment?.positive || 0} valueStyle={{ color: '#52c41a' }} /></Card>
           </Col>
-          <Col xs={12} sm={6}>
+          <Col xs={24} sm={12} md={6}>
             <Card><Statistic title="负面" value={scrapedData.sentiment?.negative || 0} valueStyle={{ color: '#ff4d4f' }} /></Card>
           </Col>
         </Row>
