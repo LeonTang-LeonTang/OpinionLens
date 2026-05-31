@@ -1,0 +1,42 @@
+functionsDirectory = "/Users/leontang/Desktop/AI_Society/netlify/functions"
+functionsDirectoryOrigin = "default"
+redirectsOrigin = "config"
+plugins = []
+headers = []
+
+[build]
+publish = "/Users/leontang/Desktop/AI_Society/frontend/dist"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "cd frontend && npm install && npm run build && mkdir -p dist/data && cp -r ../data_processed dist/data"
+functions = "/Users/leontang/Desktop/AI_Society/netlify/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[functions]
+
+[functions."*"]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

@@ -7,7 +7,7 @@ export const fetchOverview = async () => {
 }
 
 export const fetchSentiment = async () => {
-  return { data: EMBEDDED_DATA.sentiment }
+  return { data: { summary: EMBEDDED_DATA.sentiment.summary } }
 }
 
 export const fetchTopics = async (limit = 20) => {
@@ -51,18 +51,18 @@ export const fetchBurstEvents = async () => {
 }
 
 export const fetchSuspiciousAccounts = async (limit = 30) => {
-  // 返回完整的 suspicious_accounts 对象（包含 high_risk, medium_risk 等）
   const sa = EMBEDDED_DATA.advanced.suspicious_accounts
   return { data: { ...sa, top_suspicious: sa.top_suspicious.slice(0, limit) } }
 }
 
 export const fetchCoordinatedBehavior = async (limit = 20) => {
-  return { data: { events: EMBEDDED_DATA.advanced.coordinated_behavior.events.slice(0, limit) } }
+  const cb = EMBEDDED_DATA.advanced.coordinated_behavior
+  return { data: { events: cb.events.slice(0, limit), total_events: cb.total_events } }
 }
 
 export const fetchPropagationChains = async (limit = 20) => {
   const pc = EMBEDDED_DATA.advanced.propagation_chains
-  return { data: { chains: pc.chains.slice(0, limit), total_chains: pc.total_chains, avg_chain_length: pc.avg_chain_length } }
+  return { data: { chains: pc.representative_chains.slice(0, limit), total_chains: pc.total_chains, avg_chain_length: pc.avg_chain_length } }
 }
 
 export const fetchAdvancedNetworkStats = async () => {
@@ -73,8 +73,17 @@ export const fetchAnomalies = async () => {
   return { data: { anomalies: [] } }
 }
 
-export const analyzeTopic = async () => {
-  return { data: EMBEDDED_DATA.topics }
+// TopicSearch - 从预计算数据中查找，或使用默认关键词
+export const analyzeTopic = async (keyword = '高市早苗') => {
+  const precomputed = EMBEDDED_DATA.topic_search
+  if (precomputed && precomputed[keyword]) {
+    return { data: precomputed[keyword] }
+  }
+  // 默认返回高市早苗数据
+  if (precomputed && precomputed['高市早苗']) {
+    return { data: precomputed['高市早苗'] }
+  }
+  return { data: { total_matches: 0, unique_users: 0, engagement: {}, daily_distribution: [], sentiment: {}, top_participants: [], representative_tweets: [] } }
 }
 
 // Scraping (no-op)

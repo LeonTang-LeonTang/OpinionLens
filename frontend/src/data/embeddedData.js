@@ -3710,5 +3710,1735 @@ export const EMBEDDED_DATA = Object.freeze({
       ],
       "avg_chain_length": 1.988585696450865
     }
+  },
+  "topic_search": {
+    "高市早苗": {
+      "total_matches": 41470,
+      "unique_users": 9132,
+      "engagement": {
+        "total_favorites": 20324521,
+        "total_retweets": 6533668
+      },
+      "daily_distribution": [
+        {
+          "date": "2026-03-21",
+          "count": 10
+        },
+        {
+          "date": "2026-03-22",
+          "count": 1229
+        },
+        {
+          "date": "2026-03-23",
+          "count": 1155
+        },
+        {
+          "date": "2026-03-24",
+          "count": 961
+        },
+        {
+          "date": "2026-03-25",
+          "count": 1154
+        },
+        {
+          "date": "2026-03-26",
+          "count": 880
+        },
+        {
+          "date": "2026-03-27",
+          "count": 1247
+        },
+        {
+          "date": "2026-03-28",
+          "count": 1052
+        },
+        {
+          "date": "2026-03-29",
+          "count": 1180
+        },
+        {
+          "date": "2026-03-30",
+          "count": 937
+        },
+        {
+          "date": "2026-03-31",
+          "count": 1302
+        },
+        {
+          "date": "2026-04-01",
+          "count": 1243
+        },
+        {
+          "date": "2026-04-02",
+          "count": 971
+        },
+        {
+          "date": "2026-04-03",
+          "count": 978
+        },
+        {
+          "date": "2026-04-04",
+          "count": 973
+        },
+        {
+          "date": "2026-04-05",
+          "count": 1063
+        },
+        {
+          "date": "2026-04-06",
+          "count": 1029
+        },
+        {
+          "date": "2026-04-07",
+          "count": 987
+        },
+        {
+          "date": "2026-04-08",
+          "count": 945
+        },
+        {
+          "date": "2026-04-09",
+          "count": 821
+        },
+        {
+          "date": "2026-04-10",
+          "count": 902
+        },
+        {
+          "date": "2026-04-11",
+          "count": 912
+        },
+        {
+          "date": "2026-04-12",
+          "count": 1236
+        },
+        {
+          "date": "2026-04-13",
+          "count": 1015
+        },
+        {
+          "date": "2026-04-14",
+          "count": 984
+        },
+        {
+          "date": "2026-04-15",
+          "count": 649
+        },
+        {
+          "date": "2026-04-16",
+          "count": 791
+        },
+        {
+          "date": "2026-04-17",
+          "count": 882
+        },
+        {
+          "date": "2026-04-18",
+          "count": 640
+        },
+        {
+          "date": "2026-04-19",
+          "count": 892
+        },
+        {
+          "date": "2026-04-20",
+          "count": 882
+        },
+        {
+          "date": "2026-04-21",
+          "count": 1284
+        },
+        {
+          "date": "2026-04-22",
+          "count": 623
+        },
+        {
+          "date": "2026-04-23",
+          "count": 606
+        },
+        {
+          "date": "2026-04-24",
+          "count": 689
+        },
+        {
+          "date": "2026-04-25",
+          "count": 538
+        },
+        {
+          "date": "2026-04-26",
+          "count": 650
+        },
+        {
+          "date": "2026-04-27",
+          "count": 683
+        },
+        {
+          "date": "2026-04-28",
+          "count": 619
+        },
+        {
+          "date": "2026-04-29",
+          "count": 940
+        },
+        {
+          "date": "2026-04-30",
+          "count": 1007
+        }
+      ],
+      "sentiment": {
+        "positive": 8431,
+        "neutral": 39006,
+        "negative": 2563
+      },
+      "top_participants": [
+        {
+          "screen_name": "r230614_shin",
+          "tweet_count": 557,
+          "followers": 27581,
+          "total_favorites": 782372,
+          "total_engagement": 1109789
+        },
+        {
+          "screen_name": "kazu10233147",
+          "tweet_count": 329,
+          "followers": 44400,
+          "total_favorites": 728248,
+          "total_engagement": 1017353
+        },
+        {
+          "screen_name": "lovemana0505",
+          "tweet_count": 229,
+          "followers": 23887,
+          "total_favorites": 543026,
+          "total_engagement": 754443
+        },
+        {
+          "screen_name": "oyamada_maki",
+          "tweet_count": 280,
+          "followers": 21898,
+          "total_favorites": 493300,
+          "total_engagement": 690347
+        },
+        {
+          "screen_name": "ashitawawatashi",
+          "tweet_count": 199,
+          "followers": 28743,
+          "total_favorites": 380970,
+          "total_engagement": 516837
+        },
+        {
+          "screen_name": "Narodovlastiye",
+          "tweet_count": 76,
+          "followers": 146523,
+          "total_favorites": 358585,
+          "total_engagement": 496453
+        },
+        {
+          "screen_name": "312Z5CVgus3uTje",
+          "tweet_count": 443,
+          "followers": 13089,
+          "total_favorites": 304132,
+          "total_engagement": 432592
+        },
+        {
+          "screen_name": "iloveyoulove777",
+          "tweet_count": 133,
+          "followers": 30280,
+          "total_favorites": 313737,
+          "total_engagement": 431229
+        },
+        {
+          "screen_name": "nekoruck",
+          "tweet_count": 348,
+          "followers": 24249,
+          "total_favorites": 331696,
+          "total_engagement": 419931
+        },
+        {
+          "screen_name": "chidaisan",
+          "tweet_count": 38,
+          "followers": 84899,
+          "total_favorites": 264940,
+          "total_engagement": 345239
+        }
+      ],
+      "representative_tweets": [
+        {
+          "user": "sh56300",
+          "text": "『憲法改正』なんて求めていない！と思う方はRTをお願いします。\n\n高市早苗氏の改憲推進は、国民の生活を置き去りにする。\n\n物価高で苦しむ家庭が増える中、防衛費を増額して民生予算を減らすのは、本末転倒だ。\n\nhttps://t.co/JUDGzRY4Um",
+          "date": "Fri Apr 17 03:29:40 +0000 2026",
+          "favorites": 65901,
+          "retweets": 54236,
+          "followers": 9764,
+          "replies": 452,
+          "engagement": 120137
+        },
+        {
+          "user": "hodanren",
+          "text": "内閣総理大臣　高市早苗　様\n厚生労働大臣　上野賢一郎　様\n\n・27万人の声を無視しないで\n・わずかな保険料軽減と引き換えに命・健康が犠牲になっていいはずがない\n・子供の進学と自分の治療費を天秤にかけざるを得ない状況に追い込まないで\n・病気が人生の終わりになるような社会にしないでほしい https://t.co/0O95xKZpTJ",
+          "date": "Tue Apr 07 01:04:46 +0000 2026",
+          "favorites": 74472,
+          "retweets": 36071,
+          "followers": 32635,
+          "replies": 221,
+          "engagement": 110543
+        },
+        {
+          "user": "hodanren",
+          "text": "内閣総理大臣　高市早苗　様\n厚生労働大臣　上野賢一郎　様\n\nこれが患者の皆様、国民の皆様の意向です。\n引き上げ（負担増）による受診抑制の影響を軽視し、患者団体の訴えに、聞く耳を持たない高市政権に強く抗議します。今からでも撤回すべきです。\nhttps://t.co/cqXQ0PPTPC https://t.co/W50BCRlB5a",
+          "date": "Sun Apr 12 00:06:52 +0000 2026",
+          "favorites": 49309,
+          "retweets": 23130,
+          "followers": 32636,
+          "replies": 261,
+          "engagement": 72439
+        },
+        {
+          "user": "ashitawawatashi",
+          "text": "3名の方、亡くなったんだ…\n\nそれを日本のトップが会見もせずに、Xで発信していて驚愕\n\n殺傷能力のある武器輸出解禁を高市早苗が一方的に決めた日に大事故が起きたから、会見しづらいんだろ？",
+          "date": "Tue Apr 21 04:00:55 +0000 2026",
+          "favorites": 50763,
+          "retweets": 17614,
+          "followers": 28743,
+          "replies": 325,
+          "engagement": 68377
+        },
+        {
+          "user": "pDyvhzFJAIAJe90",
+          "text": "高市早苗は辞任すべきだと思う人✋🏻\n#高市総理はもう限界\nhttps://t.co/GlWp6gpkIv",
+          "date": "Fri Apr 24 21:04:10 +0000 2026",
+          "favorites": 47409,
+          "retweets": 11486,
+          "followers": 32172,
+          "replies": 564,
+          "engagement": 58895
+        },
+        {
+          "user": "r230614_shin",
+          "text": "出光丸のおかげで\n「高市が2ヶ月間、意図的に中東を忌避し、交渉すれば通れるホルムズ海峡を通れないと言い張り、トランプの為に設備不適合のアメリカさん原油を買い漁って貢いだ」\n事実が、白日の元に晒されましたね。\n\n石油を止めていたのは\nイランではなく高市早苗でした。",
+          "date": "Wed Apr 29 01:36:30 +0000 2026",
+          "favorites": 42119,
+          "retweets": 16508,
+          "followers": 27581,
+          "replies": 304,
+          "engagement": 58627
+        },
+        {
+          "user": "yoshifumi660722",
+          "text": "高市早苗がもうすぐメディアを使って言い始めますよ。\n\n『今の世界情勢をみれば、現行憲法では国を守れない。国を守る為には、憲法改正と国会機能維持条項が絶対必要』って。\n\n皆さん知ってますか？\n\n改憲すれば自衛隊が真っ先に戦闘地域に派兵され、兵士が足りなくなれば若者が徴兵される事を。 https://t.co/lgm1B3tSQ0",
+          "date": "Sat Mar 28 01:20:09 +0000 2026",
+          "favorites": 40226,
+          "retweets": 17876,
+          "followers": 9439,
+          "replies": 356,
+          "engagement": 58102
+        },
+        {
+          "user": "pDyvhzFJAIAJe90",
+          "text": "高市早苗は辞任すべきだと思う人✋🏻 https://t.co/GlWp6gpkIv",
+          "date": "Wed Apr 01 07:50:06 +0000 2026",
+          "favorites": 48510,
+          "retweets": 9141,
+          "followers": 32173,
+          "replies": 775,
+          "engagement": 57651
+        },
+        {
+          "user": "4RygOC0vJEwjTpl",
+          "text": "高市早苗首相「約束をひとつずつ実行」\n\nまずは選挙で争点にすらしなかった殺傷兵器の輸出解禁、高額療養費の上限引き上げ、OTC類似薬の保険適用除外、スパイ防止法の制定、改憲の推進、国家情報会議の創設かよ。\n\n見事なまでに国民の為の政策が1つもない。\n屑にも程がある。 https://t.co/ShoOGenrWx",
+          "date": "Tue Apr 21 21:12:49 +0000 2026",
+          "favorites": 40812,
+          "retweets": 16816,
+          "followers": 20687,
+          "replies": 632,
+          "engagement": 57628
+        },
+        {
+          "user": "r230614_shin",
+          "text": "事実を知ってください。\n【高市早苗のスパイ防止法】は世界のどこにも存在しない、独裁者の法律です。\n\nアメリカではFBIや司法が閣僚も監視する\n「3すくみ」が安全弁となりますが\n\n高市のスパイ防止法は\n【内閣が全ての権限を持つ】上に\n閣僚はスパイ監視対象外です。\n\nこんな狂った法律、絶対ダメです",
+          "date": "Fri Apr 03 01:47:12 +0000 2026",
+          "favorites": 36694,
+          "retweets": 20497,
+          "followers": 27584,
+          "replies": 565,
+          "engagement": 57191
+        },
+        {
+          "user": "pen_pen2020",
+          "text": "この記事ヤバいよ\n\n・高市早苗は国会中は昼食とらない\n・首相就任後初のランチ会で、麻生太郎は出されたメニューに気遣いがないと箸もつけなかった\n・官邸でも首相に話せるのは極少数の側近だけ\n・官僚レクを受けずに資料だけ読んて自分で調べるから現実離れした独自の世界観に入る\n\n地獄だ、、",
+          "date": "Mon Apr 20 19:52:49 +0000 2026",
+          "favorites": 46360,
+          "retweets": 10547,
+          "followers": 12127,
+          "replies": 512,
+          "engagement": 56907
+        },
+        {
+          "user": "kazu10233147",
+          "text": "＃報道特集\n高市早苗の「中東からのナフサ輸入を他の国からの調達に切り替えるべく取り組んでいるところです」のSNS投稿に「中東からの輸入しかないのです。どうか目を覚まさして頂けませんか」と資源エネルギー庁の有識者委員の堺野春彦氏。 https://t.co/zVr4YgedPz",
+          "date": "Sat Apr 04 11:27:46 +0000 2026",
+          "favorites": 40754,
+          "retweets": 15050,
+          "followers": 44400,
+          "replies": 407,
+          "engagement": 55804
+        },
+        {
+          "user": "omoti194",
+          "text": "今日話してた人、高市早苗のこと「サナエ」って呼んでたから、女性政治家だけ下の名前で呼ぶやつかと思ってたら、他の政治家も男女関係なく全員下の名前で呼んでて「い、一貫してる……ッ❗️」と感服した。友達か。",
+          "date": "Wed Apr 15 05:28:21 +0000 2026",
+          "favorites": 53497,
+          "retweets": 1459,
+          "followers": 515788,
+          "replies": 1,
+          "engagement": 54956
+        },
+        {
+          "user": "himuroReborn398",
+          "text": "なんでこれテレビでやらんの？\n\n《衝撃》高市早苗陣営が野党中傷動画を投稿していた https://t.co/9lW0G52sk0",
+          "date": "Sun May 03 10:16:58 +0000 2026",
+          "favorites": 38622,
+          "retweets": 16144,
+          "followers": 21658,
+          "replies": 314,
+          "engagement": 54766
+        },
+        {
+          "user": "Seisu_Ken",
+          "text": "1961年生まれの高市早苗\n「生まれてなかったから戦争の反省などしないし、する理由もない」\n1960年生まれの今上天皇\n「深い反省とともに平和を守る」",
+          "date": "Sat May 02 10:43:06 +0000 2026",
+          "favorites": 41038,
+          "retweets": 10805,
+          "followers": 19437,
+          "replies": 177,
+          "engagement": 51843
+        },
+        {
+          "user": "iloveyoulove777",
+          "text": "高市早苗「シンナーメーカーからの出荷量が回復、解消に向かいつつある」\n\n日本塗装工業会「シンナー不足は改善されていない。国に要望したが状況変わらず」\n\n高市早苗、また嘘ついた❗️\n\nなんで嘘ばっかりつくの❓️\n\nもう、バレバレだよ❗️ https://t.co/haQgkXbzzR",
+          "date": "Tue Apr 28 14:10:47 +0000 2026",
+          "favorites": 36827,
+          "retweets": 14438,
+          "followers": 30280,
+          "replies": 560,
+          "engagement": 51265
+        },
+        {
+          "user": "katouippei",
+          "text": "高市早苗さんはシンナー不足を塗料業界による｢目詰まり｣のせいにしようとしたけど、実際は原料そのものが日本に入ってきてないから。\n原因は高市早苗が中東と向き合わないため、その能力が無いため、原料が日本に来ない。\nそれをメーカー側の責任に転嫁する卑劣さ。\n高市早苗が日本の｢目詰まり｣。 https://t.co/AswDqtfhbU",
+          "date": "Sun Apr 26 11:56:37 +0000 2026",
+          "favorites": 37446,
+          "retweets": 13814,
+          "followers": 8052,
+          "replies": 484,
+          "engagement": 51260
+        },
+        {
+          "user": "hac959",
+          "text": "わたしは日本人ですが全く賛同してません\n\n高市早苗は事実上ポツダム宣言を放棄したのです。許されません、\n国際法で高市早苗を罰してください。\n\n高市1人のせいで日本がおかしくなってます。",
+          "date": "Wed Apr 22 00:04:58 +0000 2026",
+          "favorites": 38697,
+          "retweets": 12093,
+          "followers": 4802,
+          "replies": 406,
+          "engagement": 50790
+        },
+        {
+          "user": "Toki2199r",
+          "text": "悲しいけど、高市早苗さんが政権を取ってから釣瓶落としで日本は悪くなっている。これは事実。そして高市早苗さんの周りでも、裏帳簿、違法献金、統一教会との関係、脱税幇助、サナエトークンと政権がひっくりかえるほどの犯罪が行われている。なぜいまだに辞任しないのですか？",
+          "date": "Sat Apr 04 03:23:18 +0000 2026",
+          "favorites": 38973,
+          "retweets": 11702,
+          "followers": 9813,
+          "replies": 1,
+          "engagement": 50675
+        },
+        {
+          "user": "KEa92vx5BiIh6Ox",
+          "text": "えぇー！\n日本はイスラエルに年金のプレゼントするんだ。\n高市早苗に殺される。",
+          "date": "Sun Apr 19 12:06:47 +0000 2026",
+          "favorites": 35294,
+          "retweets": 15040,
+          "followers": 70041,
+          "replies": 332,
+          "engagement": 50334
+        }
+      ]
+    },
+    "統一教会": {
+      "total_matches": 3240,
+      "unique_users": 1030,
+      "engagement": {
+        "total_favorites": 1057760,
+        "total_retweets": 388548
+      },
+      "daily_distribution": [
+        {
+          "date": "2026-03-22",
+          "count": 59
+        },
+        {
+          "date": "2026-03-23",
+          "count": 58
+        },
+        {
+          "date": "2026-03-24",
+          "count": 69
+        },
+        {
+          "date": "2026-03-25",
+          "count": 74
+        },
+        {
+          "date": "2026-03-26",
+          "count": 62
+        },
+        {
+          "date": "2026-03-27",
+          "count": 118
+        },
+        {
+          "date": "2026-03-28",
+          "count": 76
+        },
+        {
+          "date": "2026-03-29",
+          "count": 78
+        },
+        {
+          "date": "2026-03-30",
+          "count": 64
+        },
+        {
+          "date": "2026-03-31",
+          "count": 115
+        },
+        {
+          "date": "2026-04-01",
+          "count": 72
+        },
+        {
+          "date": "2026-04-02",
+          "count": 62
+        },
+        {
+          "date": "2026-04-03",
+          "count": 62
+        },
+        {
+          "date": "2026-04-04",
+          "count": 79
+        },
+        {
+          "date": "2026-04-05",
+          "count": 105
+        },
+        {
+          "date": "2026-04-06",
+          "count": 65
+        },
+        {
+          "date": "2026-04-07",
+          "count": 72
+        },
+        {
+          "date": "2026-04-08",
+          "count": 60
+        },
+        {
+          "date": "2026-04-09",
+          "count": 66
+        },
+        {
+          "date": "2026-04-10",
+          "count": 71
+        },
+        {
+          "date": "2026-04-11",
+          "count": 68
+        },
+        {
+          "date": "2026-04-12",
+          "count": 138
+        },
+        {
+          "date": "2026-04-13",
+          "count": 113
+        },
+        {
+          "date": "2026-04-14",
+          "count": 97
+        },
+        {
+          "date": "2026-04-15",
+          "count": 50
+        },
+        {
+          "date": "2026-04-16",
+          "count": 66
+        },
+        {
+          "date": "2026-04-17",
+          "count": 67
+        },
+        {
+          "date": "2026-04-18",
+          "count": 56
+        },
+        {
+          "date": "2026-04-19",
+          "count": 109
+        },
+        {
+          "date": "2026-04-20",
+          "count": 98
+        },
+        {
+          "date": "2026-04-21",
+          "count": 99
+        },
+        {
+          "date": "2026-04-22",
+          "count": 51
+        },
+        {
+          "date": "2026-04-23",
+          "count": 39
+        },
+        {
+          "date": "2026-04-24",
+          "count": 48
+        },
+        {
+          "date": "2026-04-25",
+          "count": 43
+        },
+        {
+          "date": "2026-04-26",
+          "count": 54
+        },
+        {
+          "date": "2026-04-27",
+          "count": 48
+        },
+        {
+          "date": "2026-04-28",
+          "count": 41
+        },
+        {
+          "date": "2026-04-29",
+          "count": 82
+        },
+        {
+          "date": "2026-04-30",
+          "count": 62
+        }
+      ],
+      "sentiment": {
+        "positive": 8431,
+        "neutral": 39006,
+        "negative": 2563
+      },
+      "top_participants": [
+        {
+          "screen_name": "312Z5CVgus3uTje",
+          "tweet_count": 181,
+          "followers": 13090,
+          "total_favorites": 106419,
+          "total_engagement": 151816
+        },
+        {
+          "screen_name": "GOXGOXGOX2",
+          "tweet_count": 152,
+          "followers": 51681,
+          "total_favorites": 105682,
+          "total_engagement": 135940
+        },
+        {
+          "screen_name": "RyMfegzBUFNoZ8k",
+          "tweet_count": 4,
+          "followers": 14938,
+          "total_favorites": 50599,
+          "total_engagement": 71563
+        },
+        {
+          "screen_name": "tekina_osamu",
+          "tweet_count": 13,
+          "followers": 62305,
+          "total_favorites": 35855,
+          "total_engagement": 50913
+        },
+        {
+          "screen_name": "Toki2199r",
+          "tweet_count": 1,
+          "followers": 9813,
+          "total_favorites": 38973,
+          "total_engagement": 50675
+        },
+        {
+          "screen_name": "oyamada_maki",
+          "tweet_count": 10,
+          "followers": 21900,
+          "total_favorites": 32756,
+          "total_engagement": 46322
+        },
+        {
+          "screen_name": "momotro018x",
+          "tweet_count": 4,
+          "followers": 11516,
+          "total_favorites": 22067,
+          "total_engagement": 34517
+        },
+        {
+          "screen_name": "nekoruck",
+          "tweet_count": 14,
+          "followers": 24248,
+          "total_favorites": 25627,
+          "total_engagement": 31591
+        },
+        {
+          "screen_name": "mi89s1",
+          "tweet_count": 3,
+          "followers": 9781,
+          "total_favorites": 22600,
+          "total_engagement": 31538
+        },
+        {
+          "screen_name": "mukuraimu1",
+          "tweet_count": 2,
+          "followers": 53879,
+          "total_favorites": 21671,
+          "total_engagement": 30840
+        }
+      ],
+      "representative_tweets": [
+        {
+          "user": "Toki2199r",
+          "text": "悲しいけど、高市早苗さんが政権を取ってから釣瓶落としで日本は悪くなっている。これは事実。そして高市早苗さんの周りでも、裏帳簿、違法献金、統一教会との関係、脱税幇助、サナエトークンと政権がひっくりかえるほどの犯罪が行われている。なぜいまだに辞任しないのですか？",
+          "date": "Sat Apr 04 03:23:18 +0000 2026",
+          "favorites": 38973,
+          "retweets": 11702,
+          "followers": 9813,
+          "replies": 1,
+          "engagement": 50675
+        },
+        {
+          "user": "RyMfegzBUFNoZ8k",
+          "text": "高市早苗「\"一日一生涯\"で働きます！💪」\n\n→ 謎の日本語だと思ったら統一教会用語だった件www https://t.co/r8mGMf6GV0",
+          "date": "Sun Apr 12 11:21:45 +0000 2026",
+          "favorites": 36145,
+          "retweets": 13593,
+          "followers": 14938,
+          "replies": 247,
+          "engagement": 49738
+        },
+        {
+          "user": "312Z5CVgus3uTje",
+          "text": "宮内庁の発表によると、「天皇陛下のお言葉は式次第には入れていない」とのことで、政府側からの要望で天皇陛下の挨拶が省かれたとしている。\nそのため、宮内庁は式典後に、陛下のお言葉を報道発表せざるを得なかった。\n天皇陛下を蔑ろにする高市早苗は、本当に日本人なのか⁉️\n＃高市早苗は旧統一教会関係議員\n＃天皇陛下を蔑ろにする高市早苗はクビ\n\n「宮内庁は30日、政府主催の「昭和100年記念式典」に出席された天",
+          "date": "Thu Apr 30 21:17:15 +0000 2026",
+          "favorites": 31868,
+          "retweets": 11797,
+          "followers": 13090,
+          "replies": 432,
+          "engagement": 43665
+        },
+        {
+          "user": "GOXGOXGOX2",
+          "text": "天皇と呼び捨てして戦争犠牲者を戦争偽装者といい、天皇陛下のコメントをさせずにノリノリで変なダンスをする高早苗\n\n一体何様のつもりだ？\nすでに統一教会の教え通りに天皇より上に立ってるつもりか？\n\n https://t.co/TBywmoiOcv",
+          "date": "Thu Apr 30 23:35:12 +0000 2026",
+          "favorites": 24699,
+          "retweets": 7367,
+          "followers": 51681,
+          "replies": 295,
+          "engagement": 32066
+        },
+        {
+          "user": "mi89s1",
+          "text": "敢えて言うが、この高市早苗という方、統一教会とのことになると、必ず、「言われるまで、全く知りませんでした」と答えてるんです。なのに国会では統一教会の教えがポンポン飛び出すんです。私は日本会議の方だと思っていたのですが、統一教会の信者だったのですね。\n日本の首相が統一教会の信者？",
+          "date": "Mon Apr 20 18:39:02 +0000 2026",
+          "favorites": 22423,
+          "retweets": 8919,
+          "followers": 9781,
+          "replies": 237,
+          "engagement": 31342
+        },
+        {
+          "user": "mukuraimu1",
+          "text": "緊急業務連絡\n\n高市早苗の犯罪一覧を拡散します。\n\n① 経歴詐称 (1990) \n② 統一教会に挨拶状 (2016) \n③ 統一教会パー券購入 (2019) \n④ トヨタ系列献金 (2024) \n⑤ TM特別報告書 (32回) \n⑥ 資金決済法違反 (2026)\n\nいまココ　⇒　サナエトークン関与が発覚！！！ https://t.co/AOcZ5AaCID",
+          "date": "Sat Apr 11 06:01:01 +0000 2026",
+          "favorites": 21642,
+          "retweets": 9159,
+          "followers": 53879,
+          "replies": 330,
+          "engagement": 30801
+        },
+        {
+          "user": "KyokoUchiki",
+          "text": "もう驚かない。だって自民党は統一協会なんだもん｡\n#自民党は要らない \n\n【スクープ第2弾】高市早苗首相は統一教会側に挨拶状を送っていた！ 内部資料入手「ご挨拶状リスト」の宛先には「世界平和連合の地元副支部長」の名前が https://t.co/tQmScUmBiB #文春オンライン",
+          "date": "Sat Apr 04 23:50:51 +0000 2026",
+          "favorites": 20954,
+          "retweets": 7991,
+          "followers": 13023,
+          "replies": 0,
+          "engagement": 28945
+        },
+        {
+          "user": "7OuqAXeL9r58674",
+          "text": "やはり、高市早苗は統一教会\nだったんだなぁ〜！！ https://t.co/QoS2T4j0nC",
+          "date": "Sat Apr 04 17:33:49 +0000 2026",
+          "favorites": 19426,
+          "retweets": 7937,
+          "followers": 3126,
+          "replies": 254,
+          "engagement": 27363
+        },
+        {
+          "user": "pDyvhzFJAIAJe90",
+          "text": "統一教会と接点あったのか？と質問されて慌てる高市早苗。\n\n嘘つく人ってこんな感じよね。分かりやすい。 https://t.co/UmLAS0DI9o",
+          "date": "Fri Apr 24 07:43:31 +0000 2026",
+          "favorites": 20411,
+          "retweets": 6485,
+          "followers": 32172,
+          "replies": 217,
+          "engagement": 26896
+        },
+        {
+          "user": "312Z5CVgus3uTje",
+          "text": "【悲報】\nなんと…スパイ防止法は旧統一教会の悲願だったとは聞いていたが…こうした証拠を突き付けられると、もう、言葉も出ません。\n＃スパイ防止法制定促進国民会議は、旧統一教会系の人物がドメインを取得していました。\nネット民の調査能力のすごさが実感できますね。\n＃スパイ防止法制定は旧統一教会の悲願\n＃高市早苗総理の誕生は旧統一教会の悲願",
+          "date": "Sun Apr 19 06:36:41 +0000 2026",
+          "favorites": 16696,
+          "retweets": 10005,
+          "followers": 13091,
+          "replies": 65,
+          "engagement": 26701
+        },
+        {
+          "user": "naaa_sannn",
+          "text": "高市早苗がわざと原油を止めてると言う証拠来た\n\n#高市早苗は統一教会",
+          "date": "Wed Mar 25 19:09:57 +0000 2026",
+          "favorites": 20234,
+          "retweets": 6085,
+          "followers": 1574,
+          "replies": 49,
+          "engagement": 26319
+        },
+        {
+          "user": "CMv43tb9",
+          "text": "7代前も一日一生涯も統一教会と偶然一致\n\nあり得んでしょ\n\nスパイは高市早苗だと思ってます https://t.co/tk2hMRkMP7",
+          "date": "Sun Apr 12 13:01:25 +0000 2026",
+          "favorites": 18399,
+          "retweets": 6522,
+          "followers": 13654,
+          "replies": 116,
+          "engagement": 24921
+        },
+        {
+          "user": "momotro018x",
+          "text": "やっぱりそういうことか。 世界平和統一家庭連合は解散して天地正教に全面移設しました。 旧統一教会の現在の名前は「天地正教」です。 #天地正教は統一教会  #高市早苗は統一教会",
+          "date": "Tue Mar 24 04:22:28 +0000 2026",
+          "favorites": 13809,
+          "retweets": 9719,
+          "followers": 11516,
+          "replies": 73,
+          "engagement": 23528
+        },
+        {
+          "user": "GOXGOXGOX2",
+          "text": "高早苗の情報収集力アップデート\n\nエプスタインは？\n「知りません」\n\n文鮮明は?\n「知りません」\n\n世界日報は?\n「知りません」\n\n国際勝共連合は?\n「知りません」\n\n韓鶴子の読み方は?\n「知りません」\n\nサナエトークンは?\n「知りません」\n\n統一教会にパー券買ってもらって裏帳簿につけてましたか?\n「知りません」\n\n統一教会幹部に挨拶状だしてましたか?\n「知りません」\n\n後援会会長は統一教会幹部で",
+          "date": "Thu Apr 30 22:49:54 +0000 2026",
+          "favorites": 16227,
+          "retweets": 7100,
+          "followers": 51681,
+          "replies": 147,
+          "engagement": 23327
+        },
+        {
+          "user": "NW5T8Ez1HuTysO0",
+          "text": "私が高市早苗に対して腹が立って仕方ないのは統一教会議員・裏金議員を石破さんが駆逐したのにまた復活させた事。\n\n統一教会って韓国人教祖が、天皇制をなくせ・日本人を減らせ・日本は永久に韓国に貢げみたいな事を言ってる団体。\n\nスパイ防止法なんたら言うなら統一教会議員をまずは取り締まるべき。",
+          "date": "Sat Apr 11 04:27:48 +0000 2026",
+          "favorites": 16228,
+          "retweets": 5439,
+          "followers": 4308,
+          "replies": 119,
+          "engagement": 21667
+        },
+        {
+          "user": "summergame1669",
+          "text": "高市早苗は一貫して嘘で乗り切る政治家。\n高校時代「ロックバンドをやっていた」と自慢→同級生否定で記述を削除。\n減税も、統一教会も、文書も嘘ばかり。小さな嘘から大きな嘘まで、平気で国民を欺く女。",
+          "date": "Sun Apr 26 21:49:04 +0000 2026",
+          "favorites": 17057,
+          "retweets": 4356,
+          "followers": 9172,
+          "replies": 140,
+          "engagement": 21413
+        },
+        {
+          "user": "GOXGOXGOX2",
+          "text": "ほかの方が指摘してるが、韓鶴子と高早苗はなぜかいつも青い服をきている\n\n統一教会のなかでは青は「神」「天」「理想社会」を表しているらしい\n\nまさか神で韓鶴子の後継者だと考えている？\n\nまさかな https://t.co/MGD97ZKv2m",
+          "date": "Mon Mar 30 11:03:46 +0000 2026",
+          "favorites": 16549,
+          "retweets": 4814,
+          "followers": 51680,
+          "replies": 187,
+          "engagement": 21363
+        },
+        {
+          "user": "RyMfegzBUFNoZ8k",
+          "text": "【悲報】高市早苗さんのやりたい政策、統一教会の政策とそっくりだと話題に・・・ https://t.co/4gQmSxq1zB",
+          "date": "Mon Apr 13 01:25:37 +0000 2026",
+          "favorites": 13661,
+          "retweets": 7245,
+          "followers": 14938,
+          "replies": 109,
+          "engagement": 20906
+        },
+        {
+          "user": "kz09210",
+          "text": "統一教会から金品を受け取っていた大統領夫人に懲役4年の実刑判決。\n\n司法が機能している国だとこうなるんだなぁ🙄\n#高市早苗は旧統一教会関係議員 \n#統一教会は日本から出て行け https://t.co/p55VIxtrFl",
+          "date": "Wed Apr 29 03:26:44 +0000 2026",
+          "favorites": 14163,
+          "retweets": 6407,
+          "followers": 2294,
+          "replies": 2,
+          "engagement": 20570
+        },
+        {
+          "user": "tekina_osamu",
+          "text": "高市早苗も統一教会も日本にはいらない。 https://t.co/e9cdE8xRwT",
+          "date": "Mon May 04 07:55:08 +0000 2026",
+          "favorites": 15532,
+          "retweets": 4881,
+          "followers": 62305,
+          "replies": 109,
+          "engagement": 20413
+        }
+      ]
+    },
+    "总裁选举": {
+      "total_matches": 100,
+      "unique_users": 67,
+      "engagement": {
+        "total_favorites": 3385353,
+        "total_retweets": 1128851
+      },
+      "daily_distribution": [
+        {
+          "date": "2026-03-22",
+          "count": 5
+        },
+        {
+          "date": "2026-03-24",
+          "count": 2
+        },
+        {
+          "date": "2026-03-25",
+          "count": 1
+        },
+        {
+          "date": "2026-03-26",
+          "count": 3
+        },
+        {
+          "date": "2026-03-27",
+          "count": 3
+        },
+        {
+          "date": "2026-03-28",
+          "count": 2
+        },
+        {
+          "date": "2026-03-29",
+          "count": 5
+        },
+        {
+          "date": "2026-03-30",
+          "count": 1
+        },
+        {
+          "date": "2026-03-31",
+          "count": 2
+        },
+        {
+          "date": "2026-04-01",
+          "count": 6
+        },
+        {
+          "date": "2026-04-02",
+          "count": 2
+        },
+        {
+          "date": "2026-04-03",
+          "count": 2
+        },
+        {
+          "date": "2026-04-04",
+          "count": 4
+        },
+        {
+          "date": "2026-04-05",
+          "count": 2
+        },
+        {
+          "date": "2026-04-06",
+          "count": 1
+        },
+        {
+          "date": "2026-04-07",
+          "count": 1
+        },
+        {
+          "date": "2026-04-08",
+          "count": 1
+        },
+        {
+          "date": "2026-04-09",
+          "count": 1
+        },
+        {
+          "date": "2026-04-10",
+          "count": 4
+        },
+        {
+          "date": "2026-04-11",
+          "count": 2
+        },
+        {
+          "date": "2026-04-12",
+          "count": 5
+        },
+        {
+          "date": "2026-04-13",
+          "count": 1
+        },
+        {
+          "date": "2026-04-14",
+          "count": 1
+        },
+        {
+          "date": "2026-04-15",
+          "count": 2
+        },
+        {
+          "date": "2026-04-17",
+          "count": 4
+        },
+        {
+          "date": "2026-04-19",
+          "count": 4
+        },
+        {
+          "date": "2026-04-20",
+          "count": 2
+        },
+        {
+          "date": "2026-04-21",
+          "count": 3
+        },
+        {
+          "date": "2026-04-22",
+          "count": 1
+        },
+        {
+          "date": "2026-04-24",
+          "count": 1
+        },
+        {
+          "date": "2026-04-25",
+          "count": 2
+        },
+        {
+          "date": "2026-04-26",
+          "count": 2
+        },
+        {
+          "date": "2026-04-28",
+          "count": 1
+        },
+        {
+          "date": "2026-04-29",
+          "count": 3
+        },
+        {
+          "date": "2026-04-30",
+          "count": 5
+        }
+      ],
+      "sentiment": {
+        "positive": 8431,
+        "neutral": 39006,
+        "negative": 2563
+      },
+      "top_participants": [
+        {
+          "screen_name": "kazu10233147",
+          "tweet_count": 6,
+          "followers": 44400,
+          "total_favorites": 195015,
+          "total_engagement": 268769
+        },
+        {
+          "screen_name": "r230614_shin",
+          "tweet_count": 5,
+          "followers": 27581,
+          "total_favorites": 159461,
+          "total_engagement": 231091
+        },
+        {
+          "screen_name": "pDyvhzFJAIAJe90",
+          "tweet_count": 4,
+          "followers": 32172,
+          "total_favorites": 165272,
+          "total_engagement": 200668
+        },
+        {
+          "screen_name": "hodanren",
+          "tweet_count": 2,
+          "followers": 32635,
+          "total_favorites": 123781,
+          "total_engagement": 182982
+        },
+        {
+          "screen_name": "katouippei",
+          "tweet_count": 3,
+          "followers": 8052,
+          "total_favorites": 100547,
+          "total_engagement": 133580
+        },
+        {
+          "screen_name": "hac959",
+          "tweet_count": 3,
+          "followers": 4802,
+          "total_favorites": 98659,
+          "total_engagement": 133165
+        },
+        {
+          "screen_name": "Toki2199r",
+          "tweet_count": 3,
+          "followers": 9813,
+          "total_favorites": 88706,
+          "total_engagement": 120907
+        },
+        {
+          "screen_name": "otonanoikenga",
+          "tweet_count": 3,
+          "followers": 6744,
+          "total_favorites": 93306,
+          "total_engagement": 120733
+        },
+        {
+          "screen_name": "sh56300",
+          "tweet_count": 1,
+          "followers": 9764,
+          "total_favorites": 65901,
+          "total_engagement": 120137
+        },
+        {
+          "screen_name": "shukan_bunshun",
+          "tweet_count": 3,
+          "followers": 511824,
+          "total_favorites": 78364,
+          "total_engagement": 114766
+        }
+      ],
+      "representative_tweets": [
+        {
+          "user": "sh56300",
+          "text": "『憲法改正』なんて求めていない！と思う方はRTをお願いします。\n\n高市早苗氏の改憲推進は、国民の生活を置き去りにする。\n\n物価高で苦しむ家庭が増える中、防衛費を増額して民生予算を減らすのは、本末転倒だ。\n\nhttps://t.co/JUDGzRY4Um",
+          "date": "Fri Apr 17 03:29:40 +0000 2026",
+          "favorites": 65901,
+          "retweets": 54236,
+          "followers": 9764,
+          "replies": 452,
+          "engagement": 120137
+        },
+        {
+          "user": "hodanren",
+          "text": "内閣総理大臣　高市早苗　様\n厚生労働大臣　上野賢一郎　様\n\n・27万人の声を無視しないで\n・わずかな保険料軽減と引き換えに命・健康が犠牲になっていいはずがない\n・子供の進学と自分の治療費を天秤にかけざるを得ない状況に追い込まないで\n・病気が人生の終わりになるような社会にしないでほしい https://t.co/0O95xKZpTJ",
+          "date": "Tue Apr 07 01:04:46 +0000 2026",
+          "favorites": 74472,
+          "retweets": 36071,
+          "followers": 32635,
+          "replies": 221,
+          "engagement": 110543
+        },
+        {
+          "user": "hodanren",
+          "text": "内閣総理大臣　高市早苗　様\n厚生労働大臣　上野賢一郎　様\n\nこれが患者の皆様、国民の皆様の意向です。\n引き上げ（負担増）による受診抑制の影響を軽視し、患者団体の訴えに、聞く耳を持たない高市政権に強く抗議します。今からでも撤回すべきです。\nhttps://t.co/cqXQ0PPTPC https://t.co/W50BCRlB5a",
+          "date": "Sun Apr 12 00:06:52 +0000 2026",
+          "favorites": 49309,
+          "retweets": 23130,
+          "followers": 32636,
+          "replies": 261,
+          "engagement": 72439
+        },
+        {
+          "user": "tkzwgrs",
+          "text": "【話題】“eスポーツ特化”の学校で入学式\n→早速将来が有望すぎる新入生が見つかる\n\n■TSUNABeeeeee！esports高等学院\n・eスポーツを学びながら高卒認定資格を得られる学校\n・沖縄県那覇市に今年開校\n・海外のプレイヤーとの交流で英語学習も https://t.co/bovXMMKCzY",
+          "date": "Fri Apr 17 07:12:40 +0000 2026",
+          "favorites": 66993,
+          "retweets": 4740,
+          "followers": 3015533,
+          "replies": 459,
+          "engagement": 71733
+        },
+        {
+          "user": "ashitawawatashi",
+          "text": "3名の方、亡くなったんだ…\n\nそれを日本のトップが会見もせずに、Xで発信していて驚愕\n\n殺傷能力のある武器輸出解禁を高市早苗が一方的に決めた日に大事故が起きたから、会見しづらいんだろ？",
+          "date": "Tue Apr 21 04:00:55 +0000 2026",
+          "favorites": 50763,
+          "retweets": 17614,
+          "followers": 28743,
+          "replies": 325,
+          "engagement": 68377
+        },
+        {
+          "user": "don_mai_don_mai",
+          "text": "🤣🤣🤣🤣🤣\n\n高市総理\n「褒めちぎるんだ、私を」\n\n吉村代表\n「分かりました…笑」\n\n高市総理\n「歯の浮いたようなお世辞でもいいから私を褒めちぎって♡」\n\n吉村代表\n「今から早急に組み立てます笑」\n\n高市総理\n「組み立てとらんのかい！」 https://t.co/3YUVd5uBeJ",
+          "date": "Sun Apr 12 13:06:36 +0000 2026",
+          "favorites": 61771,
+          "retweets": 4698,
+          "followers": 84055,
+          "replies": 821,
+          "engagement": 66469
+        },
+        {
+          "user": "pDyvhzFJAIAJe90",
+          "text": "高市早苗は辞任すべきだと思う人✋🏻\n#高市総理はもう限界\nhttps://t.co/GlWp6gpkIv",
+          "date": "Fri Apr 24 21:04:10 +0000 2026",
+          "favorites": 47409,
+          "retweets": 11486,
+          "followers": 32172,
+          "replies": 564,
+          "engagement": 58895
+        },
+        {
+          "user": "r230614_shin",
+          "text": "出光丸のおかげで\n「高市が2ヶ月間、意図的に中東を忌避し、交渉すれば通れるホルムズ海峡を通れないと言い張り、トランプの為に設備不適合のアメリカさん原油を買い漁って貢いだ」\n事実が、白日の元に晒されましたね。\n\n石油を止めていたのは\nイランではなく高市早苗でした。",
+          "date": "Wed Apr 29 01:36:30 +0000 2026",
+          "favorites": 42119,
+          "retweets": 16508,
+          "followers": 27581,
+          "replies": 304,
+          "engagement": 58627
+        },
+        {
+          "user": "yoshifumi660722",
+          "text": "高市早苗がもうすぐメディアを使って言い始めますよ。\n\n『今の世界情勢をみれば、現行憲法では国を守れない。国を守る為には、憲法改正と国会機能維持条項が絶対必要』って。\n\n皆さん知ってますか？\n\n改憲すれば自衛隊が真っ先に戦闘地域に派兵され、兵士が足りなくなれば若者が徴兵される事を。 https://t.co/lgm1B3tSQ0",
+          "date": "Sat Mar 28 01:20:09 +0000 2026",
+          "favorites": 40226,
+          "retweets": 17876,
+          "followers": 9439,
+          "replies": 356,
+          "engagement": 58102
+        },
+        {
+          "user": "pDyvhzFJAIAJe90",
+          "text": "高市早苗は辞任すべきだと思う人✋🏻 https://t.co/GlWp6gpkIv",
+          "date": "Wed Apr 01 07:50:06 +0000 2026",
+          "favorites": 48510,
+          "retweets": 9141,
+          "followers": 32173,
+          "replies": 775,
+          "engagement": 57651
+        },
+        {
+          "user": "4RygOC0vJEwjTpl",
+          "text": "高市早苗首相「約束をひとつずつ実行」\n\nまずは選挙で争点にすらしなかった殺傷兵器の輸出解禁、高額療養費の上限引き上げ、OTC類似薬の保険適用除外、スパイ防止法の制定、改憲の推進、国家情報会議の創設かよ。\n\n見事なまでに国民の為の政策が1つもない。\n屑にも程がある。 https://t.co/ShoOGenrWx",
+          "date": "Tue Apr 21 21:12:49 +0000 2026",
+          "favorites": 40812,
+          "retweets": 16816,
+          "followers": 20687,
+          "replies": 632,
+          "engagement": 57628
+        },
+        {
+          "user": "r230614_shin",
+          "text": "事実を知ってください。\n【高市早苗のスパイ防止法】は世界のどこにも存在しない、独裁者の法律です。\n\nアメリカではFBIや司法が閣僚も監視する\n「3すくみ」が安全弁となりますが\n\n高市のスパイ防止法は\n【内閣が全ての権限を持つ】上に\n閣僚はスパイ監視対象外です。\n\nこんな狂った法律、絶対ダメです",
+          "date": "Fri Apr 03 01:47:12 +0000 2026",
+          "favorites": 36694,
+          "retweets": 20497,
+          "followers": 27584,
+          "replies": 565,
+          "engagement": 57191
+        },
+        {
+          "user": "pen_pen2020",
+          "text": "この記事ヤバいよ\n\n・高市早苗は国会中は昼食とらない\n・首相就任後初のランチ会で、麻生太郎は出されたメニューに気遣いがないと箸もつけなかった\n・官邸でも首相に話せるのは極少数の側近だけ\n・官僚レクを受けずに資料だけ読んて自分で調べるから現実離れした独自の世界観に入る\n\n地獄だ、、",
+          "date": "Mon Apr 20 19:52:49 +0000 2026",
+          "favorites": 46360,
+          "retweets": 10547,
+          "followers": 12127,
+          "replies": 512,
+          "engagement": 56907
+        },
+        {
+          "user": "kazu10233147",
+          "text": "＃報道特集\n高市早苗の「中東からのナフサ輸入を他の国からの調達に切り替えるべく取り組んでいるところです」のSNS投稿に「中東からの輸入しかないのです。どうか目を覚まさして頂けませんか」と資源エネルギー庁の有識者委員の堺野春彦氏。 https://t.co/zVr4YgedPz",
+          "date": "Sat Apr 04 11:27:46 +0000 2026",
+          "favorites": 40754,
+          "retweets": 15050,
+          "followers": 44400,
+          "replies": 407,
+          "engagement": 55804
+        },
+        {
+          "user": "omoti194",
+          "text": "今日話してた人、高市早苗のこと「サナエ」って呼んでたから、女性政治家だけ下の名前で呼ぶやつかと思ってたら、他の政治家も男女関係なく全員下の名前で呼んでて「い、一貫してる……ッ❗️」と感服した。友達か。",
+          "date": "Wed Apr 15 05:28:21 +0000 2026",
+          "favorites": 53497,
+          "retweets": 1459,
+          "followers": 515788,
+          "replies": 1,
+          "engagement": 54956
+        },
+        {
+          "user": "cobta",
+          "text": "自民党の門寛子議員が4月14日のアベマ番組で、国会前に3万人が集まった「高市反対」ペンライトデモを「ごっこ遊び」と揶揄して炎上しましたが、さらに規模の大きくなった4月19日のデモでは「見せてやんよ 本気のごっこ遊び」と書かれたのぼり旗が登場しました。仕事が早いです。\n#国会正門前大行動0419 https://t.co/r6mrub5VA1",
+          "date": "Sun Apr 19 07:23:19 +0000 2026",
+          "favorites": 40367,
+          "retweets": 14586,
+          "followers": 72730,
+          "replies": 889,
+          "engagement": 54953
+        },
+        {
+          "user": "himuroReborn398",
+          "text": "なんでこれテレビでやらんの？\n\n《衝撃》高市早苗陣営が野党中傷動画を投稿していた https://t.co/9lW0G52sk0",
+          "date": "Sun May 03 10:16:58 +0000 2026",
+          "favorites": 38622,
+          "retweets": 16144,
+          "followers": 21658,
+          "replies": 314,
+          "engagement": 54766
+        },
+        {
+          "user": "Seisu_Ken",
+          "text": "1961年生まれの高市早苗\n「生まれてなかったから戦争の反省などしないし、する理由もない」\n1960年生まれの今上天皇\n「深い反省とともに平和を守る」",
+          "date": "Sat May 02 10:43:06 +0000 2026",
+          "favorites": 41038,
+          "retweets": 10805,
+          "followers": 19437,
+          "replies": 177,
+          "engagement": 51843
+        },
+        {
+          "user": "iloveyoulove777",
+          "text": "高市早苗「シンナーメーカーからの出荷量が回復、解消に向かいつつある」\n\n日本塗装工業会「シンナー不足は改善されていない。国に要望したが状況変わらず」\n\n高市早苗、また嘘ついた❗️\n\nなんで嘘ばっかりつくの❓️\n\nもう、バレバレだよ❗️ https://t.co/haQgkXbzzR",
+          "date": "Tue Apr 28 14:10:47 +0000 2026",
+          "favorites": 36827,
+          "retweets": 14438,
+          "followers": 30280,
+          "replies": 560,
+          "engagement": 51265
+        },
+        {
+          "user": "katouippei",
+          "text": "高市早苗さんはシンナー不足を塗料業界による｢目詰まり｣のせいにしようとしたけど、実際は原料そのものが日本に入ってきてないから。\n原因は高市早苗が中東と向き合わないため、その能力が無いため、原料が日本に来ない。\nそれをメーカー側の責任に転嫁する卑劣さ。\n高市早苗が日本の｢目詰まり｣。 https://t.co/AswDqtfhbU",
+          "date": "Sun Apr 26 11:56:37 +0000 2026",
+          "favorites": 37446,
+          "retweets": 13814,
+          "followers": 8052,
+          "replies": 484,
+          "engagement": 51260
+        }
+      ]
+    },
+    "経済政策": {
+      "total_matches": 48,
+      "unique_users": 38,
+      "engagement": {
+        "total_favorites": 15501,
+        "total_retweets": 3827
+      },
+      "daily_distribution": [
+        {
+          "date": "2026-03-22",
+          "count": 1
+        },
+        {
+          "date": "2026-03-23",
+          "count": 1
+        },
+        {
+          "date": "2026-03-25",
+          "count": 2
+        },
+        {
+          "date": "2026-03-27",
+          "count": 2
+        },
+        {
+          "date": "2026-03-28",
+          "count": 2
+        },
+        {
+          "date": "2026-03-29",
+          "count": 2
+        },
+        {
+          "date": "2026-03-30",
+          "count": 1
+        },
+        {
+          "date": "2026-03-31",
+          "count": 2
+        },
+        {
+          "date": "2026-04-01",
+          "count": 2
+        },
+        {
+          "date": "2026-04-02",
+          "count": 1
+        },
+        {
+          "date": "2026-04-03",
+          "count": 2
+        },
+        {
+          "date": "2026-04-04",
+          "count": 1
+        },
+        {
+          "date": "2026-04-06",
+          "count": 1
+        },
+        {
+          "date": "2026-04-08",
+          "count": 1
+        },
+        {
+          "date": "2026-04-10",
+          "count": 1
+        },
+        {
+          "date": "2026-04-11",
+          "count": 1
+        },
+        {
+          "date": "2026-04-12",
+          "count": 1
+        },
+        {
+          "date": "2026-04-13",
+          "count": 1
+        },
+        {
+          "date": "2026-04-14",
+          "count": 2
+        },
+        {
+          "date": "2026-04-15",
+          "count": 2
+        },
+        {
+          "date": "2026-04-18",
+          "count": 1
+        },
+        {
+          "date": "2026-04-20",
+          "count": 1
+        },
+        {
+          "date": "2026-04-21",
+          "count": 1
+        },
+        {
+          "date": "2026-04-25",
+          "count": 2
+        },
+        {
+          "date": "2026-04-26",
+          "count": 3
+        },
+        {
+          "date": "2026-04-27",
+          "count": 1
+        },
+        {
+          "date": "2026-04-30",
+          "count": 1
+        }
+      ],
+      "sentiment": {
+        "positive": 8431,
+        "neutral": 39006,
+        "negative": 2563
+      },
+      "top_participants": [
+        {
+          "screen_name": "tetsuya_00x",
+          "tweet_count": 2,
+          "followers": 135375,
+          "total_favorites": 3598,
+          "total_engagement": 4292
+        },
+        {
+          "screen_name": "kikumaco",
+          "tweet_count": 2,
+          "followers": 69865,
+          "total_favorites": 3692,
+          "total_engagement": 4288
+        },
+        {
+          "screen_name": "DFHkHMoX9WNwwt2",
+          "tweet_count": 1,
+          "followers": 21830,
+          "total_favorites": 2185,
+          "total_engagement": 2670
+        },
+        {
+          "screen_name": "nhcjpn",
+          "tweet_count": 1,
+          "followers": 5286,
+          "total_favorites": 1386,
+          "total_engagement": 1783
+        },
+        {
+          "screen_name": "nobushiromasaki",
+          "tweet_count": 1,
+          "followers": 18628,
+          "total_favorites": 1018,
+          "total_engagement": 1427
+        },
+        {
+          "screen_name": "araru1213",
+          "tweet_count": 1,
+          "followers": 9612,
+          "total_favorites": 572,
+          "total_engagement": 904
+        },
+        {
+          "screen_name": "ESPRIMO7",
+          "tweet_count": 1,
+          "followers": 16178,
+          "total_favorites": 448,
+          "total_engagement": 575
+        },
+        {
+          "screen_name": "ugaya",
+          "tweet_count": 3,
+          "followers": 26191,
+          "total_favorites": 346,
+          "total_engagement": 478
+        },
+        {
+          "screen_name": "GOXGOXGOX2",
+          "tweet_count": 4,
+          "followers": 51681,
+          "total_favorites": 324,
+          "total_engagement": 399
+        },
+        {
+          "screen_name": "poli_matrix",
+          "tweet_count": 1,
+          "followers": 18826,
+          "total_favorites": 307,
+          "total_engagement": 384
+        }
+      ],
+      "representative_tweets": [
+        {
+          "user": "tetsuya_00x",
+          "text": "はっきり言って、田中真紀子氏は勉強が足りなさすぎる。高市早苗氏ほど日本という国家経営に関して研究熱心で、実施すべき政策を練り上げできた政治家はいない。それは経済政策、国防・安全保障、科学技術政策など多岐にわたる。そしてその覚悟も半端ない。田中外相時代を思い起こせば、その実力は月とスッポンである。",
+          "date": "Mon Apr 13 03:40:47 +0000 2026",
+          "favorites": 3400,
+          "retweets": 667,
+          "followers": 135375,
+          "replies": 267,
+          "engagement": 4067
+        },
+        {
+          "user": "kikumaco",
+          "text": "高市早苗が書いた政策の本を読めば、賛成するかどうかは別にして、政策をものすごく考えてることはわかるはずよ。賛成するかは別の話。\n\n今、高市より石破のほうが政策を勉強してるかのようなポストが流れてきたけど、石破の経済政策なんか「空っぽ」だからね。あれは「無」だよ",
+          "date": "Wed Apr 15 08:35:44 +0000 2026",
+          "favorites": 2809,
+          "retweets": 493,
+          "followers": 69865,
+          "replies": 18,
+          "engagement": 3302
+        },
+        {
+          "user": "DFHkHMoX9WNwwt2",
+          "text": "【悲報】高市早苗さん、自分で呼んだ学者から経済政策をボロクソに批判されてしまう… https://t.co/yLkwxPapG3 \n\n高橋洋一に慰めてもらったんかなww",
+          "date": "Fri Mar 27 03:26:45 +0000 2026",
+          "favorites": 2185,
+          "retweets": 485,
+          "followers": 21830,
+          "replies": 8,
+          "engagement": 2670
+        },
+        {
+          "user": "nhcjpn",
+          "text": "選挙前の1月18日に、なぜ高市早苗ではだめか、その理由を列挙しました。\n\nその後の高市早苗首相の的外れな言動は、当時から十分予想できていたもので、書いた通りになりました。\n\n選択的夫婦別姓は与党内の合意もないのに事実上封じられ、的外れな経済政策のせいで円安が続き、国際法違反のイラン戦争後にトランプ大統領に馬鹿みたいに媚びる。数の力を背景に強引な予算審議を図り、自身は国会に出るのを拒み続ける(これは",
+          "date": "Thu Apr 02 08:49:14 +0000 2026",
+          "favorites": 1386,
+          "retweets": 397,
+          "followers": 5286,
+          "replies": 11,
+          "engagement": 1783
+        },
+        {
+          "user": "nobushiromasaki",
+          "text": "このポスト、胸が痛い。思わず本書を連想した。著者は公衆衛生・政治社会学の専門家で、経済政策の影響がいかに人を死に追いやるかを研究してきた。本書は語る。不況が人を殺すのではない。不況の時に採用された愚かな政策が人を殺すのだ、と。👉\n\nたとえば、経済の衰退は医療を衰微させ、人々の健康を壊す。そして、人が大勢死んでしまう。経済政策はその時、さながら凶器と化す。その兵器を僕らはどれほどの責任感で扱っている",
+          "date": "Sat Mar 28 21:29:55 +0000 2026",
+          "favorites": 1018,
+          "retweets": 409,
+          "followers": 18628,
+          "replies": 0,
+          "engagement": 1427
+        },
+        {
+          "user": "kikumaco",
+          "text": "高市早苗なんか最近まで有権者に知られてなかったじゃないかという発言を聞きました\n\nそりゃそうだよ、僕もただの極まった右派だと思ってたしな\n\n僕が高市に注目したのは岸田総裁が選ばれた総裁戦のときに飯田泰之さんがやったインタビュー。あれで驚いた。総裁選、経済政策では高市が圧倒的によかった",
+          "date": "Sat Apr 25 01:36:40 +0000 2026",
+          "favorites": 883,
+          "retweets": 103,
+          "followers": 69867,
+          "replies": 7,
+          "engagement": 986
+        },
+        {
+          "user": "araru1213",
+          "text": "早く高市政権終わってくれないかな\n\n大胆な財政出動とは国民のための減税や給付金ではなくアメリカへの投資、国民には防衛費増税\n\n国民を危険に晒すような、\n国民の命を軽視する高市総理は\n言語道断な暴挙です\n\n地獄だよ….\n\n正しい経済政策と平和外交\nこの地獄から救ってくれるのは\nれいわ新選組だから",
+          "date": "Tue Mar 31 12:59:04 +0000 2026",
+          "favorites": 572,
+          "retweets": 332,
+          "followers": 9612,
+          "replies": 6,
+          "engagement": 904
+        },
+        {
+          "user": "ESPRIMO7",
+          "text": "メローニを支持するのは解る、彼女は反イスラエル反トランプの姿勢を明確にし国益を優先している\nそれに比べ、高市早苗を支持する理由は解らない\n幼児性愛者のトランプに抱き着き、殺人狂ネタニヤフ何も言えず\n幼稚な外交政策、経済政策で日本経済をナフサ不足で混乱させている https://t.co/IID8mquPLB",
+          "date": "Wed Apr 15 05:29:13 +0000 2026",
+          "favorites": 448,
+          "retweets": 127,
+          "followers": 16178,
+          "replies": 12,
+          "engagement": 575
+        },
+        {
+          "user": "poli_matrix",
+          "text": "高市早苗総理大臣に一体どんな「功績」があるのだろうかと甚だ疑問に思うと同時に、もし移民政策でも経済政策でもすでに言行不一致甚だしいにもかかわらず人気が消えないようであれば、高市人気絶頂とともに日本が消えると思わざるをえない。\nコイツらは安倍政権のデタラメ内政から何も学んでいない。",
+          "date": "Wed Apr 08 06:36:39 +0000 2026",
+          "favorites": 307,
+          "retweets": 77,
+          "followers": 18826,
+          "replies": 5,
+          "engagement": 384
+        },
+        {
+          "user": "masaru_kaneko",
+          "text": "【失政をごまかす改憲】自民党総裁の高市早苗首相はおとといの自民党大会で改憲を1年以内に実現を掲げた。トランプ抱きつき外交で先進国唯一イラン戦争を支持し、石油ショックなのにインフレを加速する積極財政で経済政策破綻が近い。残るは排外主義と軍事化しかないのか。https://t.co/myVruhvDzW",
+          "date": "Tue Apr 14 00:23:24 +0000 2026",
+          "favorites": 222,
+          "retweets": 89,
+          "followers": 191582,
+          "replies": 3,
+          "engagement": 311
+        },
+        {
+          "user": "97ylq",
+          "text": "甘利明の活躍歴\n\n麻生内閣で麻生太郎の右腕として活躍し\n安倍内閣でも経済政策の中心格として活躍し、\n安倍〜菅体制では税調会長を任され\n岸田体制では幹事長に抜擢\n石破体制では日米交渉の助言を行い貢献\n高市体制では早苗の愚痴を聞く\n\n甘利明って最強だろこれ",
+          "date": "Sun Apr 26 10:29:32 +0000 2026",
+          "favorites": 267,
+          "retweets": 19,
+          "followers": 1787,
+          "replies": 3,
+          "engagement": 286
+        },
+        {
+          "user": "mt3678mt",
+          "text": "高市政権は、石油危機対策も物価高騰対策もろくにできていない。そもそも高市首相にまともな経済政策など何もない。その結果が円安だろう。このままでは日本は沈んでいくばかりだ。 #高市早苗は日本の疫病神",
+          "date": "Tue Apr 14 12:27:22 +0000 2026",
+          "favorites": 170,
+          "retweets": 77,
+          "followers": 52616,
+          "replies": 1,
+          "engagement": 247
+        },
+        {
+          "user": "ugaya",
+          "text": "片山さつき財務大臣は、高石早苗総理の経済政策への無能ぶりに激怒しているのではないでしょうか。高市総理が「円安ホクホク」なんて「とんでも発言」をしたせいで、いくら財務省・日銀が為替に介入しても「日本政府は総理が円安容認」という国際市場の認識は変わりませんから。",
+          "date": "Wed Apr 01 15:01:11 +0000 2026",
+          "favorites": 159,
+          "retweets": 67,
+          "followers": 26191,
+          "replies": 1,
+          "engagement": 226
+        },
+        {
+          "user": "tetsuya_00x",
+          "text": "#ブルバのフォロバ100％　 私（てつや）のアカウントは、日本の政治経済や時事問題に関して厳しいツッコミを入れています。   主なテーマ ・高市早苗総理 ・経済政策 ・日米関係 ・中国問題 ・移民問題 ・外国人生活保護 ・NHKなどメディア改革 etc...  テレビでは語られない視点も提供。日本の政治と国益に関心のある方は、今すぐフォローしてください！",
+          "date": "Wed Mar 25 13:04:29 +0000 2026",
+          "favorites": 198,
+          "retweets": 27,
+          "followers": 135373,
+          "replies": 13,
+          "engagement": 225
+        },
+        {
+          "user": "GOXGOXGOX2",
+          "text": "高早苗の経済政策\n\n高橋洋一\n会田卓司\n永濱利廣\nネトウヨ\n「さすが高市さん！ガソリン補助で170円以下にガソリン価格を抑えて安心！ホルムズ海峡危機で消費が落ち込みかねないなかで積極財政で歳出拡大と政府がいってくれると安心感を与えて景気に好循環をもたらします！さすが！マンセーニダ！」\n\n日経新聞が経済学者50人に調査すると1人を除き\n「原油等の総量が減るなかで補助金で価格を抑えるべきではない」\n「",
+          "date": "Sat Apr 25 23:14:37 +0000 2026",
+          "favorites": 158,
+          "retweets": 35,
+          "followers": 51681,
+          "replies": 1,
+          "engagement": 193
+        },
+        {
+          "user": "ugaya",
+          "text": "高市早苗総理は、国際経済政策にはとことん無能です。今年1月31日の段階（衆院選応援演説）で「円安が輸出産業にとってチャンス」だと、政府が管理する外貨資産「外国為替資金特別会計（外為特会）」の運用益が増えている現状を「ホクホク」と表現した＝円安容認と市場は理解した＝ぐらいのオンチですから、円安・株安・原油高＝物価上昇という最悪のシナリオが今日7日午前9時以降来ても、何ら実効的な政策は打てないでしょう",
+          "date": "Mon Apr 06 16:47:55 +0000 2026",
+          "favorites": 117,
+          "retweets": 46,
+          "followers": 26191,
+          "replies": 0,
+          "engagement": 163
+        },
+        {
+          "user": "312Z5CVgus3uTje",
+          "text": "この頭の異常な人は頭、お花畑なのか⁉️\n「就任時に掲げたのは『世界の真ん中で咲き誇る外交』」…。\n＃統一教会の高市早苗の外交が咲き誇る訳ない\n\n高市政権半年、「咲き誇る外交」の現実 「ホルムズ海峡危機」で問われる指導力、停戦が実現しなければ経済政策も…（47NEWS） https://t.co/bMxLfjbG4E",
+          "date": "Tue May 05 06:34:13 +0000 2026",
+          "favorites": 117,
+          "retweets": 38,
+          "followers": 13089,
+          "replies": 1,
+          "engagement": 155
+        },
+        {
+          "user": "nihon_koutei",
+          "text": "円安や石油危機の絶望的な状況で判る通り、高市の中国やロシア敵視の外交、経済政策、軍拡、戦前回帰、そして止めどない対米隷属こそが日本の希望を奪っている。いま日本に残された一縷の希望は貴様が辞めることにしかない。\n\n#高市早苗から日本を守ろう",
+          "date": "Thu Apr 30 02:41:50 +0000 2026",
+          "favorites": 92,
+          "retweets": 46,
+          "followers": 11712,
+          "replies": 0,
+          "engagement": 138
+        },
+        {
+          "user": "GOXGOXGOX2",
+          "text": "「「円」の価値が凋落し続けている。ＢＩＳによると「実質実効為替レート」は６６．３３（２０２０年＝１００）と、統計が始まった５６年前の水準を下回った。」\n\nネトウヨが絶賛する高早苗、高橋洋一、会田卓司、永濵利廣らの経済政策で、見事に日本人は貧乏人になってるね\n\nさすが日本人の生活水準を1/3にしろという文鮮明、韓鶴子を敬愛する高早苗\n\n外患誘致罪でシケイにしろ！！\n\n https://t.co/eX",
+          "date": "Sun Apr 26 11:31:11 +0000 2026",
+          "favorites": 98,
+          "retweets": 28,
+          "followers": 51682,
+          "replies": 4,
+          "engagement": 126
+        },
+        {
+          "user": "Rly8Pqg",
+          "text": "【高市早苗の御用学者】\n永濱利廣は高市早苗の経済ブレーン。\n\n高市早苗が御用学者を使って、経済政策などが迷走している。\n高橋洋一や竹田恒泰は、その迷走を財務相や経団連のせいにしてガス抜き。 https://t.co/ZiG2e3RhX2",
+          "date": "Mon May 04 21:55:00 +0000 2026",
+          "favorites": 67,
+          "retweets": 27,
+          "followers": 16996,
+          "replies": 3,
+          "engagement": 94
+        }
+      ]
+    }
   }
 });

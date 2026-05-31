@@ -493,7 +493,7 @@ export default function AdvancedAnalysis() {
             />
             <Table
               columns={suspiciousColumns}
-              dataSource={suspicious.accounts || []}
+              dataSource={suspicious.top_suspicious || []}
               rowKey="screen_name"
               pagination={{ pageSize: 10 }}
               size="small"

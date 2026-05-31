@@ -1,4 +1,9 @@
-# 舆论分析系统 - Public Opinion Analysis System
+# OpinionLens - 舆论传播机制与意见领袖分析系统
+
+![Netlify](https://img.shields.io/badge/Netlify-Deploy-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+**在线演示**: https://deft-cobbler-20d1c4.netlify.app
 
 ## 项目概述
 
@@ -137,6 +142,9 @@ cd frontend && npm run dev
 | GET /api/network | 传播网络数据 |
 | GET /api/communities | 社区信息 |
 | GET /api/search | 推文搜索 |
+| POST /api/scrape/topic | 多平台话题抓取 |
+| GET /api/scrape/datasets | 抓取数据集列表 |
+| GET /api/scrape/analyze/{id} | 分析抓取数据 |
 
 ## 主要分析结果
 
