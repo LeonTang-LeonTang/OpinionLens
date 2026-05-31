@@ -1,0 +1,2271 @@
+{
+  "daily_stats": [
+    {
+      "date": "2025-10-01T00:00:00",
+      "tweet_count": 350,
+      "total_favorites": 303980,
+      "total_retweets": 62283,
+      "total_replies": 4425,
+      "active_users": 292,
+      "engagement": 437396,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-02T00:00:00",
+      "tweet_count": 435,
+      "total_favorites": 242972,
+      "total_retweets": 53417,
+      "total_replies": 4220,
+      "active_users": 355,
+      "engagement": 358246,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-03T00:00:00",
+      "tweet_count": 225,
+      "total_favorites": 111279,
+      "total_retweets": 19510,
+      "total_replies": 1944,
+      "active_users": 188,
+      "engagement": 154187,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-04T00:00:00",
+      "tweet_count": 6832,
+      "total_favorites": 8261837,
+      "total_retweets": 1072394,
+      "total_replies": 132669,
+      "active_users": 4988,
+      "engagement": 10671963,
+      "is_peak": true
+    },
+    {
+      "date": "2025-10-05T00:00:00",
+      "tweet_count": 2723,
+      "total_favorites": 2157679,
+      "total_retweets": 330338,
+      "total_replies": 41984,
+      "active_users": 2109,
+      "engagement": 2902323,
+      "is_peak": true
+    },
+    {
+      "date": "2025-10-06T00:00:00",
+      "tweet_count": 1806,
+      "total_favorites": 1682556,
+      "total_retweets": 240508,
+      "total_replies": 31207,
+      "active_users": 1409,
+      "engagement": 2225986,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-07T00:00:00",
+      "tweet_count": 1165,
+      "total_favorites": 1057826,
+      "total_retweets": 193513,
+      "total_replies": 21099,
+      "active_users": 956,
+      "engagement": 1487050,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-08T00:00:00",
+      "tweet_count": 823,
+      "total_favorites": 1005643,
+      "total_retweets": 181068,
+      "total_replies": 17935,
+      "active_users": 690,
+      "engagement": 1403649,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-09T00:00:00",
+      "tweet_count": 856,
+      "total_favorites": 782953,
+      "total_retweets": 126813,
+      "total_replies": 11578,
+      "active_users": 682,
+      "engagement": 1059735,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-10T00:00:00",
+      "tweet_count": 1274,
+      "total_favorites": 1379795,
+      "total_retweets": 210156,
+      "total_replies": 16952,
+      "active_users": 975,
+      "engagement": 1834011,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-11T00:00:00",
+      "tweet_count": 1280,
+      "total_favorites": 823658,
+      "total_retweets": 122589,
+      "total_replies": 19471,
+      "active_users": 921,
+      "engagement": 1107778,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-12T00:00:00",
+      "tweet_count": 1254,
+      "total_favorites": 1246443,
+      "total_retweets": 182524,
+      "total_replies": 21395,
+      "active_users": 933,
+      "engagement": 1654281,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-13T00:00:00",
+      "tweet_count": 1418,
+      "total_favorites": 1525748,
+      "total_retweets": 218212,
+      "total_replies": 22748,
+      "active_users": 967,
+      "engagement": 2007668,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-14T00:00:00",
+      "tweet_count": 475,
+      "total_favorites": 518854,
+      "total_retweets": 71804,
+      "total_replies": 7334,
+      "active_users": 397,
+      "engagement": 677130,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-15T00:00:00",
+      "tweet_count": 1488,
+      "total_favorites": 1078537,
+      "total_retweets": 159560,
+      "total_replies": 17870,
+      "active_users": 1069,
+      "engagement": 1433397,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-16T00:00:00",
+      "tweet_count": 643,
+      "total_favorites": 392683,
+      "total_retweets": 66920,
+      "total_replies": 6762,
+      "active_users": 506,
+      "engagement": 540047,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-17T00:00:00",
+      "tweet_count": 825,
+      "total_favorites": 418065,
+      "total_retweets": 75919,
+      "total_replies": 10439,
+      "active_users": 640,
+      "engagement": 590781,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-18T00:00:00",
+      "tweet_count": 497,
+      "total_favorites": 329343,
+      "total_retweets": 50854,
+      "total_replies": 6164,
+      "active_users": 402,
+      "engagement": 443379,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-19T00:00:00",
+      "tweet_count": 596,
+      "total_favorites": 708693,
+      "total_retweets": 92937,
+      "total_replies": 11792,
+      "active_users": 483,
+      "engagement": 918151,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-20T00:00:00",
+      "tweet_count": 989,
+      "total_favorites": 428806,
+      "total_retweets": 70732,
+      "total_replies": 9879,
+      "active_users": 793,
+      "engagement": 590028,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-21T00:00:00",
+      "tweet_count": 3249,
+      "total_favorites": 3183388,
+      "total_retweets": 396538,
+      "total_replies": 47097,
+      "active_users": 2527,
+      "engagement": 4070658,
+      "is_peak": true
+    },
+    {
+      "date": "2025-10-22T00:00:00",
+      "tweet_count": 582,
+      "total_favorites": 751080,
+      "total_retweets": 105365,
+      "total_replies": 8703,
+      "active_users": 495,
+      "engagement": 979216,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-27T00:00:00",
+      "tweet_count": 549,
+      "total_favorites": 423549,
+      "total_retweets": 44720,
+      "total_replies": 6934,
+      "active_users": 459,
+      "engagement": 526857,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-28T00:00:00",
+      "tweet_count": 1123,
+      "total_favorites": 628868,
+      "total_retweets": 93871,
+      "total_replies": 18610,
+      "active_users": 884,
+      "engagement": 853830,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-29T00:00:00",
+      "tweet_count": 1261,
+      "total_favorites": 591966,
+      "total_retweets": 108973,
+      "total_replies": 15907,
+      "active_users": 989,
+      "engagement": 841726,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-30T00:00:00",
+      "tweet_count": 279,
+      "total_favorites": 183101,
+      "total_retweets": 38636,
+      "total_replies": 6692,
+      "active_users": 252,
+      "engagement": 273757,
+      "is_peak": false
+    },
+    {
+      "date": "2025-10-31T00:00:00",
+      "tweet_count": 1209,
+      "total_favorites": 997357,
+      "total_retweets": 136628,
+      "total_replies": 22875,
+      "active_users": 910,
+      "engagement": 1316363,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-01T00:00:00",
+      "tweet_count": 464,
+      "total_favorites": 318565,
+      "total_retweets": 58838,
+      "total_replies": 13586,
+      "active_users": 368,
+      "engagement": 463413,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-02T00:00:00",
+      "tweet_count": 709,
+      "total_favorites": 449042,
+      "total_retweets": 75932,
+      "total_replies": 10857,
+      "active_users": 577,
+      "engagement": 622620,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-03T00:00:00",
+      "tweet_count": 627,
+      "total_favorites": 270794,
+      "total_retweets": 59934,
+      "total_replies": 8726,
+      "active_users": 516,
+      "engagement": 408114,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-04T00:00:00",
+      "tweet_count": 412,
+      "total_favorites": 149444,
+      "total_retweets": 31753,
+      "total_replies": 5670,
+      "active_users": 341,
+      "engagement": 224290,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-05T00:00:00",
+      "tweet_count": 386,
+      "total_favorites": 257829,
+      "total_retweets": 52670,
+      "total_replies": 6305,
+      "active_users": 322,
+      "engagement": 375779,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-06T00:00:00",
+      "tweet_count": 515,
+      "total_favorites": 231517,
+      "total_retweets": 59504,
+      "total_replies": 7718,
+      "active_users": 387,
+      "engagement": 365961,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-07T00:00:00",
+      "tweet_count": 935,
+      "total_favorites": 501134,
+      "total_retweets": 97388,
+      "total_replies": 19866,
+      "active_users": 705,
+      "engagement": 735642,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-08T00:00:00",
+      "tweet_count": 958,
+      "total_favorites": 644034,
+      "total_retweets": 131911,
+      "total_replies": 19873,
+      "active_users": 716,
+      "engagement": 947602,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-09T00:00:00",
+      "tweet_count": 877,
+      "total_favorites": 578452,
+      "total_retweets": 129768,
+      "total_replies": 16673,
+      "active_users": 660,
+      "engagement": 871334,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-10T00:00:00",
+      "tweet_count": 1264,
+      "total_favorites": 526330,
+      "total_retweets": 122644,
+      "total_replies": 23271,
+      "active_users": 805,
+      "engagement": 818160,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-11T00:00:00",
+      "tweet_count": 1230,
+      "total_favorites": 598893,
+      "total_retweets": 138266,
+      "total_replies": 24528,
+      "active_users": 870,
+      "engagement": 924481,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-12T00:00:00",
+      "tweet_count": 1039,
+      "total_favorites": 531311,
+      "total_retweets": 106044,
+      "total_replies": 21519,
+      "active_users": 746,
+      "engagement": 786437,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-13T00:00:00",
+      "tweet_count": 1176,
+      "total_favorites": 919471,
+      "total_retweets": 145118,
+      "total_replies": 27877,
+      "active_users": 863,
+      "engagement": 1265461,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-14T00:00:00",
+      "tweet_count": 1443,
+      "total_favorites": 885037,
+      "total_retweets": 150471,
+      "total_replies": 41237,
+      "active_users": 956,
+      "engagement": 1268453,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-15T00:00:00",
+      "tweet_count": 1491,
+      "total_favorites": 563968,
+      "total_retweets": 132651,
+      "total_replies": 29337,
+      "active_users": 1065,
+      "engagement": 887944,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-16T00:00:00",
+      "tweet_count": 1352,
+      "total_favorites": 752357,
+      "total_retweets": 152847,
+      "total_replies": 43876,
+      "active_users": 949,
+      "engagement": 1145803,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-17T00:00:00",
+      "tweet_count": 1563,
+      "total_favorites": 745631,
+      "total_retweets": 142505,
+      "total_replies": 37564,
+      "active_users": 1096,
+      "engagement": 1105769,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-18T00:00:00",
+      "tweet_count": 1342,
+      "total_favorites": 582269,
+      "total_retweets": 122889,
+      "total_replies": 35059,
+      "active_users": 961,
+      "engagement": 898165,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-19T00:00:00",
+      "tweet_count": 1487,
+      "total_favorites": 750789,
+      "total_retweets": 127635,
+      "total_replies": 32738,
+      "active_users": 1047,
+      "engagement": 1071535,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-20T00:00:00",
+      "tweet_count": 1134,
+      "total_favorites": 799207,
+      "total_retweets": 141203,
+      "total_replies": 42372,
+      "active_users": 838,
+      "engagement": 1166357,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-21T00:00:00",
+      "tweet_count": 1265,
+      "total_favorites": 667959,
+      "total_retweets": 110354,
+      "total_replies": 26162,
+      "active_users": 906,
+      "engagement": 940991,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-22T00:00:00",
+      "tweet_count": 296,
+      "total_favorites": 176752,
+      "total_retweets": 27029,
+      "total_replies": 4013,
+      "active_users": 251,
+      "engagement": 238836,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-23T00:00:00",
+      "tweet_count": 1153,
+      "total_favorites": 737199,
+      "total_retweets": 123155,
+      "total_replies": 28122,
+      "active_users": 825,
+      "engagement": 1039753,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-24T00:00:00",
+      "tweet_count": 1079,
+      "total_favorites": 636284,
+      "total_retweets": 107508,
+      "total_replies": 26479,
+      "active_users": 788,
+      "engagement": 904258,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-25T00:00:00",
+      "tweet_count": 1118,
+      "total_favorites": 472155,
+      "total_retweets": 83970,
+      "total_replies": 30153,
+      "active_users": 814,
+      "engagement": 700401,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-26T00:00:00",
+      "tweet_count": 1162,
+      "total_favorites": 466954,
+      "total_retweets": 109689,
+      "total_replies": 24860,
+      "active_users": 815,
+      "engagement": 736052,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-27T00:00:00",
+      "tweet_count": 1063,
+      "total_favorites": 730750,
+      "total_retweets": 134259,
+      "total_replies": 24452,
+      "active_users": 764,
+      "engagement": 1048172,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-28T00:00:00",
+      "tweet_count": 962,
+      "total_favorites": 455837,
+      "total_retweets": 111678,
+      "total_replies": 19855,
+      "active_users": 734,
+      "engagement": 718903,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-29T00:00:00",
+      "tweet_count": 982,
+      "total_favorites": 293398,
+      "total_retweets": 68203,
+      "total_replies": 21053,
+      "active_users": 763,
+      "engagement": 471910,
+      "is_peak": false
+    },
+    {
+      "date": "2025-11-30T00:00:00",
+      "tweet_count": 814,
+      "total_favorites": 372333,
+      "total_retweets": 78906,
+      "total_replies": 14918,
+      "active_users": 643,
+      "engagement": 559981,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-01T00:00:00",
+      "tweet_count": 1199,
+      "total_favorites": 543515,
+      "total_retweets": 92881,
+      "total_replies": 22142,
+      "active_users": 909,
+      "engagement": 773561,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-02T00:00:00",
+      "tweet_count": 862,
+      "total_favorites": 267902,
+      "total_retweets": 56555,
+      "total_replies": 13094,
+      "active_users": 657,
+      "engagement": 407200,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-03T00:00:00",
+      "tweet_count": 815,
+      "total_favorites": 580580,
+      "total_retweets": 104430,
+      "total_replies": 14381,
+      "active_users": 650,
+      "engagement": 818202,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-04T00:00:00",
+      "tweet_count": 764,
+      "total_favorites": 503184,
+      "total_retweets": 109307,
+      "total_replies": 14868,
+      "active_users": 586,
+      "engagement": 751534,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "tweet_count": 731,
+      "total_favorites": 354327,
+      "total_retweets": 69570,
+      "total_replies": 13644,
+      "active_users": 573,
+      "engagement": 520755,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-06T00:00:00",
+      "tweet_count": 588,
+      "total_favorites": 246838,
+      "total_retweets": 57606,
+      "total_replies": 8672,
+      "active_users": 466,
+      "engagement": 379394,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-07T00:00:00",
+      "tweet_count": 860,
+      "total_favorites": 443332,
+      "total_retweets": 87466,
+      "total_replies": 14972,
+      "active_users": 619,
+      "engagement": 648208,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-08T00:00:00",
+      "tweet_count": 799,
+      "total_favorites": 595352,
+      "total_retweets": 92924,
+      "total_replies": 17967,
+      "active_users": 625,
+      "engagement": 817134,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-09T00:00:00",
+      "tweet_count": 732,
+      "total_favorites": 252356,
+      "total_retweets": 69262,
+      "total_replies": 13462,
+      "active_users": 552,
+      "engagement": 417804,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "tweet_count": 888,
+      "total_favorites": 422774,
+      "total_retweets": 83806,
+      "total_replies": 13215,
+      "active_users": 669,
+      "engagement": 616816,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "tweet_count": 852,
+      "total_favorites": 444153,
+      "total_retweets": 86489,
+      "total_replies": 12652,
+      "active_users": 649,
+      "engagement": 642435,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-12T00:00:00",
+      "tweet_count": 859,
+      "total_favorites": 399132,
+      "total_retweets": 96334,
+      "total_replies": 17636,
+      "active_users": 658,
+      "engagement": 627072,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-13T00:00:00",
+      "tweet_count": 654,
+      "total_favorites": 247198,
+      "total_retweets": 58324,
+      "total_replies": 6902,
+      "active_users": 484,
+      "engagement": 377650,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-14T00:00:00",
+      "tweet_count": 562,
+      "total_favorites": 276465,
+      "total_retweets": 51298,
+      "total_replies": 7946,
+      "active_users": 447,
+      "engagement": 394953,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-15T00:00:00",
+      "tweet_count": 606,
+      "total_favorites": 228845,
+      "total_retweets": 48545,
+      "total_replies": 12493,
+      "active_users": 478,
+      "engagement": 350921,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "tweet_count": 740,
+      "total_favorites": 430767,
+      "total_retweets": 75689,
+      "total_replies": 12317,
+      "active_users": 577,
+      "engagement": 606779,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-17T00:00:00",
+      "tweet_count": 657,
+      "total_favorites": 223934,
+      "total_retweets": 58329,
+      "total_replies": 12378,
+      "active_users": 506,
+      "engagement": 365348,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-18T00:00:00",
+      "tweet_count": 615,
+      "total_favorites": 296708,
+      "total_retweets": 71027,
+      "total_replies": 11642,
+      "active_users": 500,
+      "engagement": 462046,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-19T00:00:00",
+      "tweet_count": 578,
+      "total_favorites": 250135,
+      "total_retweets": 46898,
+      "total_replies": 9130,
+      "active_users": 463,
+      "engagement": 362191,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-20T00:00:00",
+      "tweet_count": 500,
+      "total_favorites": 262457,
+      "total_retweets": 56301,
+      "total_replies": 8957,
+      "active_users": 402,
+      "engagement": 392973,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-21T00:00:00",
+      "tweet_count": 499,
+      "total_favorites": 160320,
+      "total_retweets": 38870,
+      "total_replies": 7277,
+      "active_users": 390,
+      "engagement": 252614,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-22T00:00:00",
+      "tweet_count": 601,
+      "total_favorites": 256534,
+      "total_retweets": 59157,
+      "total_replies": 11840,
+      "active_users": 474,
+      "engagement": 398528,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-23T00:00:00",
+      "tweet_count": 625,
+      "total_favorites": 556561,
+      "total_retweets": 73928,
+      "total_replies": 12215,
+      "active_users": 510,
+      "engagement": 728847,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "tweet_count": 640,
+      "total_favorites": 253658,
+      "total_retweets": 53581,
+      "total_replies": 9173,
+      "active_users": 527,
+      "engagement": 379166,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-25T00:00:00",
+      "tweet_count": 591,
+      "total_favorites": 206311,
+      "total_retweets": 59395,
+      "total_replies": 9961,
+      "active_users": 459,
+      "engagement": 345023,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "tweet_count": 617,
+      "total_favorites": 236224,
+      "total_retweets": 62322,
+      "total_replies": 8064,
+      "active_users": 451,
+      "engagement": 376996,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "tweet_count": 635,
+      "total_favorites": 170473,
+      "total_retweets": 53852,
+      "total_replies": 4106,
+      "active_users": 513,
+      "engagement": 286389,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "tweet_count": 538,
+      "total_favorites": 248664,
+      "total_retweets": 71483,
+      "total_replies": 4359,
+      "active_users": 443,
+      "engagement": 400348,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-29T00:00:00",
+      "tweet_count": 670,
+      "total_favorites": 527520,
+      "total_retweets": 103607,
+      "total_replies": 10607,
+      "active_users": 513,
+      "engagement": 755948,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "tweet_count": 1304,
+      "total_favorites": 761755,
+      "total_retweets": 245718,
+      "total_replies": 14671,
+      "active_users": 755,
+      "engagement": 1282533,
+      "is_peak": false
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "tweet_count": 1532,
+      "total_favorites": 1067130,
+      "total_retweets": 264918,
+      "total_replies": 14278,
+      "active_users": 891,
+      "engagement": 1625522,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-01T00:00:00",
+      "tweet_count": 1040,
+      "total_favorites": 453600,
+      "total_retweets": 150226,
+      "total_replies": 11125,
+      "active_users": 652,
+      "engagement": 776302,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "tweet_count": 716,
+      "total_favorites": 443959,
+      "total_retweets": 102145,
+      "total_replies": 7868,
+      "active_users": 521,
+      "engagement": 663985,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-03T00:00:00",
+      "tweet_count": 742,
+      "total_favorites": 361121,
+      "total_retweets": 117072,
+      "total_replies": 8824,
+      "active_users": 533,
+      "engagement": 612913,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-04T00:00:00",
+      "tweet_count": 415,
+      "total_favorites": 118257,
+      "total_retweets": 30420,
+      "total_replies": 2745,
+      "active_users": 339,
+      "engagement": 184587,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-05T00:00:00",
+      "tweet_count": 709,
+      "total_favorites": 400395,
+      "total_retweets": 71250,
+      "total_replies": 7046,
+      "active_users": 543,
+      "engagement": 556987,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-06T00:00:00",
+      "tweet_count": 731,
+      "total_favorites": 406139,
+      "total_retweets": 79804,
+      "total_replies": 9613,
+      "active_users": 564,
+      "engagement": 584973,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-07T00:00:00",
+      "tweet_count": 727,
+      "total_favorites": 384869,
+      "total_retweets": 121304,
+      "total_replies": 10121,
+      "active_users": 537,
+      "engagement": 647719,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-08T00:00:00",
+      "tweet_count": 667,
+      "total_favorites": 321084,
+      "total_retweets": 85074,
+      "total_replies": 9915,
+      "active_users": 526,
+      "engagement": 511062,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-09T00:00:00",
+      "tweet_count": 661,
+      "total_favorites": 449030,
+      "total_retweets": 92514,
+      "total_replies": 9049,
+      "active_users": 525,
+      "engagement": 652156,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-10T00:00:00",
+      "tweet_count": 807,
+      "total_favorites": 276670,
+      "total_retweets": 65632,
+      "total_replies": 8763,
+      "active_users": 578,
+      "engagement": 425460,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-11T00:00:00",
+      "tweet_count": 767,
+      "total_favorites": 395650,
+      "total_retweets": 110607,
+      "total_replies": 10210,
+      "active_users": 597,
+      "engagement": 637284,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-12T00:00:00",
+      "tweet_count": 860,
+      "total_favorites": 351116,
+      "total_retweets": 81926,
+      "total_replies": 9779,
+      "active_users": 627,
+      "engagement": 534526,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-13T00:00:00",
+      "tweet_count": 1018,
+      "total_favorites": 594175,
+      "total_retweets": 101776,
+      "total_replies": 12105,
+      "active_users": 751,
+      "engagement": 821937,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-14T00:00:00",
+      "tweet_count": 1087,
+      "total_favorites": 425182,
+      "total_retweets": 107236,
+      "total_replies": 11089,
+      "active_users": 829,
+      "engagement": 661832,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-15T00:00:00",
+      "tweet_count": 912,
+      "total_favorites": 368835,
+      "total_retweets": 84435,
+      "total_replies": 8641,
+      "active_users": 665,
+      "engagement": 554987,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-16T00:00:00",
+      "tweet_count": 814,
+      "total_favorites": 432475,
+      "total_retweets": 87349,
+      "total_replies": 11427,
+      "active_users": 613,
+      "engagement": 630027,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-17T00:00:00",
+      "tweet_count": 823,
+      "total_favorites": 296272,
+      "total_retweets": 74186,
+      "total_replies": 7868,
+      "active_users": 610,
+      "engagement": 460380,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-18T00:00:00",
+      "tweet_count": 855,
+      "total_favorites": 356758,
+      "total_retweets": 92383,
+      "total_replies": 10219,
+      "active_users": 602,
+      "engagement": 561962,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-19T00:00:00",
+      "tweet_count": 2265,
+      "total_favorites": 1516859,
+      "total_retweets": 328340,
+      "total_replies": 39388,
+      "active_users": 1532,
+      "engagement": 2252315,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-20T00:00:00",
+      "tweet_count": 1638,
+      "total_favorites": 599941,
+      "total_retweets": 156789,
+      "total_replies": 19421,
+      "active_users": 1103,
+      "engagement": 952361,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-21T00:00:00",
+      "tweet_count": 1310,
+      "total_favorites": 696334,
+      "total_retweets": 158670,
+      "total_replies": 19340,
+      "active_users": 878,
+      "engagement": 1052354,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-22T00:00:00",
+      "tweet_count": 1290,
+      "total_favorites": 970701,
+      "total_retweets": 226686,
+      "total_replies": 23263,
+      "active_users": 916,
+      "engagement": 1470599,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-23T00:00:00",
+      "tweet_count": 1608,
+      "total_favorites": 1109774,
+      "total_retweets": 264808,
+      "total_replies": 28868,
+      "active_users": 1114,
+      "engagement": 1697126,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-24T00:00:00",
+      "tweet_count": 1443,
+      "total_favorites": 699243,
+      "total_retweets": 165783,
+      "total_replies": 14821,
+      "active_users": 964,
+      "engagement": 1060451,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-25T00:00:00",
+      "tweet_count": 1533,
+      "total_favorites": 721070,
+      "total_retweets": 187670,
+      "total_replies": 18674,
+      "active_users": 1024,
+      "engagement": 1133758,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-26T00:00:00",
+      "tweet_count": 370,
+      "total_favorites": 142007,
+      "total_retweets": 45151,
+      "total_replies": 4424,
+      "active_users": 296,
+      "engagement": 241157,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-27T00:00:00",
+      "tweet_count": 2721,
+      "total_favorites": 2074416,
+      "total_retweets": 471481,
+      "total_replies": 43577,
+      "active_users": 1694,
+      "engagement": 3104532,
+      "is_peak": true
+    },
+    {
+      "date": "2026-01-28T00:00:00",
+      "tweet_count": 2447,
+      "total_favorites": 1507989,
+      "total_retweets": 416544,
+      "total_replies": 35046,
+      "active_users": 1521,
+      "engagement": 2411169,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-29T00:00:00",
+      "tweet_count": 1903,
+      "total_favorites": 1151143,
+      "total_retweets": 304951,
+      "total_replies": 26692,
+      "active_users": 1226,
+      "engagement": 1814429,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-30T00:00:00",
+      "tweet_count": 2026,
+      "total_favorites": 1513816,
+      "total_retweets": 344080,
+      "total_replies": 33917,
+      "active_users": 1363,
+      "engagement": 2269810,
+      "is_peak": false
+    },
+    {
+      "date": "2026-01-31T00:00:00",
+      "tweet_count": 2859,
+      "total_favorites": 1475071,
+      "total_retweets": 431357,
+      "total_replies": 35548,
+      "active_users": 1687,
+      "engagement": 2408881,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-01T00:00:00",
+      "tweet_count": 4615,
+      "total_favorites": 2580075,
+      "total_retweets": 704716,
+      "total_replies": 59591,
+      "active_users": 2485,
+      "engagement": 4108689,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-02T00:00:00",
+      "tweet_count": 2952,
+      "total_favorites": 1771143,
+      "total_retweets": 541063,
+      "total_replies": 39813,
+      "active_users": 1836,
+      "engagement": 2932895,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-03T00:00:00",
+      "tweet_count": 3059,
+      "total_favorites": 1854907,
+      "total_retweets": 600440,
+      "total_replies": 38040,
+      "active_users": 1789,
+      "engagement": 3131867,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-04T00:00:00",
+      "tweet_count": 3290,
+      "total_favorites": 2040279,
+      "total_retweets": 564091,
+      "total_replies": 46498,
+      "active_users": 2012,
+      "engagement": 3261457,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-05T00:00:00",
+      "tweet_count": 3006,
+      "total_favorites": 1847120,
+      "total_retweets": 518654,
+      "total_replies": 41446,
+      "active_users": 1785,
+      "engagement": 2967320,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-06T00:00:00",
+      "tweet_count": 3052,
+      "total_favorites": 1453523,
+      "total_retweets": 421502,
+      "total_replies": 28970,
+      "active_users": 1911,
+      "engagement": 2354467,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-07T00:00:00",
+      "tweet_count": 3589,
+      "total_favorites": 2048048,
+      "total_retweets": 539832,
+      "total_replies": 40681,
+      "active_users": 2136,
+      "engagement": 3209074,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-08T00:00:00",
+      "tweet_count": 3534,
+      "total_favorites": 2350155,
+      "total_retweets": 420648,
+      "total_replies": 44553,
+      "active_users": 2477,
+      "engagement": 3280557,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-09T00:00:00",
+      "tweet_count": 2859,
+      "total_favorites": 1458223,
+      "total_retweets": 313131,
+      "total_replies": 38607,
+      "active_users": 2006,
+      "engagement": 2161699,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-10T00:00:00",
+      "tweet_count": 2077,
+      "total_favorites": 1109340,
+      "total_retweets": 252419,
+      "total_replies": 27241,
+      "active_users": 1522,
+      "engagement": 1668660,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-11T00:00:00",
+      "tweet_count": 589,
+      "total_favorites": 335987,
+      "total_retweets": 83160,
+      "total_replies": 10321,
+      "active_users": 504,
+      "engagement": 522949,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-12T00:00:00",
+      "tweet_count": 1491,
+      "total_favorites": 1047302,
+      "total_retweets": 301471,
+      "total_replies": 21736,
+      "active_users": 1093,
+      "engagement": 1693716,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-13T00:00:00",
+      "tweet_count": 1617,
+      "total_favorites": 955818,
+      "total_retweets": 267989,
+      "total_replies": 19548,
+      "active_users": 1145,
+      "engagement": 1530892,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-14T00:00:00",
+      "tweet_count": 1435,
+      "total_favorites": 978986,
+      "total_retweets": 205916,
+      "total_replies": 26785,
+      "active_users": 1032,
+      "engagement": 1444388,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-15T00:00:00",
+      "tweet_count": 1476,
+      "total_favorites": 893905,
+      "total_retweets": 236113,
+      "total_replies": 18958,
+      "active_users": 1067,
+      "engagement": 1404047,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-16T00:00:00",
+      "tweet_count": 1369,
+      "total_favorites": 724698,
+      "total_retweets": 185328,
+      "total_replies": 16133,
+      "active_users": 986,
+      "engagement": 1127620,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-17T00:00:00",
+      "tweet_count": 1379,
+      "total_favorites": 668180,
+      "total_retweets": 198438,
+      "total_replies": 14505,
+      "active_users": 981,
+      "engagement": 1094066,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-18T00:00:00",
+      "tweet_count": 2388,
+      "total_favorites": 1696955,
+      "total_retweets": 339962,
+      "total_replies": 26899,
+      "active_users": 1636,
+      "engagement": 2430677,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-19T00:00:00",
+      "tweet_count": 1698,
+      "total_favorites": 902968,
+      "total_retweets": 230332,
+      "total_replies": 14530,
+      "active_users": 1237,
+      "engagement": 1392692,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-20T00:00:00",
+      "tweet_count": 1689,
+      "total_favorites": 675365,
+      "total_retweets": 181982,
+      "total_replies": 16881,
+      "active_users": 1196,
+      "engagement": 1073091,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-21T00:00:00",
+      "tweet_count": 1520,
+      "total_favorites": 660468,
+      "total_retweets": 162844,
+      "total_replies": 14276,
+      "active_users": 1041,
+      "engagement": 1014708,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-22T00:00:00",
+      "tweet_count": 1559,
+      "total_favorites": 709354,
+      "total_retweets": 195070,
+      "total_replies": 15878,
+      "active_users": 1072,
+      "engagement": 1131250,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-23T00:00:00",
+      "tweet_count": 1487,
+      "total_favorites": 637127,
+      "total_retweets": 200292,
+      "total_replies": 14129,
+      "active_users": 1029,
+      "engagement": 1065969,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-24T00:00:00",
+      "tweet_count": 1983,
+      "total_favorites": 1116961,
+      "total_retweets": 294873,
+      "total_replies": 42100,
+      "active_users": 1301,
+      "engagement": 1790907,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-25T00:00:00",
+      "tweet_count": 1978,
+      "total_favorites": 882231,
+      "total_retweets": 232751,
+      "total_replies": 22322,
+      "active_users": 1254,
+      "engagement": 1392377,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-26T00:00:00",
+      "tweet_count": 2018,
+      "total_favorites": 822079,
+      "total_retweets": 222212,
+      "total_replies": 19786,
+      "active_users": 1351,
+      "engagement": 1306075,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-27T00:00:00",
+      "tweet_count": 2390,
+      "total_favorites": 1141886,
+      "total_retweets": 309104,
+      "total_replies": 21773,
+      "active_users": 1513,
+      "engagement": 1803640,
+      "is_peak": false
+    },
+    {
+      "date": "2026-02-28T00:00:00",
+      "tweet_count": 1686,
+      "total_favorites": 838171,
+      "total_retweets": 225288,
+      "total_replies": 17626,
+      "active_users": 1166,
+      "engagement": 1323999,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-01T00:00:00",
+      "tweet_count": 1255,
+      "total_favorites": 544336,
+      "total_retweets": 156476,
+      "total_replies": 9661,
+      "active_users": 879,
+      "engagement": 876610,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-02T00:00:00",
+      "tweet_count": 1398,
+      "total_favorites": 760919,
+      "total_retweets": 195723,
+      "total_replies": 15478,
+      "active_users": 973,
+      "engagement": 1183321,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-03T00:00:00",
+      "tweet_count": 1928,
+      "total_favorites": 850582,
+      "total_retweets": 241189,
+      "total_replies": 16776,
+      "active_users": 1272,
+      "engagement": 1366512,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-04T00:00:00",
+      "tweet_count": 1610,
+      "total_favorites": 826342,
+      "total_retweets": 266569,
+      "total_replies": 13791,
+      "active_users": 1064,
+      "engagement": 1387062,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-05T00:00:00",
+      "tweet_count": 1572,
+      "total_favorites": 823524,
+      "total_retweets": 268793,
+      "total_replies": 13874,
+      "active_users": 1080,
+      "engagement": 1388858,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-06T00:00:00",
+      "tweet_count": 1636,
+      "total_favorites": 690495,
+      "total_retweets": 197367,
+      "total_replies": 9852,
+      "active_users": 1098,
+      "engagement": 1104933,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-07T00:00:00",
+      "tweet_count": 1434,
+      "total_favorites": 720047,
+      "total_retweets": 211684,
+      "total_replies": 10779,
+      "active_users": 983,
+      "engagement": 1164973,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-08T00:00:00",
+      "tweet_count": 1400,
+      "total_favorites": 618719,
+      "total_retweets": 181934,
+      "total_replies": 8190,
+      "active_users": 965,
+      "engagement": 998967,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-09T00:00:00",
+      "tweet_count": 1342,
+      "total_favorites": 570262,
+      "total_retweets": 158930,
+      "total_replies": 11905,
+      "active_users": 916,
+      "engagement": 911932,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-10T00:00:00",
+      "tweet_count": 1133,
+      "total_favorites": 630216,
+      "total_retweets": 202851,
+      "total_replies": 10403,
+      "active_users": 831,
+      "engagement": 1056724,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-11T00:00:00",
+      "tweet_count": 1311,
+      "total_favorites": 653381,
+      "total_retweets": 206678,
+      "total_replies": 10777,
+      "active_users": 946,
+      "engagement": 1088291,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-12T00:00:00",
+      "tweet_count": 1590,
+      "total_favorites": 967267,
+      "total_retweets": 274376,
+      "total_replies": 14112,
+      "active_users": 1077,
+      "engagement": 1544243,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-13T00:00:00",
+      "tweet_count": 1567,
+      "total_favorites": 828275,
+      "total_retweets": 218111,
+      "total_replies": 15490,
+      "active_users": 1052,
+      "engagement": 1295477,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-14T00:00:00",
+      "tweet_count": 1608,
+      "total_favorites": 770746,
+      "total_retweets": 227079,
+      "total_replies": 12232,
+      "active_users": 1078,
+      "engagement": 1249368,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-15T00:00:00",
+      "tweet_count": 1429,
+      "total_favorites": 595866,
+      "total_retweets": 181978,
+      "total_replies": 9505,
+      "active_users": 971,
+      "engagement": 978832,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-16T00:00:00",
+      "tweet_count": 2028,
+      "total_favorites": 1043196,
+      "total_retweets": 280751,
+      "total_replies": 18224,
+      "active_users": 1269,
+      "engagement": 1641146,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-17T00:00:00",
+      "tweet_count": 1892,
+      "total_favorites": 996243,
+      "total_retweets": 262997,
+      "total_replies": 15107,
+      "active_users": 1233,
+      "engagement": 1552451,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-18T00:00:00",
+      "tweet_count": 1335,
+      "total_favorites": 506595,
+      "total_retweets": 142491,
+      "total_replies": 9641,
+      "active_users": 951,
+      "engagement": 810859,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-19T00:00:00",
+      "tweet_count": 2254,
+      "total_favorites": 1167630,
+      "total_retweets": 279545,
+      "total_replies": 26192,
+      "active_users": 1421,
+      "engagement": 1779104,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-20T00:00:00",
+      "tweet_count": 2933,
+      "total_favorites": 1190093,
+      "total_retweets": 316970,
+      "total_replies": 22453,
+      "active_users": 1906,
+      "engagement": 1868939,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-21T00:00:00",
+      "tweet_count": 2041,
+      "total_favorites": 942945,
+      "total_retweets": 252999,
+      "total_replies": 16433,
+      "active_users": 1395,
+      "engagement": 1481809,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-22T00:00:00",
+      "tweet_count": 1452,
+      "total_favorites": 829659,
+      "total_retweets": 237946,
+      "total_replies": 14783,
+      "active_users": 1048,
+      "engagement": 1335117,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-23T00:00:00",
+      "tweet_count": 1402,
+      "total_favorites": 535496,
+      "total_retweets": 154977,
+      "total_replies": 11049,
+      "active_users": 971,
+      "engagement": 867548,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-24T00:00:00",
+      "tweet_count": 1196,
+      "total_favorites": 523701,
+      "total_retweets": 164091,
+      "total_replies": 11481,
+      "active_users": 840,
+      "engagement": 874845,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-25T00:00:00",
+      "tweet_count": 1420,
+      "total_favorites": 664017,
+      "total_retweets": 196444,
+      "total_replies": 12141,
+      "active_users": 952,
+      "engagement": 1081187,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-26T00:00:00",
+      "tweet_count": 1103,
+      "total_favorites": 594501,
+      "total_retweets": 176478,
+      "total_replies": 12749,
+      "active_users": 742,
+      "engagement": 972955,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-27T00:00:00",
+      "tweet_count": 1525,
+      "total_favorites": 938992,
+      "total_retweets": 297262,
+      "total_replies": 13235,
+      "active_users": 1011,
+      "engagement": 1559986,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-28T00:00:00",
+      "tweet_count": 1291,
+      "total_favorites": 564537,
+      "total_retweets": 183687,
+      "total_replies": 9454,
+      "active_users": 883,
+      "engagement": 950819,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-29T00:00:00",
+      "tweet_count": 1427,
+      "total_favorites": 663108,
+      "total_retweets": 217604,
+      "total_replies": 12614,
+      "active_users": 952,
+      "engagement": 1123544,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-30T00:00:00",
+      "tweet_count": 1106,
+      "total_favorites": 657971,
+      "total_retweets": 199562,
+      "total_replies": 11993,
+      "active_users": 726,
+      "engagement": 1081081,
+      "is_peak": false
+    },
+    {
+      "date": "2026-03-31T00:00:00",
+      "tweet_count": 1594,
+      "total_favorites": 700759,
+      "total_retweets": 202151,
+      "total_replies": 12372,
+      "active_users": 980,
+      "engagement": 1129805,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-01T00:00:00",
+      "tweet_count": 1565,
+      "total_favorites": 839503,
+      "total_retweets": 256787,
+      "total_replies": 15127,
+      "active_users": 1021,
+      "engagement": 1383331,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-02T00:00:00",
+      "tweet_count": 1214,
+      "total_favorites": 595480,
+      "total_retweets": 185321,
+      "total_replies": 13495,
+      "active_users": 848,
+      "engagement": 993112,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-03T00:00:00",
+      "tweet_count": 1217,
+      "total_favorites": 544487,
+      "total_retweets": 181718,
+      "total_replies": 9466,
+      "active_users": 805,
+      "engagement": 926855,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-04T00:00:00",
+      "tweet_count": 1186,
+      "total_favorites": 663368,
+      "total_retweets": 227373,
+      "total_replies": 9739,
+      "active_users": 788,
+      "engagement": 1137592,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-05T00:00:00",
+      "tweet_count": 1291,
+      "total_favorites": 596628,
+      "total_retweets": 177538,
+      "total_replies": 9724,
+      "active_users": 854,
+      "engagement": 971152,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-06T00:00:00",
+      "tweet_count": 1284,
+      "total_favorites": 449805,
+      "total_retweets": 136462,
+      "total_replies": 9080,
+      "active_users": 833,
+      "engagement": 740889,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-07T00:00:00",
+      "tweet_count": 1254,
+      "total_favorites": 590906,
+      "total_retweets": 186217,
+      "total_replies": 11180,
+      "active_users": 838,
+      "engagement": 985700,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-08T00:00:00",
+      "tweet_count": 1195,
+      "total_favorites": 441847,
+      "total_retweets": 137346,
+      "total_replies": 7067,
+      "active_users": 838,
+      "engagement": 730673,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-09T00:00:00",
+      "tweet_count": 1055,
+      "total_favorites": 463868,
+      "total_retweets": 132987,
+      "total_replies": 11119,
+      "active_users": 722,
+      "engagement": 752080,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-10T00:00:00",
+      "tweet_count": 1120,
+      "total_favorites": 501977,
+      "total_retweets": 152567,
+      "total_replies": 10289,
+      "active_users": 798,
+      "engagement": 827689,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-11T00:00:00",
+      "tweet_count": 1093,
+      "total_favorites": 552753,
+      "total_retweets": 168377,
+      "total_replies": 11607,
+      "active_users": 747,
+      "engagement": 912721,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-12T00:00:00",
+      "tweet_count": 1451,
+      "total_favorites": 691323,
+      "total_retweets": 199561,
+      "total_replies": 14539,
+      "active_users": 968,
+      "engagement": 1119523,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-13T00:00:00",
+      "tweet_count": 1213,
+      "total_favorites": 539136,
+      "total_retweets": 174742,
+      "total_replies": 9149,
+      "active_users": 838,
+      "engagement": 906918,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-14T00:00:00",
+      "tweet_count": 1236,
+      "total_favorites": 388080,
+      "total_retweets": 117342,
+      "total_replies": 9123,
+      "active_users": 841,
+      "engagement": 641010,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-15T00:00:00",
+      "tweet_count": 799,
+      "total_favorites": 379201,
+      "total_retweets": 109695,
+      "total_replies": 7165,
+      "active_users": 601,
+      "engagement": 612921,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-16T00:00:00",
+      "tweet_count": 989,
+      "total_favorites": 211935,
+      "total_retweets": 69822,
+      "total_replies": 4401,
+      "active_users": 738,
+      "engagement": 360381,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-17T00:00:00",
+      "tweet_count": 1071,
+      "total_favorites": 593720,
+      "total_retweets": 194201,
+      "total_replies": 11410,
+      "active_users": 745,
+      "engagement": 1004942,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-18T00:00:00",
+      "tweet_count": 792,
+      "total_favorites": 237872,
+      "total_retweets": 83324,
+      "total_replies": 6874,
+      "active_users": 601,
+      "engagement": 418268,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-19T00:00:00",
+      "tweet_count": 1077,
+      "total_favorites": 514998,
+      "total_retweets": 166935,
+      "total_replies": 10065,
+      "active_users": 737,
+      "engagement": 868998,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-20T00:00:00",
+      "tweet_count": 1098,
+      "total_favorites": 449704,
+      "total_retweets": 138837,
+      "total_replies": 11463,
+      "active_users": 752,
+      "engagement": 750304,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-21T00:00:00",
+      "tweet_count": 1521,
+      "total_favorites": 626451,
+      "total_retweets": 182328,
+      "total_replies": 13705,
+      "active_users": 1011,
+      "engagement": 1018517,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-22T00:00:00",
+      "tweet_count": 731,
+      "total_favorites": 281104,
+      "total_retweets": 89694,
+      "total_replies": 7284,
+      "active_users": 507,
+      "engagement": 475060,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-23T00:00:00",
+      "tweet_count": 701,
+      "total_favorites": 332826,
+      "total_retweets": 96953,
+      "total_replies": 8478,
+      "active_users": 481,
+      "engagement": 543688,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-24T00:00:00",
+      "tweet_count": 827,
+      "total_favorites": 421248,
+      "total_retweets": 135156,
+      "total_replies": 9137,
+      "active_users": 568,
+      "engagement": 709834,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-25T00:00:00",
+      "tweet_count": 651,
+      "total_favorites": 337258,
+      "total_retweets": 115529,
+      "total_replies": 4986,
+      "active_users": 474,
+      "engagement": 578288,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-26T00:00:00",
+      "tweet_count": 747,
+      "total_favorites": 471054,
+      "total_retweets": 155984,
+      "total_replies": 7941,
+      "active_users": 506,
+      "engagement": 798904,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-27T00:00:00",
+      "tweet_count": 792,
+      "total_favorites": 346504,
+      "total_retweets": 110007,
+      "total_replies": 7998,
+      "active_users": 549,
+      "engagement": 582514,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-28T00:00:00",
+      "tweet_count": 719,
+      "total_favorites": 253047,
+      "total_retweets": 80878,
+      "total_replies": 5108,
+      "active_users": 487,
+      "engagement": 425019,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-29T00:00:00",
+      "tweet_count": 1069,
+      "total_favorites": 802389,
+      "total_retweets": 270901,
+      "total_replies": 15387,
+      "active_users": 670,
+      "engagement": 1374965,
+      "is_peak": false
+    },
+    {
+      "date": "2026-04-30T00:00:00",
+      "tweet_count": 1139,
+      "total_favorites": 713850,
+      "total_retweets": 233922,
+      "total_replies": 12435,
+      "active_users": 728,
+      "engagement": 1206564,
+      "is_peak": false
+    },
+    {
+      "date": "2026-05-01T00:00:00",
+      "tweet_count": 992,
+      "total_favorites": 501399,
+      "total_retweets": 160392,
+      "total_replies": 7351,
+      "active_users": 671,
+      "engagement": 836885,
+      "is_peak": false
+    },
+    {
+      "date": "2026-05-02T00:00:00",
+      "tweet_count": 900,
+      "total_favorites": 556873,
+      "total_retweets": 181219,
+      "total_replies": 10142,
+      "active_users": 605,
+      "engagement": 939595,
+      "is_peak": false
+    },
+    {
+      "date": "2026-05-03T00:00:00",
+      "tweet_count": 932,
+      "total_favorites": 471386,
+      "total_retweets": 154997,
+      "total_replies": 7724,
+      "active_users": 600,
+      "engagement": 796828,
+      "is_peak": false
+    },
+    {
+      "date": "2026-05-04T00:00:00",
+      "tweet_count": 749,
+      "total_favorites": 459030,
+      "total_retweets": 150117,
+      "total_replies": 6461,
+      "active_users": 524,
+      "engagement": 772186,
+      "is_peak": false
+    },
+    {
+      "date": "2026-05-05T00:00:00",
+      "tweet_count": 804,
+      "total_favorites": 483720,
+      "total_retweets": 158049,
+      "total_replies": 13177,
+      "active_users": 542,
+      "engagement": 826172,
+      "is_peak": false
+    }
+  ],
+  "top_peak_days": [
+    {
+      "date": "2025-10-04T00:00:00",
+      "tweet_count": 6832,
+      "total_favorites": 8261837,
+      "total_retweets": 1072394,
+      "total_replies": 132669,
+      "active_users": 4988,
+      "engagement": 10671963,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-01T00:00:00",
+      "tweet_count": 4615,
+      "total_favorites": 2580075,
+      "total_retweets": 704716,
+      "total_replies": 59591,
+      "active_users": 2485,
+      "engagement": 4108689,
+      "is_peak": true
+    },
+    {
+      "date": "2025-10-21T00:00:00",
+      "tweet_count": 3249,
+      "total_favorites": 3183388,
+      "total_retweets": 396538,
+      "total_replies": 47097,
+      "active_users": 2527,
+      "engagement": 4070658,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-08T00:00:00",
+      "tweet_count": 3534,
+      "total_favorites": 2350155,
+      "total_retweets": 420648,
+      "total_replies": 44553,
+      "active_users": 2477,
+      "engagement": 3280557,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-04T00:00:00",
+      "tweet_count": 3290,
+      "total_favorites": 2040279,
+      "total_retweets": 564091,
+      "total_replies": 46498,
+      "active_users": 2012,
+      "engagement": 3261457,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-07T00:00:00",
+      "tweet_count": 3589,
+      "total_favorites": 2048048,
+      "total_retweets": 539832,
+      "total_replies": 40681,
+      "active_users": 2136,
+      "engagement": 3209074,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-03T00:00:00",
+      "tweet_count": 3059,
+      "total_favorites": 1854907,
+      "total_retweets": 600440,
+      "total_replies": 38040,
+      "active_users": 1789,
+      "engagement": 3131867,
+      "is_peak": true
+    },
+    {
+      "date": "2026-01-27T00:00:00",
+      "tweet_count": 2721,
+      "total_favorites": 2074416,
+      "total_retweets": 471481,
+      "total_replies": 43577,
+      "active_users": 1694,
+      "engagement": 3104532,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-05T00:00:00",
+      "tweet_count": 3006,
+      "total_favorites": 1847120,
+      "total_retweets": 518654,
+      "total_replies": 41446,
+      "active_users": 1785,
+      "engagement": 2967320,
+      "is_peak": true
+    },
+    {
+      "date": "2026-02-02T00:00:00",
+      "tweet_count": 2952,
+      "total_favorites": 1771143,
+      "total_retweets": 541063,
+      "total_replies": 39813,
+      "active_users": 1836,
+      "engagement": 2932895,
+      "is_peak": true
+    }
+  ],
+  "weekly_pattern": {
+    "Tuesday": 42260,
+    "Saturday": 41077,
+    "Sunday": 39152,
+    "Monday": 38453,
+    "Friday": 38384,
+    "Wednesday": 37961,
+    "Thursday": 34565
+  },
+  "hourly_pattern": {
+    "0": 12296,
+    "1": 12574,
+    "2": 12750,
+    "3": 14476,
+    "4": 12516,
+    "5": 12813,
+    "6": 11731,
+    "7": 13947,
+    "8": 14518,
+    "9": 17172,
+    "10": 16698,
+    "11": 17481,
+    "12": 17505,
+    "13": 15699,
+    "14": 12079,
+    "15": 8647,
+    "16": 5093,
+    "17": 3381,
+    "18": 2569,
+    "19": 2880,
+    "20": 4557,
+    "21": 7695,
+    "22": 10687,
+    "23": 12088
+  }
+}

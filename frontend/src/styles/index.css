@@ -1,0 +1,557 @@
+/* ========================================
+   舆论透镜 - 界面样式
+   ======================================== */
+
+:root {
+  /* 主色调 - 紫蓝渐变 */
+  --primary-color: #667eea;
+  --primary-dark: #5a67d8;
+  --primary-light: #764ba2;
+  --secondary-color: #00d9ff;
+  
+  /* 功能色 */
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --error-color: #ef4444;
+  --info-color: #3b82f6;
+  
+  /* 背景色 */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  
+  /* 文字色 */
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+  --text-inverse: #ffffff;
+  
+  /* 边框 */
+  --border-color: #e2e8f0;
+  --border-radius: 12px;
+  --border-radius-sm: 8px;
+  
+  /* 阴影 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* 字体 */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', monospace;
+}
+
+/* 全局重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* ========================================
+   布局
+   ======================================== */
+
+.app-container {
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+/* ========================================
+   头部导航
+   ======================================== */
+
+.ant-layout-header {
+  background: var(--bg-gradient) !important;
+  padding: 0 32px !important;
+  height: 64px !important;
+  line-height: 64px !important;
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.ant-menu-dark {
+  background: transparent !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-radius: 8px;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* ========================================
+   卡片样式
+   ======================================== */
+
+.ant-card {
+  border: none !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: var(--shadow-sm) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-card:hover {
+  box-shadow: var(--shadow-md) !important;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid var(--border-color) !important;
+  font-weight: 600 !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-card-body {
+  padding: 20px !important;
+}
+
+/* ========================================
+   统计卡片
+   ======================================== */
+
+.stat-card {
+  background: var(--bg-secondary);
+  border-radius: var(--border-radius);
+  padding: 24px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.stat-card .label {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-card .value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+
+.stat-card .value.green { color: var(--success-color); }
+.stat-card .value.red { color: var(--error-color); }
+.stat-card .value.orange { color: var(--warning-color); }
+.stat-card .value.blue { color: var(--info-color); }
+
+/* ========================================
+   按钮样式
+   ======================================== */
+
+.ant-btn-primary {
+  background: var(--bg-gradient) !important;
+  border: none !important;
+  box-shadow: 0 4px 14px rgba(102, 126, 234, 0.4) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5) !important;
+}
+
+.ant-btn {
+  border-radius: var(--border-radius-sm) !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* ========================================
+   表格样式
+   ======================================== */
+
+.ant-table {
+  border-radius: var(--border-radius) !important;
+  overflow: hidden;
+}
+
+.ant-table-thead > tr > th {
+  background: var(--bg-primary) !important;
+  font-weight: 600 !important;
+  color: var(--text-primary) !important;
+  border-bottom: 2px solid var(--border-color) !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: #f1f5f9 !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* ========================================
+   标签样式
+   ======================================== */
+
+.ant-tag {
+  border-radius: 20px !important;
+  padding: 2px 12px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  border: none !important;
+}
+
+/* ========================================
+   输入框样式
+   ======================================== */
+
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-select-selector {
+  border-radius: var(--border-radius-sm) !important;
+  border: 1px solid var(--border-color) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-input:focus,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused,
+.ant-select-focused .ant-select-selector {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
+}
+
+/* ========================================
+   进度条样式
+   ======================================== */
+
+.ant-progress-bg {
+  background: var(--bg-gradient) !important;
+}
+
+/* ========================================
+   时间线样式
+   ======================================== */
+
+.ant-timeline-item-content {
+  margin-top: -4px !important;
+}
+
+/* ========================================
+   折叠面板样式
+   ======================================== */
+
+.ant-collapse {
+  border-radius: var(--border-radius) !important;
+  border: 1px solid var(--border-color) !important;
+  overflow: hidden;
+}
+
+.ant-collapse-item {
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.ant-collapse-header {
+  font-weight: 600 !important;
+}
+
+/* ========================================
+   抽屉/弹窗样式
+   ======================================== */
+
+.ant-drawer-header {
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 16px 24px !important;
+}
+
+.ant-modal-header {
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 16px 24px !important;
+}
+
+/* ========================================
+   加载状态
+   ======================================== */
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 16px;
+}
+
+.ant-spin-dot-item {
+  background: var(--primary-color) !important;
+}
+
+/* ========================================
+   空状态
+   ======================================== */
+
+.ant-empty-description {
+  color: var(--text-muted) !important;
+}
+
+/* ========================================
+   提示信息样式
+   ======================================== */
+
+.ant-alert {
+  border-radius: var(--border-radius-sm) !important;
+  border: none !important;
+}
+
+.ant-alert-info {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%) !important;
+  border-left: 4px solid var(--info-color) !important;
+}
+
+.ant-alert-success {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%) !important;
+  border-left: 4px solid var(--success-color) !important;
+}
+
+.ant-alert-warning {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(245, 158, 11, 0.05) 100%) !important;
+  border-left: 4px solid var(--warning-color) !important;
+}
+
+.ant-alert-error {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(239, 68, 68, 0.05) 100%) !important;
+  border-left: 4px solid var(--error-color) !important;
+}
+
+/* ========================================
+   分页样式
+   ======================================== */
+
+.ant-pagination-item-active {
+  background: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.ant-pagination-item-active a {
+  color: white !important;
+}
+
+/* ========================================
+   Tabs 样式
+   ======================================== */
+
+.ant-tabs-tab {
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--primary-color) !important;
+  font-weight: 600 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: var(--primary-color) !important;
+}
+
+/* ========================================
+   列表样式
+   ======================================== */
+
+.ant-list-item {
+  padding: 16px 0 !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  transition: background 0.2s ease !important;
+}
+
+.ant-list-item:hover {
+  background: #f8fafc !important;
+}
+
+/* ========================================
+   响应式调整
+   ======================================== */
+
+@media (max-width: 768px) {
+  .ant-layout-header {
+    padding: 0 16px !important;
+  }
+  
+  .stat-card .value {
+    font-size: 24px !important;
+  }
+  
+  .ant-card-body {
+    padding: 16px !important;
+  }
+}
+
+/* ========================================
+   标题样式
+   ======================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.ant-typography h1 {
+  font-size: 32px;
+  font-weight: 700;
+  background: var(--bg-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ========================================
+   上传组件样式
+   ======================================== */
+
+.ant-upload-drag {
+  border: 2px dashed var(--border-color) !important;
+  border-radius: var(--border-radius) !important;
+  background: var(--bg-primary) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-upload-drag:hover {
+  border-color: var(--primary-color) !important;
+  background: rgba(102, 126, 234, 0.05) !important;
+}
+
+.ant-upload-drag-icon {
+  color: var(--primary-color) !important;
+}
+
+/* ========================================
+   Badge 样式
+   ======================================== */
+
+.ant-badge-status-processing {
+  background-color: var(--primary-color) !important;
+}
+
+/* ========================================
+   分割线样式
+   ======================================== */
+
+.ant-divider {
+  border-color: var(--border-color) !important;
+}
+
+/* ========================================
+   Tooltip 样式
+   ======================================== */
+
+.ant-tooltip-inner {
+  border-radius: var(--border-radius-sm) !important;
+  padding: 8px 12px !important;
+}
+
+/* ========================================
+   滚动条样式
+   ======================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* ========================================
+   页面标题区
+   ======================================== */
+
+.page-header {
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 32px 0;
+}
+
+.page-header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.page-header p {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+/* ========================================
+   功能卡片
+   ======================================== */
+
+.feature-card {
+  background: var(--bg-secondary);
+  border-radius: var(--border-radius);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-color);
+}
+
+/* ========================================
+   渐变背景卡片
+   ======================================== */
+
+.gradient-card {
+  background: var(--bg-gradient);
+  color: white;
+  border-radius: var(--border-radius);
+  padding: 32px;
+  box-shadow: var(--shadow-lg);
+}
+
+.gradient-card .ant-statistic-title {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.gradient-card .ant-statistic-content {
+  color: white !important;
+}
