@@ -425,40 +425,36 @@ export default function AdvancedAnalysis() {
       )}
 
       {/* 统计概览 */}
-      <Row gutter={[16, 16]} style={{ marginTop: 24 }}>
-        <Col xs={24} sm={12} md={6}>
-          <Card>
-            <div className="stat-card">
-              <div className="label">热度突增事件</div>
-              <div className="value">{burstEvents.length}</div>
-              <div style={{ color: '#666', fontSize: 12 }}>可能存在舆论推动</div>
+      <Row gutter={[8, 8]} style={{ marginTop: 12 }}>
+        <Col xs={12} sm={12} md={6}>
+          <Card bodyStyle={{ padding: 12 }}>
+            <div className="stat-card" style={{ padding: 8 }}>
+              <div className="label">热度突增</div>
+              <div className="value" style={{ fontSize: 22 }}>{burstEvents.length}</div>
             </div>
           </Card>
         </Col>
-        <Col xs={24} sm={12} md={6}>
-          <Card>
-            <div className="stat-card">
+        <Col xs={12} sm={12} md={6}>
+          <Card bodyStyle={{ padding: 12 }}>
+            <div className="stat-card" style={{ padding: 8 }}>
               <div className="label">高风险账号</div>
-              <div className="value red">{suspicious.high_risk || 0}</div>
-              <div style={{ color: '#ff4d4f', fontSize: 12 }}>需重点关注</div>
+              <div className="value red" style={{ fontSize: 22 }}>{suspicious.high_risk || 0}</div>
             </div>
           </Card>
         </Col>
-        <Col xs={24} sm={12} md={6}>
-          <Card>
-            <div className="stat-card">
-              <div className="label">协同传播事件</div>
-              <div className="value">{coordinated.total_events || 0}</div>
-              <div style={{ color: '#666', fontSize: 12 }}>可能有组织行为</div>
+        <Col xs={12} sm={12} md={6}>
+          <Card bodyStyle={{ padding: 12 }}>
+            <div className="stat-card" style={{ padding: 8 }}>
+              <div className="label">协同传播</div>
+              <div className="value" style={{ fontSize: 22 }}>{coordinated.total_events || 0}</div>
             </div>
           </Card>
         </Col>
-        <Col xs={24} sm={12} md={6}>
-          <Card>
-            <div className="stat-card">
+        <Col xs={12} sm={12} md={6}>
+          <Card bodyStyle={{ padding: 12 }}>
+            <div className="stat-card" style={{ padding: 8 }}>
               <div className="label">传播链路</div>
-              <div className="value">{(propagation.total_chains || 0).toLocaleString()}</div>
-              <div style={{ color: '#666', fontSize: 12 }}>总回复传播链</div>
+              <div className="value" style={{ fontSize: 22 }}>{(propagation.total_chains || 0).toLocaleString()}</div>
             </div>
           </Card>
         </Col>
@@ -469,27 +465,20 @@ export default function AdvancedAnalysis() {
         <Col span={24}>
           <Card
             title={
-              <span>
-                <WarningOutlined style={{ color: '#ff4d4f', marginRight: 8 }} />
-                可疑账号检测
-                <Tag color="gold" style={{ marginLeft: 8 }}>中风险: {suspicious.medium_risk || 0} 个</Tag>
-                <Tag color="red" style={{ marginLeft: 8 }}>高风险: {suspicious.high_risk || 0} 个</Tag>
-              </span>
+              <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: 4 }}>
+                <WarningOutlined style={{ color: '#ff4d4f' }} />
+                <span style={{ fontSize: 14 }}>可疑账号检测</span>
+                <Tag color="gold" style={{ fontSize: 11 }}>中风险 {suspicious.medium_risk || 0}</Tag>
+                <Tag color="red" style={{ fontSize: 11 }}>高风险 {suspicious.high_risk || 0}</Tag>
+              </div>
             }
           >
             <Alert
-              message="如何解读风险评分？"
-              description={
-                <span>
-                  风险评分基于发帖频率、粉丝比例、互动模式等多维度计算。
-                  <strong>高风险（≥0.6）</strong>：强烈建议标记为可疑来源。
-                  <strong>中风险（0.3-0.6）</strong>：建议结合其他证据综合判断。
-                  点击上方"术语解释"可查看各指标详细含义。
-                </span>
-              }
+              message={<span style={{ fontSize: 12 }}>如何解读风险评分？</span>}
+              description={<span style={{ fontSize: 11, lineHeight: 1.5 }}>高风险≥0.6建议标记为可疑来源，中风险0.3-0.6需综合判断。点击上方"术语解释"查看详情。</span>}
               type="info"
               showIcon
-              style={{ marginBottom: 16 }}
+              style={{ marginBottom: 12 }}
             />
             <Table
               columns={suspiciousColumns}
@@ -514,11 +503,11 @@ export default function AdvancedAnalysis() {
             }
           >
             <Alert
-              message="什么是协同传播？"
-              description="多个账号在短时间内发布高度相似的内容，可能是预先策划的群体行为，如水军活动、话题营销或有组织的舆论引导。"
+              message={<span style={{ fontSize: 12 }}>什么是协同传播？</span>}
+              description={<span style={{ fontSize: 11, lineHeight: 1.5 }}>多个账号短时间内发布高度相似内容，可能是水军活动、话题营销或有组织的舆论引导。</span>}
               type="info"
               showIcon
-              style={{ marginBottom: 16 }}
+              style={{ marginBottom: 12 }}
             />
             <Table
               columns={coordinatedColumns}
@@ -543,17 +532,11 @@ export default function AdvancedAnalysis() {
             }
           >
             <Alert
-              message="如何理解传播链路？"
-              description={
-                <span>
-                  传播链路展示信息从"源用户"扩散到"目标用户"的路径。
-                  高互动数的链路通常是关键传播节点，可用于追踪话题的扩散路径和识别核心传播者。
-                  共 {(propagation.total_chains || 0).toLocaleString()} 条传播链路，平均长度 {propagation.avg_chain_length?.toFixed(2)}。
-                </span>
-              }
+              message={<span style={{ fontSize: 12 }}>如何理解传播链路？</span>}
+              description={<span style={{ fontSize: 11, lineHeight: 1.5 }}>传播链路展示信息从"源用户"扩散到"目标用户"的路径。高互动链路是关键传播节点，共{(propagation.total_chains || 0).toLocaleString()}条，平均长度{propagation.avg_chain_length?.toFixed(2)}。</span>}
               type="info"
               showIcon
-              style={{ marginBottom: 16 }}
+              style={{ marginBottom: 12 }}
             />
             <Table
               columns={propagationColumns}

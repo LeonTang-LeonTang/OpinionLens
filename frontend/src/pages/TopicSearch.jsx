@@ -174,123 +174,98 @@ export default function TopicSearch() {
           {showReport && <AnalysisReport pageKey="topic_search" />}
 
           {/* 统计概览 */}
-          <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
-            <Col xs={24} sm={12} md={6}>
-              <Card>
-                <Statistic
-                  title="相关推文数"
-                  value={results.total_matches || 0}
-                  valueStyle={{ color: '#667eea' }}
-                />
+          <Row gutter={[8, 8]} style={{ marginTop: 12 }}>
+            <Col xs={12} sm={12} md={6}>
+              <Card bodyStyle={{ padding: 10 }}>
+                <Statistic title="相关推文" value={results.total_matches || 0} valueStyle={{ color: '#667eea', fontSize: 16 }} />
               </Card>
             </Col>
-            <Col xs={24} sm={12} md={6}>
-              <Card>
-                <Statistic
-                  title="参与用户数"
-                  value={results.unique_users || 0}
-                  valueStyle={{ color: '#764ba2' }}
-                />
+            <Col xs={12} sm={12} md={6}>
+              <Card bodyStyle={{ padding: 10 }}>
+                <Statistic title="参与用户" value={results.unique_users || 0} valueStyle={{ color: '#764ba2', fontSize: 16 }} />
               </Card>
             </Col>
-            <Col xs={24} sm={12} md={6}>
-              <Card>
-                <Statistic
-                  title="总点赞数"
-                  value={results.engagement?.total_favorites || 0}
-                  valueStyle={{ color: '#52c41a' }}
-                />
+            <Col xs={12} sm={12} md={6}>
+              <Card bodyStyle={{ padding: 10 }}>
+                <Statistic title="总点赞" value={results.engagement?.total_favorites || 0} valueStyle={{ color: '#52c41a', fontSize: 16 }} />
               </Card>
             </Col>
-            <Col xs={24} sm={12} md={6}>
-              <Card>
-                <Statistic
-                  title="总转发数"
-                  value={results.engagement?.total_retweets || 0}
-                  valueStyle={{ color: '#1890ff' }}
-                />
+            <Col xs={12} sm={12} md={6}>
+              <Card bodyStyle={{ padding: 10 }}>
+                <Statistic title="总转发" value={results.engagement?.total_retweets || 0} valueStyle={{ color: '#1890ff', fontSize: 16 }} />
               </Card>
             </Col>
           </Row>
 
           {/* 图表 */}
-          <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
+          <Row gutter={[8, 8]} style={{ marginTop: 12 }}>
             <Col xs={24} lg={12}>
-              <Card>
-                <ReactECharts option={getTimelineOption()} style={{ height: 300 }} />
+              <Card bodyStyle={{ padding: 10 }}>
+                <ReactECharts option={getTimelineOption()} style={{ height: 260 }} />
               </Card>
             </Col>
             <Col xs={24} lg={12}>
-              <Card>
-                <ReactECharts option={getSentimentOption()} style={{ height: 300 }} />
+              <Card bodyStyle={{ padding: 10 }}>
+                <ReactECharts option={getSentimentOption()} style={{ height: 260 }} />
               </Card>
             </Col>
           </Row>
 
           {/* 热门参与者 */}
-          <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
+          <Row gutter={[8, 8]} style={{ marginTop: 12 }}>
             <Col xs={24} lg={12}>
-              <Card title="热门参与者">
+              <Card bodyStyle={{ padding: 10 }} title={<span style={{ fontSize: 13 }}>热门参与者</span>}>
                 <List
                   dataSource={results.top_participants || []}
                   renderItem={(item, index) => (
                     <List.Item
-                      style={{ cursor: 'pointer' }}
+                      style={{ cursor: 'pointer', padding: '6px 0' }}
                       onClick={() => showDetail({ ...item, type: 'user' })}
                     >
                       <List.Item.Meta
                         avatar={
-                          <Avatar style={{ backgroundColor: '#667eea' }}>
+                          <Avatar style={{ backgroundColor: '#667eea', width: 32, height: 32, fontSize: 12 }}>
                             {item.screen_name?.[0]?.toUpperCase()}
                           </Avatar>
                         }
-                        title={<span>@{item.screen_name}</span>}
+                        title={<span style={{ fontSize: 12 }}>@{item.screen_name}</span>}
                         description={
-                          <div>
-                            <span>发帖: {item.tweet_count} | 粉丝: {(item.followers || 0).toLocaleString()}</span>
-                            <Text type="secondary" style={{ marginLeft: 8 }}><EyeOutlined /> 查看详情</Text>
-                          </div>
+                          <span style={{ fontSize: 11, color: '#888' }}>
+                            发帖:{item.tweet_count} 粉丝:{(item.followers || 0).toLocaleString()}
+                          </span>
                         }
                       />
-                      <Tag color="blue">#{index + 1}</Tag>
+                      <Tag color="blue" style={{ fontSize: 10 }}>#{index + 1}</Tag>
                     </List.Item>
                   )}
                   locale={{ emptyText: '暂无数据' }}
                 />
               </Card>
             </Col>
-
-            {/* 代表性推文 */}
             <Col xs={24} lg={12}>
-              <Card title="代表性推文（点击查看全文）">
+              <Card bodyStyle={{ padding: 10 }} title={<span style={{ fontSize: 13 }}>代表性推文</span>}>
                 <List
                   dataSource={results.representative_tweets || []}
                   renderItem={(item) => (
                     <List.Item
-                      style={{ cursor: 'pointer' }}
+                      style={{ cursor: 'pointer', padding: '6px 0' }}
                       onClick={() => showDetail({ ...item, type: 'tweet' })}
                     >
                       <List.Item.Meta
                         avatar={
-                          <Avatar style={{ backgroundColor: '#764ba2' }}>
+                          <Avatar style={{ backgroundColor: '#764ba2', width: 32, height: 32, fontSize: 12 }}>
                             {item.user?.[0]?.toUpperCase()}
                           </Avatar>
                         }
                         title={
                           <div>
-                            <span>@{item.user}</span>
-                            <span style={{ marginLeft: 8, color: '#888' }}>{item.date}</span>
+                            <span style={{ fontSize: 12 }}>@{item.user}</span>
+                            <span style={{ marginLeft: 8, color: '#888', fontSize: 10 }}>{item.date}</span>
                           </div>
                         }
                         description={
-                          <div>
-                            <div style={{ marginBottom: 8, color: '#333' }}>
-                              {item.text?.length > 100 ? item.text.slice(0, 100) + '...' : item.text}
-                            </div>
-                            <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
-                              <Tag color="orange">互动: {item.engagement}</Tag>
-                              <Text type="secondary"><EyeOutlined /> 点击查看全文</Text>
-                            </div>
+                          <div style={{ fontSize: 11, color: '#666' }}>
+                            {item.text?.length > 60 ? item.text.slice(0, 60) + '...' : item.text}
                           </div>
                         }
                       />

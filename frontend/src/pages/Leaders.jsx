@@ -142,33 +142,33 @@ export default function Leaders() {
       </Card>
 
       {leaders?.top3?.length > 0 && (
-        <Card title="TOP 3 意见领袖" style={{ marginTop: 24 }}>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 32 }}>
+        <Card title="TOP 3 意见领袖" style={{ marginTop: 16 }}>
+          <div style={{ display: 'flex', gap: 8, overflowX: 'auto', WebkitOverflowScrolling: 'touch', paddingBottom: 4 }}>
             {leaders.top3.map((leader, index) => (
               <Card
                 key={index}
                 style={{
-                  width: 280,
+                  minWidth: 110,
+                  maxWidth: 140,
+                  flex: 1,
                   textAlign: 'center',
                   borderTop: index === 0 ? '4px solid gold' :
-                            index === 1 ? '4px solid silver' : '4px solid #cd7f32'
+                            index === 1 ? '4px solid silver' : '4px solid #cd7f32',
+                  flexShrink: 0
                 }}
+                bodyStyle={{ padding: 12 }}
               >
-                <Avatar size={80} style={{
+                <Avatar size={48} style={{
                   backgroundColor: ['#667eea', '#764ba2', '#f5576c'][index],
-                  fontSize: 32,
-                  marginBottom: 16
+                  fontSize: 18,
+                  marginBottom: 8
                 }}>
                   {leader.screen_name?.[0]?.toUpperCase()}
                 </Avatar>
-                <div style={{ fontSize: 18, fontWeight: 600 }}>@{leader.screen_name}</div>
-                <div style={{ color: '#888', marginBottom: 8 }}>{leader.name || '-'}</div>
-                <div style={{ fontSize: 24, fontWeight: 700, color: '#667eea' }}>
-                  #{index + 1}
-                </div>
-                <div style={{ color: '#888' }}>
-                  粉丝: {leader.followers_count?.toLocaleString() || '-'}
-                </div>
+                <div style={{ fontSize: 11, fontWeight: 600, wordBreak: 'break-all', lineHeight: 1.3 }}>@{leader.screen_name}</div>
+                <div style={{ color: '#888', fontSize: 10, marginBottom: 4 }}>{leader.name || '-'}</div>
+                <div style={{ fontSize: 18, fontWeight: 700, color: '#667eea' }}>#{index + 1}</div>
+                <div style={{ color: '#888', fontSize: 10 }}>粉丝 {leader.followers_count?.toLocaleString() || '-'}</div>
               </Card>
             ))}
           </div>

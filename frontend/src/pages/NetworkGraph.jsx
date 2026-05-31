@@ -213,24 +213,24 @@ export default function NetworkGraph() {
       key: 'overview',
       label: '网络概览',
       children: (
-        <Row gutter={[16, 16]}>
-          <Col xs={24} sm={12} md={6}>
-            <Card><Statistic title="节点数" value={nodeCount} valueStyle={{ color: '#667eea' }} /></Card>
+        <Row gutter={[8, 8]}>
+          <Col xs={12} sm={12} md={6}>
+            <Card bodyStyle={{ padding: 8 }}><Statistic title="节点" value={nodeCount} valueStyle={{ color: '#667eea', fontSize: 16 }} /></Card>
           </Col>
-          <Col xs={24} sm={12} md={6}>
-            <Card><Statistic title="边数" value={edgeCount} valueStyle={{ color: '#764ba2' }} /></Card>
+          <Col xs={12} sm={12} md={6}>
+            <Card bodyStyle={{ padding: 8 }}><Statistic title="边数" value={edgeCount} valueStyle={{ color: '#764ba2', fontSize: 16 }} /></Card>
           </Col>
-          <Col xs={24} sm={12} md={6}>
-            <Card><Statistic title="最大连通分量" value={largestComponent} suffix={`/ ${nodeCount}`} /></Card>
+          <Col xs={12} sm={12} md={6}>
+            <Card bodyStyle={{ padding: 8 }}><Statistic title="连通" value={largestComponent} valueStyle={{ fontSize: 16 }} /></Card>
           </Col>
-          <Col xs={24} sm={12} md={6}>
-            <Card><Statistic title="平均聚类系数" value={avgClustering} precision={4} /></Card>
-          </Col>
-          <Col xs={24} lg={12}>
-            <Card><ReactECharts option={nodeTypeOption} style={{ height: 300 }} /></Card>
+          <Col xs={12} sm={12} md={6}>
+            <Card bodyStyle={{ padding: 8 }}><Statistic title="聚类" value={avgClustering} precision={4} valueStyle={{ fontSize: 16 }} /></Card>
           </Col>
           <Col xs={24} lg={12}>
-            <Card><ReactECharts option={radarOption} style={{ height: 300 }} /></Card>
+            <Card bodyStyle={{ padding: 8 }}><ReactECharts option={nodeTypeOption} style={{ height: 240 }} /></Card>
+          </Col>
+          <Col xs={24} lg={12}>
+            <Card bodyStyle={{ padding: 8 }}><ReactECharts option={radarOption} style={{ height: 240 }} /></Card>
           </Col>
         </Row>
       )
@@ -239,18 +239,18 @@ export default function NetworkGraph() {
       key: 'propagation',
       label: '传播核心',
       children: (
-        <Row gutter={[16, 16]}>
+        <Row gutter={[8, 8]}>
           <Col xs={24} lg={12}>
-            <Card title="被回复最多的用户（传播核心）" size="small">
+            <Card bodyStyle={{ padding: 8 }} title={<span style={{ fontSize: 12 }}>被回复最多的用户</span>} size="small">
               {mostRepliedTo.length > 0 ? (
-                <Table columns={repliedColumns} dataSource={mostRepliedTo} rowKey="user" pagination={false} size="small" />
+                <Table columns={repliedColumns} dataSource={mostRepliedTo} rowKey="user" pagination={false} size="small" scroll={{ x: 400 }} />
               ) : <Empty description="暂无数据" />}
             </Card>
           </Col>
           <Col xs={24} lg={12}>
-            <Card title="最活跃的传播者" size="small">
+            <Card bodyStyle={{ padding: 8 }} title={<span style={{ fontSize: 12 }}>最活跃传播者</span>} size="small">
               {mostActiveRepliers.length > 0 ? (
-                <Table columns={replierColumns} dataSource={mostActiveRepliers} rowKey="user" pagination={false} size="small" />
+                <Table columns={replierColumns} dataSource={mostActiveRepliers} rowKey="user" pagination={false} size="small" scroll={{ x: 400 }} />
               ) : <Empty description="暂无数据" />}
             </Card>
           </Col>
@@ -261,9 +261,9 @@ export default function NetworkGraph() {
       key: 'chains',
       label: '传播链路',
       children: (
-        <Card title={`代表性传播链路（共 ${(propagation.total_chains || 0).toLocaleString()} 条）`} size="small">
+        <Card bodyStyle={{ padding: 8 }} title={<span style={{ fontSize: 12 }}>传播链路（{(propagation.total_chains || 0).toLocaleString()}条）</span>} size="small">
           {propagation.chains?.length > 0 ? (
-            <Table columns={propagationColumns} dataSource={propagation.chains} rowKey={(_, i) => i} pagination={{ pageSize: 10 }} size="small" />
+            <Table columns={propagationColumns} dataSource={propagation.chains} rowKey={(_, i) => i} pagination={{ pageSize: 8 }} size="small" scroll={{ x: 500 }} />
           ) : <Empty description="暂无传播链路数据" />}
         </Card>
       )
@@ -272,9 +272,9 @@ export default function NetworkGraph() {
       key: 'communities',
       label: '社区分析',
       children: (
-        <Card title={`社区列表（共 ${communities.length} 个）`} size="small">
+        <Card bodyStyle={{ padding: 8 }} title={<span style={{ fontSize: 12 }}>社区列表（{communities.length}个）</span>} size="small">
           {communities.length > 0 ? (
-            <Table columns={communityColumns} dataSource={communities} rowKey="community_id" pagination={{ pageSize: 10 }} size="small" />
+            <Table columns={communityColumns} dataSource={communities} rowKey="community_id" pagination={{ pageSize: 8 }} size="small" scroll={{ x: 500 }} />
           ) : <Empty description="暂无社区数据" />}
         </Card>
       )
@@ -286,14 +286,19 @@ export default function NetworkGraph() {
       <Button
         type="text"
         onClick={() => setShowReport(!showReport)}
-        style={{ marginBottom: 8, color: '#667eea' }}
+        style={{ marginBottom: 8, color: '#667eea', fontSize: 13 }}
       >
         {showReport ? '收起报告说明' : '展开报告说明'}
       </Button>
 
       {showReport && <AnalysisReport pageKey="network" />}
 
-      <Tabs defaultActiveKey="overview" items={tabItems} size="large" />
+      <Tabs
+        defaultActiveKey="overview"
+        items={tabItems}
+        size="large"
+        tabBarStyle={{ overflowX: 'auto', flexWrap: 'nowrap', marginBottom: 8 }}
+      />
     </div>
   )
 }

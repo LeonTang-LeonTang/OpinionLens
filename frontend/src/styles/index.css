@@ -397,129 +397,350 @@ body {
    响应式调整
    ======================================== */
 
-@media (max-width: 768px) {
-  /* 头部 */
-  .ant-layout-header {
-    padding: 0 16px !important;
-    height: 50px !important;
-    line-height: 50px !important;
+/* 超小屏（< 576px）手机适配 */
+@media (max-width: 576px) {
+
+  /* 全局字体基础缩小 */
+  body {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
   }
 
-  /* 统计卡片 */
+  /* ===== 布局 ===== */
+  .ant-layout-content {
+    padding: 8px !important;
+  }
+
+  /* ===== Ant Design Row 强制单列 ===== */
+  /* 所有 Col 在手机上都占满宽 */
+  .ant-row > .ant-col,
+  .ant-row > [class*="ant-col-"] {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* 强制 Row 间距减小 */
+  .ant-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .ant-row [class*="ant-col-"] {
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+
+  /* ===== 统计卡片 stat-card ===== */
   .stat-card {
-    padding: 16px !important;
+    padding: 12px !important;
+    margin-bottom: 8px !important;
   }
   .stat-card .value {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
   .stat-card .label {
-    font-size: 12px !important;
+    font-size: 11px !important;
+    margin-bottom: 4px !important;
   }
 
-  /* 卡片 */
+  /* ===== 卡片 Card ===== */
+  .ant-card {
+    margin-bottom: 8px !important;
+    border-radius: 8px !important;
+  }
+  .ant-card-head {
+    min-height: 36px !important;
+    padding: 8px 12px !important;
+    font-size: 13px !important;
+    flex-wrap: wrap !important;
+  }
+  .ant-card-head-title {
+    padding: 0 !important;
+    font-size: 13px !important;
+  }
+  .ant-card-head-extra {
+    padding: 0 !important;
+    font-size: 11px !important;
+  }
   .ant-card-body {
     padding: 12px !important;
   }
 
-  /* 页面内边距 */
-  .ant-layout-content {
-    padding: 12px !important;
+  /* ===== 卡片标题里的 Tag 标签换行 ===== */
+  .ant-card-head-title {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 4px !important;
   }
 
-  /* 表格移动端适配 */
-  .ant-table {
+  /* ===== Alert 提示框 ===== */
+  .ant-alert {
     font-size: 12px !important;
+    padding: 8px 10px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 8px !important;
+    word-break: break-word !important;
+  }
+  .ant-alert-message {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+  }
+  .ant-alert-description {
+    font-size: 11px !important;
+    line-height: 1.4 !important;
+  }
+  .ant-alert-with-description {
+    padding: 8px 10px !important;
+  }
+  .ant-alert-with-description .ant-alert-icon {
+    font-size: 16px !important;
+    top: 8px !important;
+  }
+  .ant-alert-with-description .ant-alert-message {
+    font-size: 12px !important;
+    margin-bottom: 2px !important;
+  }
+  .ant-alert-with-description .ant-alert-description {
+    font-size: 11px !important;
+  }
+
+  /* ===== 表格 Table ===== */
+  .ant-table {
+    font-size: 11px !important;
+    overflow-x: auto !important;
+  }
+  .ant-table table {
+    min-width: 600px !important;
+    width: max-content !important;
   }
   .ant-table-thead > tr > th,
   .ant-table-tbody > tr > td {
-    padding: 8px 4px !important;
+    padding: 6px 4px !important;
+    font-size: 11px !important;
+    white-space: nowrap !important;
+  }
+  .ant-table-thead > tr > th {
+    font-size: 11px !important;
+    background: #f8fafc !important;
+  }
+  /* 表格横向滚动提示 */
+  .ant-table-wrapper {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  /* ===== Tabs ===== */
+  .ant-tabs-nav {
+    font-size: 12px !important;
+    margin-bottom: 8px !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+  }
+  .ant-tabs-nav::-webkit-scrollbar {
+    display: none !important;
+  }
+  .ant-tabs-nav-wrap {
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+  .ant-tabs-nav-wrap::-webkit-scrollbar {
+    display: none !important;
+  }
+  .ant-tabs-tab {
+    padding: 8px 10px !important;
+    font-size: 12px !important;
+    flex-shrink: 0 !important;
+  }
+  .ant-tabs-tab-active .ant-tabs-tab-btn {
     font-size: 12px !important;
   }
 
-  /* Tab标签 */
-  .ant-tabs-nav {
-    font-size: 13px !important;
+  /* ===== 标题字体缩小 ===== */
+  h1 { font-size: 22px !important; }
+  h2 { font-size: 18px !important; }
+  h3 { font-size: 15px !important; }
+  h4 { font-size: 13px !important; }
+  h5 { font-size: 12px !important; }
+
+  .ant-typography h1,
+  .ant-typography h2,
+  .ant-typography h3 {
+    font-size: inherit !important;
   }
 
-  /* 进度条 */
-  .ant-progress-text {
-    font-size: 11px !important;
-  }
-
-  /* 列表 */
-  .ant-list-item {
-    padding: 8px 0 !important;
-  }
-
-  /* 标题缩小 */
-  h1 { font-size: 24px !important; }
-  h2 { font-size: 20px !important; }
-  h3 { font-size: 16px !important; }
-  h4 { font-size: 14px !important; }
-
-  /* 图表容器 */
+  /* ===== 图表容器 ===== */
   .echarts-for-react {
     width: 100% !important;
+    overflow: hidden !important;
+  }
+  .echarts-for-react canvas {
+    max-width: 100% !important;
+    height: auto !important;
   }
 
-  /* 按钮 */
+  /* ===== 按钮 ===== */
   .ant-btn {
-    font-size: 13px !important;
-    padding: 4px 12px !important;
-  }
-
-  /* Tag 标签 */
-  .ant-tag {
-    font-size: 11px !important;
-    padding: 0 6px !important;
-  }
-
-  /* 折叠面板 */
-  .ant-collapse-header {
-    font-size: 13px !important;
-    padding: 12px !important;
-  }
-
-  /* 空状态 */
-  .ant-empty-description {
     font-size: 12px !important;
+    padding: 4px 10px !important;
+    height: auto !important;
+    line-height: 1.5 !important;
+  }
+  .ant-btn-lg {
+    font-size: 13px !important;
+    padding: 6px 14px !important;
+  }
+  .ant-btn + .ant-btn {
+    margin-left: 0 !important;
+    margin-top: 4px !important;
   }
 
-  /* Alert 提示 */
-  .ant-alert {
+  /* ===== Tag 标签 ===== */
+  .ant-tag {
+    font-size: 10px !important;
+    padding: 0 5px !important;
+    line-height: 1.4 !important;
+    border-radius: 4px !important;
+    margin: 1px !important;
+  }
+
+  /* ===== 折叠面板 Collapse ===== */
+  .ant-collapse-header {
     font-size: 12px !important;
     padding: 8px 12px !important;
   }
+  .ant-collapse-content-box {
+    padding: 8px 12px !important;
+    font-size: 11px !important;
+  }
 
-  /* 抽屉 */
+  /* ===== 空状态 ===== */
+  .ant-empty-description {
+    font-size: 12px !important;
+  }
+  .ant-empty-image {
+    max-width: 80px !important;
+  }
+
+  /* ===== 抽屉 ===== */
   .ant-drawer-content {
+    font-size: 13px !important;
+  }
+  .ant-drawer-header {
+    padding: 12px 16px !important;
+    font-size: 14px !important;
+  }
+  .ant-drawer-body {
+    padding: 12px !important;
+  }
+
+  /* ===== Modal ===== */
+  .ant-modal-body {
+    padding: 12px !important;
+    font-size: 12px !important;
+  }
+  .ant-modal-header {
+    padding: 12px 16px !important;
+  }
+  .ant-modal-title {
     font-size: 14px !important;
   }
 
-  /* Modal */
-  .ant-modal-body {
-    padding: 16px !important;
-  }
-
-  /* 分页 */
+  /* ===== 分页 ===== */
   .ant-pagination-item,
   .ant-pagination-prev,
   .ant-pagination-next {
-    min-width: 28px !important;
-    height: 28px !important;
-    line-height: 28px !important;
+    min-width: 26px !important;
+    height: 26px !important;
+    line-height: 26px !important;
+    font-size: 11px !important;
+    margin: 0 1px !important;
+  }
+  .ant-pagination-options {
+    margin-left: 4px !important;
+  }
+  .ant-pagination-options-size-changer {
+    display: none !important;
+  }
+
+  /* ===== 进度条 ===== */
+  .ant-progress-text {
+    font-size: 10px !important;
+  }
+  .ant-progress-inner {
+    font-size: 10px !important;
+  }
+
+  /* ===== 列表 ===== */
+  .ant-list-item {
+    padding: 8px 0 !important;
+    font-size: 12px !important;
+  }
+  .ant-list-item-meta-title {
+    font-size: 13px !important;
+  }
+  .ant-list-item-meta-description {
+    font-size: 11px !important;
+  }
+
+  /* ===== Timeline ===== */
+  .ant-timeline-item-content {
+    font-size: 12px !important;
+    margin-left: 20px !important;
+  }
+  .ant-timeline-item-tail {
+    left: 5px !important;
+  }
+  .ant-timeline-item-head {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+  /* ===== Statistic ===== */
+  .ant-statistic-title {
+    font-size: 11px !important;
+  }
+  .ant-statistic-content-value {
+    font-size: 18px !important;
+  }
+
+  /* ===== Spin ===== */
+  .ant-spin-text {
     font-size: 12px !important;
   }
 
-  /* 菜单项 */
-  .ant-menu-item {
-    font-size: 14px !important;
-    padding: 0 16px !important;
+  /* ===== Drawer ===== */
+  .ant-drawer-wrapper-body {
+    overflow-x: hidden !important;
   }
 
-  /* 进度条 */
-  .ant-progress-inner {
-    font-size: 10px !important;
+  /* ===== Timeline 时间线 ===== */
+  .ant-timeline {
+    padding-left: 4px !important;
+  }
+}
+
+/* 小平板适配（577px - 768px） */
+@media (min-width: 577px) and (max-width: 768px) {
+  .ant-row [class*="ant-col-"] {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+
+  .ant-card-body {
+    padding: 14px !important;
+  }
+
+  .stat-card .value {
+    font-size: 22px !important;
+  }
+
+  .ant-table {
+    overflow-x: auto !important;
+  }
+  .ant-table table {
+    min-width: 500px !important;
   }
 }
 
@@ -530,6 +751,9 @@ body {
   }
   .stat-card .value {
     font-size: 20px !important;
+  }
+  .ant-layout-content {
+    padding: 8px 12px !important;
   }
 }
 

@@ -95,41 +95,41 @@ export default function TopicAnalysis() {
 
       <Row gutter={[16, 16]}>
         <Col span={24}>
-          <Card title="话题分析概览">
-            <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
-              <Tag color="blue" style={{ fontSize: 16, padding: '8px 16px' }}>
-                总话题数: {topics?.total_hashtags?.toLocaleString() || 0}
+          <Card bodyStyle={{ padding: 12 }}>
+            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+              <Tag color="blue" style={{ fontSize: 13, padding: '4px 10px' }}>
+                总话题: {topics?.total_hashtags?.toLocaleString() || 0}
               </Tag>
-              <Tag color="purple" style={{ fontSize: 16, padding: '8px 16px' }}>
-                热门话题: {topics?.hot_topics?.length || 0}
+              <Tag color="purple" style={{ fontSize: 13, padding: '4px 10px' }}>
+                热门: {topics?.hot_topics?.length || 0}
               </Tag>
             </div>
           </Card>
         </Col>
       </Row>
 
-      <Row gutter={[16, 16]} style={{ marginTop: 24 }}>
+      <Row gutter={[8, 8]} style={{ marginTop: 12 }}>
         <Col xs={24} lg={14}>
-          <Card>
-            <ReactECharts option={barOption} style={{ height: 500 }} />
+          <Card bodyStyle={{ padding: 10 }}>
+            <ReactECharts option={barOption} style={{ height: 350 }} />
           </Card>
         </Col>
         <Col xs={24} lg={10}>
-          <Card>
-            <ReactECharts option={pieOption} style={{ height: 500 }} />
+          <Card bodyStyle={{ padding: 10 }}>
+            <ReactECharts option={pieOption} style={{ height: 350 }} />
           </Card>
         </Col>
       </Row>
 
-      <Row gutter={[16, 16]} style={{ marginTop: 24 }}>
+      <Row gutter={[16, 16]} style={{ marginTop: 12 }}>
         <Col span={24}>
-          <Card title="热门话题标签">
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+          <Card bodyStyle={{ padding: 12 }} title={<span style={{ fontSize: 13 }}>热门话题标签</span>}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
               {topics?.hot_topics?.map((topic, index) => (
                 <Tag
                   key={index}
                   color={index < 3 ? 'red' : index < 10 ? 'orange' : 'blue'}
-                  style={{ fontSize: 14, padding: '4px 12px' }}
+                  style={{ fontSize: 12, padding: '2px 8px' }}
                 >
                   #{topic.hashtag} ({topic.count.toLocaleString()})
                 </Tag>

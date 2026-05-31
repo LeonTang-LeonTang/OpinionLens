@@ -193,19 +193,20 @@ export default function SentimentAnalysis() {
             icon={<QuestionCircleOutlined />}
             onClick={() => setShowHelp(!showHelp)}
             type={showHelp ? 'primary' : 'default'}
+            style={{ marginBottom: 8 }}
           >
-            {showHelp ? '收起指标说明' : '查看指标说明'}
+            {showHelp ? '收起' : '指标说明'}
           </Button>
         </Col>
       </Row>
 
       {showHelp && (
-        <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
+        <Row gutter={[8, 8]} style={{ marginTop: 8 }}>
           <Col span={24}>
-            <Card title={METRICS_HELP.sentiment.title} size="small">
+            <Card title={<span style={{ fontSize: 13 }}>{METRICS_HELP.sentiment.title}</span>} size="small" bodyStyle={{ padding: 12 }}>
               {METRICS_HELP.sentiment.items.map((item, i) => (
-                <div key={i} style={{ marginBottom: 12 }}>
-                  <strong style={{ color: '#667eea' }}>{item.term}</strong>：{item.desc}
+                <div key={i} style={{ marginBottom: 8 }}>
+                  <strong style={{ color: '#667eea', fontSize: 12 }}>{item.term}</strong>：<span style={{ fontSize: 11 }}>{item.desc}</span>
                 </div>
               ))}
             </Card>
@@ -213,56 +214,17 @@ export default function SentimentAnalysis() {
         </Row>
       )}
 
-      {/* 筛选器 */}
-      <Row gutter={[16, 16]} style={{ marginTop: 16 }}>
-        <Col span={24}>
-          <Card
-            title="时间范围筛选"
-            extra={
-              <RangePicker
-                onChange={(dates) => setDateRange(dates)}
-                allowClear
-              />
-            }
-          >
-            <Row gutter={16}>
-              <Col span={8}>
-                <div className="stat-card">
-                  <div className="label">正面情感</div>
-                  <div className="value green">{positive.toLocaleString()}</div>
-                  <div style={{ color: '#52c41a' }}>{positiveRate.toFixed(1)}%</div>
-                </div>
-              </Col>
-              <Col span={8}>
-                <div className="stat-card">
-                  <div className="label">中立情感</div>
-                  <div className="value" style={{ color: '#1890ff' }}>{neutral.toLocaleString()}</div>
-                  <div style={{ color: '#1890ff' }}>{neutralRate.toFixed(1)}%</div>
-                </div>
-              </Col>
-              <Col span={8}>
-                <div className="stat-card">
-                  <div className="label">负面情感</div>
-                  <div className="value red">{negative.toLocaleString()}</div>
-                  <div style={{ color: '#ff4d4f' }}>{negativeRate.toFixed(1)}%</div>
-                </div>
-              </Col>
-            </Row>
-          </Card>
-        </Col>
-      </Row>
-
       {/* 图表 */}
-      <Row gutter={[16, 16]} style={{ marginTop: 24 }}>
+      <Row gutter={[8, 8]} style={{ marginTop: 16 }}>
         <Col xs={24} lg={12}>
-          <Card>
-            <ReactECharts option={pieOption} style={{ height: 350 }} />
+          <Card bodyStyle={{ padding: 12 }}>
+            <ReactECharts option={pieOption} style={{ height: 280 }} />
           </Card>
         </Col>
         <Col xs={24} lg={12}>
-          <Card>
-            <ReactECharts option={gaugeOption} style={{ height: 180 }} />
-            <ReactECharts option={barOption} style={{ height: 220 }} />
+          <Card bodyStyle={{ padding: 12 }}>
+            <ReactECharts option={gaugeOption} style={{ height: 160 }} />
+            <ReactECharts option={barOption} style={{ height: 180 }} />
           </Card>
         </Col>
       </Row>
