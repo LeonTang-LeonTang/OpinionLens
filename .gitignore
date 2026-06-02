@@ -24,6 +24,10 @@ data_sources/
 .DS_Store
 Thumbs.db
 
+# Netlify
+.netlify/
+# netlify.toml 是构建配置，需要提交
+
 # Logs
 *.log
 dataset/
